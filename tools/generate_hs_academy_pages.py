@@ -213,7 +213,7 @@ def find_map(row: dict[str, str]) -> str:
             p = maps_dir / f"{base}{ext}"
             if p.exists():
                 return f"assets/maps/{p.name}"
-    return "assets/centers/common/local6839.jpg"
+    return "assets/centers/common/local6839.webp"
 
 
 def choose_rep_images(rows: list[dict[str, str]]) -> list[str]:
@@ -484,7 +484,7 @@ def local_page(row: dict[str, str], idx: int, rep_image: str, all_rows: list[dic
     breadcrumb_id = f"{canonical}#breadcrumb"
     faq_id = f"{canonical}#faq"
     rep_root = "/" + rep_image.replace("\\", "/")
-    center_img = "assets/centers/common/seoul6839.jpg" if region == "서울" else "assets/centers/common/local6839.jpg"
+    center_img = "assets/centers/common/seoul6839.webp" if region == "서울" else "assets/centers/common/local6839.webp"
     map_img = find_map(row)
 
     middle_schools = split_items(row.get("타깃학교\n(중)", ""))
@@ -570,7 +570,7 @@ def local_page(row: dict[str, str], idx: int, rep_image: str, all_rows: list[dic
                     {"@type": "ListItem", "position": 1, "name": "홈", "item": "/"},
                     {"@type": "ListItem", "position": 2, "name": "전국학원", "item": "/전국학원/"},
                     {"@type": "ListItem", "position": 3, "name": CATEGORY, "item": f"/전국학원/{CATEGORY}/"},
-                    {"@type": "ListItem", "position": 4, "name": local, "item": canonical},
+                    {"@type": "ListItem", "position": 4, "name": title, "item": canonical},
                 ],
             },
             {
@@ -861,7 +861,7 @@ def local_page(row: dict[str, str], idx: int, rep_image: str, all_rows: list[dic
 
   <main>
     <section class="page-hero">
-      <p class="breadcrumb"><a href="../../../index.html">홈</a><span>/</span><a href="../../index.html">전국학원</a><span>/</span><a href="../index.html">{esc(CATEGORY)}</a><span>/</span><span>{esc(local)}</span></p>
+      <p class="breadcrumb"><a href="../../../index.html">홈</a><span>/</span><a href="../../index.html">전국학원</a><span>/</span><a href="../index.html">{esc(CATEGORY)}</a><span>/</span><span>{esc(title)}</span></p>
       <p class="eyebrow">HIGH SCHOOL COACHING</p>
       <h1>{esc(title)}</h1>
       <p class="lead">{esc(description)}</p>
