@@ -7,7 +7,7 @@ from pathlib import Path
 
 
 SITE = Path(__file__).resolve().parents[1]
-CATEGORIES = ("중1수학학원", "중1영어학원")
+CATEGORIES = ("중1수학학원", "중1영어학원", "초6수학학원", "초6영어학원")
 TAG_RE = re.compile(r"<[^>]+>")
 DESC_RE = re.compile(r'<meta name="description" content="([^"]+)">')
 H2_RE = re.compile(r"<h2(?:\s[^>]*)?>(.*?)</h2>", re.S)

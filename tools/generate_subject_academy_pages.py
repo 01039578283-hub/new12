@@ -31,6 +31,7 @@ CONFIGS = {
         "subject": "수학",
         "school_field": "타깃학교\n(중)",
         "grade_field": "가능학년\n(수학)",
+        "national_category": "중학생학원",
     },
     "중1영어학원": {
         "zip": "중1 영어학원.zip",
@@ -39,6 +40,7 @@ CONFIGS = {
         "subject": "영어",
         "school_field": "타깃학교\n(중)",
         "grade_field": "가능학년\n(영어)",
+        "national_category": "중학생학원",
     },
     "초6수학학원": {
         "zip": "초6 수학학원.zip",
@@ -47,6 +49,7 @@ CONFIGS = {
         "subject": "수학",
         "school_field": "타깃학교\n(초)",
         "grade_field": "가능학년\n(수학)",
+        "national_category": "초등학생학원",
     },
     "초6영어학원": {
         "zip": "초6 영어학원.zip",
@@ -55,12 +58,13 @@ CONFIGS = {
         "subject": "영어",
         "school_field": "타깃학교\n(초)",
         "grade_field": "가능학년\n(영어)",
+        "national_category": "초등학생학원",
     },
 }
 
 
 SECTION_RE = re.compile(r"^\[(페이지타이틀|메타설명|본문|FAQ|학부모후기|JSON-LD 요약)\]\s*$", re.M)
-FAQ_RE = re.compile(r"Q\d+[.)]?\s*(.*?)\s*\nA\d+[.)]?\s*(.*?)(?=\n\s*Q\d+[.)]?|\Z)", re.S)
+FAQ_RE = re.compile(r"Q\d+[.)]?\s*(.*?)\s*\nA(?:\d+)?[.)]?\s*(.*?)(?=\n\s*Q\d+[.)]?|\Z)", re.S)
 
 
 def esc(value: object) -> str:
@@ -355,7 +359,7 @@ def local_page(
 
     related = [
         (f"{category} 전체 지역", f"/과목별학원/{category}/", "지역별 목록으로 돌아가기"),
-        (f"{local} 지역 학원", f"/전국학원/중학생학원/{slug}/", "같은 동네 학습관리 확인"),
+        (f"{local} 지역 학원", f"/전국학원/{config['national_category']}/{slug}/", "같은 동네 학습관리 확인"),
     ] + [(f"{name} {config['label']}", f"/과목별학원/{category}/{slug_local(name)}/", "가까운 지역 안내") for name in nearby]
     related = [item for item in related if (SITE / item[1].strip("/") / "index.html").exists() or item[1].startswith(f"/과목별학원/{category}/")]
 
