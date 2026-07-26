@@ -21,6 +21,7 @@ SITE_NAME = "채움학습"
 PHONE_DISPLAY = "010-6839-8283"
 PHONE_LINK = "01068398283"
 PUBLISH_DATE = "2026-07-26"
+MODIFIED_DATE = "2026-07-27"
 
 
 CONFIGS = {
@@ -67,6 +68,135 @@ SECTION_RE = re.compile(r"^\[(페이지타이틀|메타설명|본문|FAQ|학부�
 FAQ_RE = re.compile(r"Q\d+[.)]?\s*(.*?)\s*\nA(?:\d+)?[.)]?\s*(.*?)(?=\n\s*Q\d+[.)]?|\Z)", re.S)
 
 
+# 원고 생성 과정에서 쓰인 표현은 검색 방문자에게는 제작 메모처럼 읽힙니다.
+# 아래 치환은 사실관계를 건드리지 않고 교사·상담자가 설명하는 문장으로만 다듬습니다.
+EDITORIAL_REPLACEMENTS = (
+    ("센터 안내에 표시된 수업 가능 학교에 포함된", "센터 안내에 수업 가능 학교로 표시된"),
+    ("센터 자료에서 확인되는 수업 가능 학교에 있는", "센터 안내에 수업 가능 학교로 표시된"),
+    ("가까운 곳인지보다 학원 위치만 비교하지 않고", "가까운지만 비교하기보다"),
+    ("보는 것을 먼저 따져보는 것이 좋습니다", "먼저 살펴보는 것이 좋습니다"),
+    ("상담 질문을 구체화해 확인하는 질문으로 활용", "상담에서 확인할 질문으로 활용"),
+    ("특정 학교의 시험 범위를 이 안내에서 단정하기보다", "특정 학교의 시험 범위를 미리 단정하기보다"),
+    ("학원 선택 과정에서 확인할 학원 이전 항목", "학원을 옮길 때 확인할 항목"),
+    ("학원 이전 항목을", "학원을 옮길 때 확인할 기준을"),
+    ("실제 만족도를 가르는 기준이 될 수 있습니다", "학습 일정을 꾸준히 유지하는 데 영향을 줄 수 있습니다"),
+    ("센터 자료에서 확인되는", "센터 안내에 표시된"),
+    ("센터 자료에 표시된", "센터 안내에 표시된"),
+    ("센터 자료", "센터 안내"),
+    ("이 안내에서 기준으로 삼은 학생 유형", "현재 살펴볼 학생 유형"),
+    ("학원이전", "학원 이전"),
+    ("상담 상담", "상담"),
+    ("수업 수업", "수업"),
+    ("학습 학습", "학습"),
+    ("학생 학생", "학생"),
+    ("지역명만 바꾼 설명이 아니라", "학생의 현재 학습 상황을 중심으로"),
+    ("학부모가 남길 법한", "학부모 상담에서 자주 나오는"),
+    ("정보성 페이지 형태로 정리했습니다", "상담 전에 확인하기 쉽게 정리했습니다"),
+    ("정보성 학원 페이지 요약입니다", "학습 상담에 필요한 내용을 요약했습니다"),
+    ("정보성 안내 페이지입니다", "학습 상담 안내입니다"),
+    ("정보성 학습 안내입니다", "학습 상담 안내입니다"),
+    ("정보성 원고이다", "학습 상담 안내입니다"),
+    ("정보성 원고입니다", "학습 상담 안내입니다"),
+    ("정보성 페이지", "학습 안내"),
+    ("구조화 데이터 설명문에 활용할 수 있습니다", "상담 안내에 반영합니다"),
+    ("구조화 데이터", "학습 안내"),
+    ("JSON-LD", "학습 안내"),
+    ("이 페이지", "이 안내"),
+    ("페이지에서는", "안내에서는"),
+    ("페이지에서", "안내에서"),
+    ("페이지는", "안내는"),
+    ("페이지를", "안내를"),
+    ("페이지에", "안내에"),
+    ("키워드", "확인 항목"),
+    ("검색어", "상담 주제"),
+    ("원고에서 제공된", "센터 자료에서 확인한"),
+    ("원고에서는", "이 안내에서는"),
+    ("원고에서", "이 안내에서"),
+    ("원고에는", "이 안내에는"),
+    ("원고는", "이 안내는"),
+    ("원고를", "안내 내용을"),
+    ("원고에", "안내에"),
+    ("제공된 수업 학교 정보", "센터 자료에서 확인되는 수업 가능 학교"),
+    ("제공된 학교 정보", "센터 자료에서 확인되는 학교 정보"),
+    ("제공된 학교명", "센터 자료에서 확인되는 학교명"),
+    ("제공 학교", "확인 가능한 학교"),
+    ("제공된 주소", "확인된 센터 주소"),
+    ("제공된 자료", "센터 안내 자료"),
+    ("제공 자료", "센터 안내 자료"),
+    ("제공된", "확인된"),
+    ("임의로", "근거 없이"),
+    ("원고", "안내"),
+)
+
+
+LEARNING_PROFILES = {
+    "중1수학학원": (
+        "정수와 유리수 계산에서 부호 실수가 반복되는 경우",
+        "문자와 식의 뜻은 알지만 식을 세우는 단계에서 멈추는 경우",
+        "기본 문제는 풀지만 서술형 풀이 과정을 생략하는 경우",
+        "좌표와 그래프에서 조건을 읽는 시간이 오래 걸리는 경우",
+        "시험 전에는 공부하지만 평소 복습 간격이 길어지는 경우",
+        "답은 맞혀도 검산 기준이 일정하지 않은 경우",
+        "새 단원에 들어가면 앞 단원의 개념을 연결하지 못하는 경우",
+        "문제 풀이 속도와 정확도의 균형이 흔들리는 경우",
+    ),
+    "중1영어학원": (
+        "단어 뜻은 외우지만 문장 안에서 품사를 구분하기 어려운 경우",
+        "문법 설명은 이해해도 서술형 문장으로 옮기지 못하는 경우",
+        "교과서 지문을 읽고도 답의 근거를 표시하지 않는 경우",
+        "듣기와 독해 중 한 영역의 학습 간격이 길어지는 경우",
+        "과제는 끝내지만 틀린 문장을 다시 해석하지 않는 경우",
+        "새로운 지문에서 문장 구조를 잡는 시간이 오래 걸리는 경우",
+        "시험 직전에만 단어를 몰아서 외우는 경우",
+        "해석은 가능하지만 핵심 내용을 짧게 정리하기 어려운 경우",
+    ),
+    "초6수학학원": (
+        "분수와 소수 계산에서 검산을 생략하는 경우",
+        "비와 비율 문제에서 기준량과 비교하는 양을 혼동하는 경우",
+        "도형 공식은 외웠지만 그림의 조건을 식으로 옮기기 어려운 경우",
+        "문장제에서 필요한 조건을 표시하지 않는 경우",
+        "정답을 확인한 뒤 틀린 이유를 기록하지 않는 경우",
+        "중등 선행보다 초등 핵심 단원의 복습이 먼저 필요한 경우",
+        "풀이를 말로 설명할 때 계산 과정이 빠지는 경우",
+        "문제 난도가 올라가면 시도하기 전에 답부터 확인하는 경우",
+    ),
+    "초6영어학원": (
+        "단어 시험은 통과하지만 며칠 뒤 뜻이 흐려지는 경우",
+        "기초 문법을 알고도 문장 해석에 적용하지 못하는 경우",
+        "독해 문제에서 답의 근거 문장을 찾지 않는 경우",
+        "짧은 영작에서도 어순을 자주 바꾸는 경우",
+        "듣기 학습과 어휘 복습이 따로 진행되는 경우",
+        "새 지문을 만나면 첫 문장부터 해석이 멈추는 경우",
+        "문법 문제는 풀지만 왜 그 답인지 설명하기 어려운 경우",
+        "중학교 영어를 앞두고 복습 순서를 정하지 못한 경우",
+    ),
+}
+
+
+LEARNING_ACTIONS = {
+    "수학": (
+        "풀이 첫 줄과 마지막 검산을 함께 확인합니다",
+        "틀린 문제를 계산·개념·조건 해석으로 나누어 기록합니다",
+        "같은 유형을 일정 간격 뒤 다시 풀어 이해가 남았는지 봅니다",
+        "학교 진도와 현재 약점의 순서를 나누어 주간 계획을 세웁니다",
+        "정답 수보다 풀이 과정을 말로 설명할 수 있는지 확인합니다",
+        "과제량을 늘리기 전에 미완료 원인과 소요 시간을 먼저 봅니다",
+        "기본 유형과 서술형을 분리해 보완 순서를 정합니다",
+        "한 단원의 오답이 다음 단원에 미치는 영향을 함께 점검합니다",
+    ),
+    "영어": (
+        "어휘·문법·독해를 따로 외우지 않고 한 문장 안에서 연결합니다",
+        "틀린 문장의 근거를 지문에서 다시 표시하게 합니다",
+        "단어 뜻과 품사, 예문을 같은 복습 주기 안에서 확인합니다",
+        "학교 진도와 현재 어휘량을 나누어 주간 계획을 세웁니다",
+        "해석한 문장을 짧게 요약해 이해 여부를 확인합니다",
+        "과제량보다 틀린 문장을 다시 읽는 시간을 먼저 확보합니다",
+        "문법 개념을 교과서 문장과 짧은 영작으로 옮겨 봅니다",
+        "듣기·독해·서술형의 약점을 구분해 우선순위를 정합니다",
+    ),
+}
+
+
 def esc(value: object) -> str:
     return html.escape(str(value or ""), quote=True)
 
@@ -79,20 +209,145 @@ def has_batchim(value: str) -> bool:
 
 
 def normalize_particles(value: str) -> str:
-    def wa_gwa(match: re.Match[str]) -> str:
+    def particle(match: re.Match[str], consonant: str, vowel: str) -> str:
         word = match.group(1)
-        return word + ("과" if has_batchim(word) else "와") + match.group(3)
+        return word + (consonant if has_batchim(word) else vowel) + match.group(2)
 
-    # 원고의 뜻은 유지하고, 명사 뒤 조사만 받침에 맞게 바로잡습니다.
-    return re.sub(r"([가-힣]+)(와|과)(\s+(?:관련|함께|비교|연결|같이|달리|더불어))", wa_gwa, value)
+    # 문맥을 제한해 정상 문장까지 과도하게 바꾸지 않으면서 자주 발생한 조사 오류를 바로잡습니다.
+    value = re.sub(
+        r"([가-힣]+)(?:와|과)(\s+(?:관련|함께|비교|연결|같이|달리|더불어))",
+        lambda match: particle(match, "과", "와"), value,
+    )
+    value = re.sub(
+        r"([가-힣]+)(?:이|가)(\s+(?:필요|있|없|되|맞|중요|좋|어렵|가능|안전|현실적|적절|포함))",
+        lambda match: particle(match, "이", "가"), value,
+    )
+    value = re.sub(
+        r"([가-힣]+)(?:을|를)(\s+(?:(?:먼저|함께|직접)\s+)?(?:확인|비교|선택|준비|점검|참고|활용|검토|결정|사용|반영|정리|살피|질문|요청|기록|설명|구분|조절|연결|나누|바꾸|줄이|늘리|풀|보))",
+        lambda match: particle(match, "을", "를"), value,
+    )
+    return value
 
 
 def clean_text(value: str) -> str:
     value = value.replace("\ufeff", "").replace("내신성적와", "내신성적과")
+    # 일부 앞쪽 치환 결과가 뒤쪽의 제작 표현을 만들 수 있어 두 번만 안정적으로 정규화합니다.
+    for _ in range(2):
+        for before, after in EDITORIAL_REPLACEMENTS:
+            value = value.replace(before, after)
+    value = re.sub(r"확인되지 않은 (?:학교|시설|차량) 정보를 임의로 (?:만들거나 )?추정하지 말고", "확인 가능한 자료를 기준으로 하고", value)
+    value = re.sub(r"성적 (?:상승|향상|결과)을 보장하지 (?:않습니다|않는 안내입니다)", "학생마다 학습 속도와 결과가 다를 수 있습니다", value)
+    value = value.replace("함께 요청하는 것을 함께 고려", "함께 요청하는 방안을 고려")
+    value = re.sub(r"\s*;\s*", ". ", value)
+    value = re.sub(r"합니다,\s*(?=[가-힣])", "합니다. ", value)
     value = normalize_particles(value)
     value = re.sub(r"[ \t]+", " ", value)
+    value = re.sub(r"\s+([,.!?])", r"\1", value)
+    value = re.sub(r"([.!?]){2,}", r"\1", value)
     value = re.sub(r"\n{3,}", "\n\n", value)
     return value.strip()
+
+
+def stable_index(seed: str, namespace: str, size: int) -> int:
+    if size <= 0:
+        raise ValueError("size must be positive")
+    digest = hashlib.sha256(f"{seed}|{namespace}".encode("utf-8")).digest()
+    return int.from_bytes(digest[:8], "big") % size
+
+
+def row_school_names(row: dict[str, str]) -> list[str]:
+    names: list[str] = []
+    for field, value in row.items():
+        if field.startswith("타깃학교"):
+            names.extend(split_values(value))
+    return list(dict.fromkeys(names))
+
+
+def direct_center_area(local: str, center: str, address: str) -> bool:
+    """센터명·주소에서 동네명이 확인될 때만 해당 동네의 직접 센터로 표현합니다."""
+    compact_local = re.sub(r"\s+", "", local)
+    root = re.sub(r"(?:동|가|지구|신도시|읍|면|리)$", "", compact_local)
+    haystack = re.sub(r"\s+", "", center + " " + address)
+    return compact_local in haystack or (len(root) >= 2 and root in haystack)
+
+
+def normalize_school_delimiters(value: str, school_names: list[str]) -> str:
+    """센터 자료에 실제로 있는 학교명 사이의 빠진 쉼표와 중복 표기를 정리합니다."""
+    names = sorted(set(school_names), key=len, reverse=True)
+    if len(names) < 2:
+        return value
+    alternation = "|".join(re.escape(name) for name in names)
+    sequence = re.compile(
+        rf"(?<![가-힣A-Za-z0-9])(?:{alternation})(?:(?:\s*,\s*|\s+)(?:{alternation}))+(?![가-힣A-Za-z0-9])"
+    )
+    token = re.compile(alternation)
+
+    def replace(match: re.Match[str]) -> str:
+        found = list(dict.fromkeys(token.findall(match.group(0))))
+        return ", ".join(found)
+
+    return sequence.sub(replace, value)
+
+
+def editorialize(value: str, row: dict[str, str]) -> str:
+    return clean_text(normalize_school_delimiters(value, row_school_names(row)))
+
+
+def finish_sentence(value: str) -> str:
+    value = clean_text(value)
+    return value if not value or value.endswith((".", "?", "!")) else value + "."
+
+
+def soften_keyword_repetition(value: str, title: str, seed: str, keep: int) -> str:
+    """타이틀은 검색 의도를 알릴 만큼만 남기고 나머지는 자연스러운 지칭으로 바꿉니다."""
+    matches = list(re.finditer(re.escape(title), value))
+    if len(matches) <= keep:
+        return value
+    if keep <= 1:
+        kept = {0}
+    else:
+        kept = {round(index * (len(matches) - 1) / (keep - 1)) for index in range(keep)}
+    label = re.sub(r"학원$", "", re.sub(r"^\S+\s+", "", title)).strip()
+    local = title.split()[0]
+    alternatives = (
+        f"{local} {label} 수업",
+        f"{local} 지역 {label} 학습",
+        f"{label} 상담",
+        f"이 {label} 수업",
+        "해당 학습 과정",
+    )
+    occurrence = 0
+
+    def replace(match: re.Match[str]) -> str:
+        nonlocal occurrence
+        current = occurrence
+        occurrence += 1
+        if current in kept:
+            return match.group(0)
+        return alternatives[stable_index(seed, f"keyword-{current}", len(alternatives))]
+
+    return normalize_particles(re.sub(re.escape(title), replace, value))
+
+
+def dedupe_sentences(parts: list[str], seen: set[str] | None = None) -> list[str]:
+    """한 페이지 안에서 완전히 같은 긴 문장이 되풀이되면 첫 문장만 남깁니다."""
+    seen = seen if seen is not None else set()
+    result: list[str] = []
+    for part in parts:
+        sentences = re.split(r"(?<=[.!?])\s+", part.strip())
+        kept: list[str] = []
+        for sentence in sentences:
+            key = re.sub(r"\s+", " ", sentence).strip()
+            comparable = re.sub(r"[^가-힣A-Za-z0-9]", "", key)
+            if len(comparable) >= 35 and comparable in seen:
+                continue
+            if len(comparable) >= 35:
+                seen.add(comparable)
+            if key:
+                kept.append(key)
+        if kept:
+            result.append(" ".join(kept))
+    return result
 
 
 def split_values(value: str) -> list[str]:
@@ -114,6 +369,63 @@ def trim_description(value: str, fallback: str) -> str:
         if pos >= 72:
             return clipped[: pos + len(stop.strip())].strip()
     return clipped.rstrip(" ,·") + "…"
+
+
+def local_meta_description(
+    title: str, region: str, district: str, center: str, config: dict[str, str],
+) -> str:
+    """검증된 센터 정보만 사용해 80자 이하의 검색 요약을 만듭니다."""
+    location = " ".join(value for value in (region, district) if value)
+    candidates = [
+        f"{title}: {location} {center}의 {config['grade']} {config['subject']} 진단·학교 진도·오답 관리 기준을 안내합니다.",
+        f"{title}: {center}의 {config['grade']} {config['subject']} 진단·내신·오답 관리 기준을 안내합니다.",
+        f"{title}: {location} 지역의 {config['grade']} {config['subject']} 진단·내신·오답 관리 안내입니다.",
+    ]
+    for candidate in candidates:
+        candidate = re.sub(r"\s+", " ", candidate).strip()
+        if len(candidate) <= 80:
+            return candidate
+    return candidates[-1][:79].rstrip(" ,·") + "…"
+
+
+def center_entity_id(center: str, address: str, reg_office: str, reg_number: str) -> str:
+    """같은 실제 센터가 카테고리마다 다른 엔터티로 쪼개지지 않게 고정 ID를 만듭니다."""
+    identity = "|".join(value.strip() for value in (reg_office, reg_number, center, address) if value.strip())
+    digest = hashlib.sha256(identity.encode("utf-8")).hexdigest()[:16]
+    return f"{BASE_URL}/#center-{digest}"
+
+
+def center_identity_for_row(row: dict[str, str]) -> str:
+    local = row.get("근처 수업가능 동네", "").strip()
+    center = row.get("센터명", "").strip() or f"{local} 학습코칭센터"
+    return center_entity_id(
+        center,
+        row.get("센터 주소", "").strip(),
+        row.get("교육지원청명칭", "").strip(),
+        row.get("교육지원청 등록번호", "").strip(),
+    )
+
+
+def stable_center_areas(rows: list[dict[str, str]], org_id: str) -> list[dict[str, str]]:
+    """동일 센터 엔터티에는 어느 페이지에서도 같은 서비스 지역 집합을 제공합니다."""
+    names: list[str] = []
+    for candidate in rows:
+        if center_identity_for_row(candidate) != org_id:
+            continue
+        for field in ("지역", "시or구", "근처 수업가능 동네"):
+            value = candidate.get(field, "").strip()
+            if value and value not in names:
+                names.append(value)
+    return [{"@type": "AdministrativeArea", "name": value} for value in names]
+
+
+def stable_center_topics(row: dict[str, str]) -> list[str]:
+    topics = ["학습 진단", "내신 관리", "오답 재학습", "학습 플래너"]
+    if row.get("가능학년\n(수학)", "").strip():
+        topics.insert(0, "수학")
+    if row.get("가능학년\n(영어)", "").strip():
+        topics.insert(0, "영어")
+    return topics
 
 
 def absolute(path: str) -> str:
@@ -188,12 +500,193 @@ def parse_faq(value: str) -> list[tuple[str, str]]:
 
 
 def parse_reviews(value: str) -> list[str]:
+    value = clean_text(value)
+    numbered = re.findall(r"(?:^|\n)\s*\d+[.)]\s*[“\"]?(.*?)[”\"]?\s*(?=\n\s*\d+[.)]|\Z)", value, re.S)
+    paragraphs = numbered or re.split(r"\n\s*\n", value)
     result = []
-    for paragraph in re.split(r"\n\s*\n", clean_text(value)):
-        paragraph = re.sub(r"^.*?학부모\s*후기\s*예시\s*\d+\s*:\s*", "", paragraph.strip())
-        if paragraph:
-            result.append(paragraph)
+    for paragraph in paragraphs:
+        paragraph = re.sub(
+            r"^\s*[-*]?\s*(?:[^\n:]{0,30}\s+)?(?:학부모\s*)?후기\s*예시\s*\d*\s*[:.]?\s*",
+            "", paragraph.strip(),
+        )
+        paragraph = paragraph.strip(" \t\n\r“”\"")
+        if not paragraph or re.search(r"아래 내용은|특정 학생의 .*결과", paragraph):
+            continue
+        result.append(paragraph)
     return result
+
+
+def rotate_unique(values: list[tuple[str, str]], seed: str, namespace: str, count: int) -> list[tuple[str, str]]:
+    if not values:
+        return []
+    ranked = sorted(
+        range(len(values)),
+        key=lambda index: hashlib.sha256(f"{seed}|{namespace}|{index}".encode("utf-8")).hexdigest(),
+    )
+    return [values[index] for index in ranked[: min(count, len(values))]]
+
+
+def build_page_faqs(
+    source: list[tuple[str, str]], row: dict[str, str], config: dict[str, str], title: str, category: str,
+) -> list[tuple[str, str]]:
+    """원문 FAQ 한 항목과 검증된 센터 정보 기반 항목을 조합해 페이지별 구성을 달리합니다."""
+    local = row["근처 수업가능 동네"].strip()
+    center = row.get("센터명", "").strip() or f"{local} 학습코칭센터"
+    address = row.get("센터 주소", "").strip()
+    location = row.get("위치안내", "").strip()
+    schools = split_values(row.get(config["school_field"], ""))
+    grade_range = row.get(config["grade_field"], "").strip()
+    subject = config["subject"]
+    grade = config["grade"]
+    seed = f"{category}|{local}|faq"
+    profile = LEARNING_PROFILES[category][stable_index(seed, "profile", len(LEARNING_PROFILES[category]))]
+    action = LEARNING_ACTIONS[subject][stable_index(seed, "action", len(LEARNING_ACTIONS[subject]))]
+    school_text = "·".join(schools)
+
+    candidates: list[tuple[str, str]] = [
+        (
+            f"{title} 상담에서는 아이의 어떤 자료를 준비하면 좋을까요?",
+            f"최근에 풀었던 {subject} 문제집이나 학교 과제 중 풀이 흔적이 남은 자료 한 가지면 충분합니다. "
+            f"정답 개수만 보지 않고 {profile}인지 살핀 뒤 첫 학습 순서를 정하는 데 활용합니다.",
+        ),
+        (
+            f"{local} {grade} {subject} 수업은 선행과 복습 중 무엇을 먼저 보나요?",
+            f"현재 단원을 혼자 설명하고 다시 풀 수 있는지를 먼저 확인합니다. 기초가 안정적이면 다음 단원으로 이어가고, "
+            f"오답 이유가 반복되면 {action}",
+        ),
+        (
+            f"과제량은 어떤 기준으로 정하는 것이 좋을까요?",
+            f"학생이 실제로 사용할 수 있는 요일과 시간을 먼저 확인한 뒤 수업 내용, 오답 재풀이, 다음 수업 준비를 나누어 정하는 편이 좋습니다. "
+            f"완료 여부뿐 아니라 막힌 지점이 다음 수업 기록에 이어지는지도 함께 확인하세요.",
+        ),
+        (
+            f"{subject} 오답 관리는 무엇을 확인해야 하나요?",
+            f"틀린 문제를 다시 푸는 데서 끝내지 않고 계산·개념·조건 해석 중 어느 단계에서 막혔는지 기록하는 것이 중요합니다. "
+            f"비슷한 문제를 일정 간격 뒤 다시 풀어 같은 이유의 실수가 줄었는지 확인할 수 있어야 합니다.",
+        ),
+        (
+            f"학부모에게 수업 내용은 어떻게 공유하는 것이 좋을까요?",
+            f"진도만 전달하기보다 이번 주에 이해한 내용, 남은 오답, 다음 주 우선순위를 구분해 확인하는 방식이 좋습니다. "
+            f"상담 때 피드백 주기와 과제 미완료 시의 보완 절차를 함께 물어보세요.",
+        ),
+        (
+            f"{local}에서 수업 시간표를 정할 때 무엇을 고려해야 하나요?",
+            f"등원 가능한 요일뿐 아니라 수업 뒤 복습 시간을 확보할 수 있는지도 확인해야 합니다. "
+            f"센터 위치는 {address or center}이며, 실제 이동 동선과 상담 가능 시간은 방문 전에 확인하는 편이 좋습니다.",
+        ),
+        (
+            f"첫 상담 뒤에는 어떤 목표를 세우는 것이 현실적인가요?",
+            f"처음부터 성적이나 진도를 크게 약속하기보다 2~4주 동안 관찰할 행동을 정하는 것이 좋습니다. "
+            f"과제 시작 시간, 오답 재풀이, 질문 기록처럼 확인 가능한 항목을 정하면 다음 상담도 구체적으로 이어집니다.",
+        ),
+        (
+            f"{grade} {subject}에서 학습 우선순위는 어떻게 정하나요?",
+            f"학교 진도와 최근 오답을 함께 놓고 가장 자주 막히는 한두 가지부터 정합니다. "
+            f"{profile}에는 진도를 넓히기보다 {action}",
+        ),
+    ]
+    if schools:
+        candidates.append((
+            f"{school_text} 학생도 학교 진도를 반영해 상담할 수 있나요?",
+            f"{school_text}은 센터 자료에서 확인되는 수업 가능 학교입니다. 학교 이름만으로 범위를 단정하지 않고, "
+            f"학생이 가져온 최근 진도표·과제·평가 안내를 기준으로 {subject} 보완 순서를 상담합니다.",
+        ))
+    if grade_range:
+        candidates.append((
+            f"{center}의 {subject} 수업 가능 학년은 어떻게 확인하나요?",
+            f"센터 자료에 표시된 {subject} 수업 가능 학년은 {'·'.join(split_values(grade_range))}입니다. 다만 실제 반 편성, 시간표와 학생의 현재 진도는 달라질 수 있으므로 상담 시 함께 확인해야 합니다.",
+        ))
+    if location:
+        candidates.append((
+            f"센터 방문 전에 위치를 어떻게 확인하면 좋을까요?",
+            f"센터 주소는 {address or '상담 시 안내'}이며 위치 안내는 ‘{location}’입니다. 처음 방문할 때는 건물명과 층, 이동 시간을 미리 확인하면 상담 시간을 여유 있게 잡을 수 있습니다.",
+        ))
+
+    source_index = stable_index(seed, "source", len(source))
+    source_question, source_answer = source[source_index]
+    source_question = soften_keyword_repetition(editorialize(source_question, row), title, seed + "-source-q", 1)
+    source_answer = soften_keyword_repetition(editorialize(source_answer, row), title, seed + "-source-a", 1)
+    result = [(source_question, source_answer)] + rotate_unique(candidates, seed, "custom", 3)
+    unique: list[tuple[str, str]] = []
+    seen: set[str] = set()
+    for question, answer in result:
+        key = re.sub(r"[^가-힣A-Za-z0-9]", "", question)
+        if key not in seen:
+            unique.append((clean_text(question), finish_sentence(answer)))
+            seen.add(key)
+    return unique
+
+
+def build_consultation_scenarios(
+    row: dict[str, str], config: dict[str, str], title: str, category: str,
+) -> list[str]:
+    """실제 후기처럼 오해되지 않도록 상담에서 다루는 상황을 사실 기반 서술로 만듭니다."""
+    local = row["근처 수업가능 동네"].strip()
+    schools = split_values(row.get(config["school_field"], ""))
+    subject = config["subject"]
+    grade = config["grade"]
+    seed = f"{category}|{local}|scenario"
+    profiles = LEARNING_PROFILES[category]
+    actions = LEARNING_ACTIONS[subject]
+    profile_indexes = []
+    for offset in range(3):
+        index = stable_index(seed, f"profile-{offset}", len(profiles))
+        while index in profile_indexes:
+            index = (index + 1) % len(profiles)
+        profile_indexes.append(index)
+    scenarios = [
+        f"{local} 학부모 상담에서는 {profiles[profile_indexes[0]]}에 대한 고민을 먼저 정리할 수 있습니다. "
+        f"이때는 진도를 서두르기보다 학생의 최근 풀이를 보고 {actions[stable_index(seed, 'action-0', len(actions))]}",
+        f"{grade} {subject} 과제를 꾸준히 했는데도 비슷한 실수가 이어진다면 과제량보다 복습 간격을 확인할 필요가 있습니다. "
+        f"상담에서는 {profiles[profile_indexes[1]]}인지 살피고 {actions[stable_index(seed, 'action-1', len(actions))]}",
+        f"수업을 결정하기 전에는 학생이 실제로 사용할 수 있는 요일과 혼자 복습할 시간을 함께 계산하는 것이 좋습니다. "
+        f"{local} 생활 일정 안에서 {profiles[profile_indexes[2]]}에는 {actions[stable_index(seed, 'action-2', len(actions))]}",
+    ]
+    if schools:
+        index = stable_index(seed, "school-slot", len(scenarios))
+        school_text = "·".join(schools)
+        scenarios[index] = finish_sentence(scenarios[index])
+        scenarios[index] += f" {school_text} 재학생은 최신 학교 진도와 과제 자료를 가져오면 상담 내용을 더 구체화할 수 있습니다."
+    return [finish_sentence(scenario) for scenario in scenarios]
+
+
+def build_context_section(
+    row: dict[str, str], config: dict[str, str], title: str, category: str,
+) -> tuple[str, list[str]]:
+    local = row["근처 수업가능 동네"].strip()
+    center = row.get("센터명", "").strip() or f"{local} 학습코칭센터"
+    address = row.get("센터 주소", "").strip()
+    location = row.get("위치안내", "").strip()
+    schools = split_values(row.get(config["school_field"], ""))
+    grade_range = row.get(config["grade_field"], "").strip()
+    subject = config["subject"]
+    grade = config["grade"]
+    seed = f"{category}|{local}|context"
+    profile = LEARNING_PROFILES[category][stable_index(seed, "profile", len(LEARNING_PROFILES[category]))]
+    action = LEARNING_ACTIONS[subject][stable_index(seed, "action", len(LEARNING_ACTIONS[subject]))]
+    direct_area = direct_center_area(local, center, address)
+    headings = (
+        f"{local} 상담에서 확인할 {grade} {subject} 우선순위",
+        f"{local} 학생의 현재 기록으로 시작하는 {subject} 계획",
+        f"{grade} {subject} 상담을 구체화하는 세 가지 자료",
+        f"{local} 생활 일정과 함께 보는 {subject} 학습 흐름",
+    )
+    paragraphs = [
+        f"{title} 상담에서는 학생을 한 가지 점수로 판단하기보다 최근 풀이, 과제 수행 시간, 다시 풀 수 있는 문제를 함께 봅니다. "
+        f"특히 {profile}에는 {action}",
+        f"{'상담 장소는' if direct_area else local + ' 학생의 상담 가능 여부는 인근 센터 기준으로 안내하며, 실제 센터 위치는'} "
+        f"{center}{'(' + address + ')' if address else ''}입니다. "
+        f"{location + '을 위치 확인에 참고하고, ' if location else ''}실제 등원 요일과 수업 뒤 복습 시간을 함께 정하면 계획을 무리 없이 이어가기 좋습니다.",
+    ]
+    if schools:
+        paragraphs.append(
+            f"센터 자료에서 확인되는 수업 가능 학교는 {'·'.join(schools)}입니다. 학교별 범위를 미리 단정하지 않고 최신 진도표와 과제 안내를 상담 자료로 활용합니다."
+        )
+    else:
+        paragraphs.append("수업 가능 학교 정보가 따로 표시되지 않은 경우에는 재학 학교와 최근 진도 자료를 상담 때 직접 확인해 학습 순서를 정합니다.")
+    if grade_range:
+        paragraphs.append(f"센터 자료에 표시된 {subject} 수업 가능 학년은 {'·'.join(split_values(grade_range))}이며, 실제 반 편성과 시간표는 상담 시 확인합니다.")
+    return headings[stable_index(seed, "heading", len(headings))], [finish_sentence(p) for p in paragraphs]
 
 
 def representative_images() -> list[Path]:
@@ -222,7 +715,15 @@ def fee_link(row: dict[str, str]) -> str:
     return match.group(0)
 
 
-def head_html(title: str, description: str, canonical: str, image: str, graph: list[dict]) -> str:
+def head_html(
+    title: str,
+    description: str,
+    canonical: str,
+    image: str,
+    graph: list[dict],
+    *,
+    og_type: str = "article",
+) -> str:
     payload = {"@context": "https://schema.org", "@graph": graph}
     return f'''<!doctype html>
 <html lang="ko">
@@ -234,7 +735,7 @@ def head_html(title: str, description: str, canonical: str, image: str, graph: l
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="{esc(canonical)}">
   <meta property="og:site_name" content="{SITE_NAME}">
-  <meta property="og:type" content="article">
+  <meta property="og:type" content="{esc(og_type)}">
   <meta property="og:title" content="{esc(title)} | {SITE_NAME}">
   <meta property="og:description" content="{esc(description)}">
   <meta property="og:url" content="{esc(canonical)}">
@@ -259,7 +760,7 @@ def nav(active: str) -> str:
         ("전국학원", "/전국학원/"),
     ]
     items = "\n".join(
-        f'        <a{" class=\"active\"" if name == active else ""} href="{href}">{name}</a>'
+        f'        <a{" class=\"active\" aria-current=\"page\"" if name == active else ""} href="{href}">{name}</a>'
         for name, href in links
     )
     return f'''  <header class="nav-wrap">
@@ -284,7 +785,7 @@ def footer() -> str:
 
 
 def shell(head: str, body: str) -> str:
-    return f'''{head}
+    rendered = f'''{head}
 <body>
 <div class="site-shell">
 {body}
@@ -292,6 +793,7 @@ def shell(head: str, body: str) -> str:
 </body>
 </html>
 '''
+    return re.sub(r"[ \t]+(?=\n)", "", rendered)
 
 
 def body_html(intro: list[str], sections: list[tuple[str, list[str]]]) -> str:
@@ -321,15 +823,43 @@ def local_page(
     grade_range = row.get(config["grade_field"], "").strip()
     reg_office = row.get("교육지원청명칭", "").strip()
     reg_number = row.get("교육지원청 등록번호", "").strip()
-    description = trim_description(
-        manuscript["메타설명"],
-        f"{region} {district} {local} {config['grade']} {config['subject']} 학습에서 확인할 진단·내신·오답 관리 기준을 정리했습니다.",
+    description = local_meta_description(title, region, district, center, config)
+    page_seed = f"{category}|{local}"
+    summary = trim_description(editorialize(manuscript["JSON-LD 요약"], row), description)
+    summary = clean_text(soften_keyword_repetition(summary, title, page_seed + "|summary", 1))
+    body_source = editorialize(manuscript["본문"], row)
+    keyword_budget = 4 if category == "초6영어학원" else 5
+    body_source = soften_keyword_repetition(body_source, title, page_seed + "|body", keyword_budget)
+    body_source = re.sub(rf"{re.escape(local)}에서\s+{re.escape(local)}\s+", f"{local}에서 ", body_source)
+    body_source = re.sub(
+        rf"{re.escape(local)}의\s+{re.escape(config['grade'])}\s+학생이\s+{re.escape(local)}의\s+{re.escape(config['grade'])}\s+중\s+",
+        f"{local}의 {config['grade']} 학생이 ",
+        body_source,
     )
-    summary = trim_description(manuscript["JSON-LD 요약"], description)
-    summary = re.sub(r"정보성\s*원고이다\.?$", "정보성 학습 안내입니다.", summary)
-    intro, body_sections = parse_body(manuscript["본문"])
-    faqs = parse_faq(manuscript["FAQ"])
-    reviews = parse_reviews(manuscript["학부모후기"])
+    body_source = clean_text(body_source)
+    intro, body_sections = parse_body(body_source)
+    seen_sentences: set[str] = set()
+    intro = dedupe_sentences(intro, seen_sentences)
+    body_sections = [
+        (heading, dedupe_sentences(paragraphs, seen_sentences))
+        for heading, paragraphs in body_sections
+    ]
+    body_sections = [(heading, paragraphs) for heading, paragraphs in body_sections if paragraphs]
+    context_section = build_context_section(row, config, title, category)
+    insert_at = 1 + stable_index(page_seed, "context-position", max(1, len(body_sections) - 1))
+    body_sections.insert(min(insert_at, len(body_sections)), context_section)
+    source_faqs = parse_faq(editorialize(manuscript["FAQ"], row))
+    faqs = build_page_faqs(source_faqs, row, config, title, category)
+    faqs = [
+        (
+            question.replace(f"{local}에서 {local}", f"{local}에서"),
+            answer.replace(f"{local}에서 {local}", f"{local}에서"),
+        )
+        for question, answer in faqs
+    ]
+    # 입력 후기 구역도 파싱해 파일 형식 오류를 잡되, 화면에는 실제 후기처럼 오해되지 않는 상담 상황을 사용합니다.
+    parse_reviews(editorialize(manuscript["학부모후기"], row))
+    reviews = build_consultation_scenarios(row, config, title, category)
     path = f"/과목별학원/{category}/{slug}/"
     canonical = absolute(path)
     rep = pick_representative(rep_images, local, category)
@@ -363,7 +893,7 @@ def local_page(
     ] + [(f"{name} {config['label']}", f"/과목별학원/{category}/{slug_local(name)}/", "가까운 지역 안내") for name in nearby]
     related = [item for item in related if (SITE / item[1].strip("/") / "index.html").exists() or item[1].startswith(f"/과목별학원/{category}/")]
 
-    org_id = canonical + "#organization"
+    org_id = center_entity_id(center, address, reg_office, reg_number)
     page_id = canonical + "#webpage"
     article_id = canonical + "#article"
     service_id = canonical + "#service"
@@ -382,18 +912,34 @@ def local_page(
             "serviceType": "TutoringService",
         },
     }
+    organization_offer = {
+        "@type": "Offer",
+        "url": absolute("/상담문의/"),
+        "itemOffered": {
+            "@type": "Service",
+            "name": "학습 상담",
+            "serviceType": "TutoringService",
+        },
+    }
+    postal_address: dict[str, str] = {"@type": "PostalAddress", "addressCountry": "KR"}
+    if address:
+        postal_address["streetAddress"] = address
+    if region:
+        postal_address["addressRegion"] = region
+    if district:
+        postal_address["addressLocality"] = district
+
     org: dict = {
         "@type": ["EducationalOrganization", "LocalBusiness"],
         "@id": org_id,
         "name": center,
-        "alternateName": [SITE_NAME, title],
-        "url": canonical,
+        "alternateName": [SITE_NAME],
         "telephone": PHONE_DISPLAY,
-        "image": [absolute(rep), absolute(center_image), absolute(map_image)],
-        "address": {"@type": "PostalAddress", "streetAddress": address, "addressCountry": "KR"},
-        "areaServed": [{"@type": "AdministrativeArea", "name": value} for value in (region, district, local) if value],
-        "knowsAbout": [title, config["grade"], config["subject"], "내신 관리", "오답 재학습", "학습 플래너"],
-        "makesOffer": [offer],
+        "image": [absolute(center_image)],
+        "address": postal_address,
+        "areaServed": stable_center_areas(ordered_rows, org_id),
+        "knowsAbout": stable_center_topics(row),
+        "makesOffer": [organization_offer],
     }
     if reg_office or reg_number:
         org["identifier"] = " · ".join(x for x in (reg_office, reg_number) if x)
@@ -423,7 +969,7 @@ def local_page(
             "@type": "Article", "@id": article_id, "mainEntityOfPage": {"@id": page_id},
             "headline": title, "name": title, "description": summary,
             "image": [absolute(rep), absolute(center_image), absolute(map_image)],
-            "datePublished": PUBLISH_DATE, "dateModified": PUBLISH_DATE,
+            "datePublished": PUBLISH_DATE, "dateModified": MODIFIED_DATE,
             "author": {"@id": org_id}, "publisher": {"@id": org_id}, "inLanguage": "ko-KR",
             "articleSection": [heading for heading, _ in body_sections],
             "about": [title, config["grade"], config["subject"], "학습 진단", "오답 관리"],
@@ -435,33 +981,41 @@ def local_page(
             "description": summary, "areaServed": {"@type": "Place", "name": local},
             "audience": {"@type": "EducationalAudience", "educationalRole": "student", "audienceType": config["grade"]},
             "about": [config["subject"], "내신 대비", "개념 점검"],
-            "mentions": ["학습 플래너", "오답 재학습", *schools], "makesOffer": [offer],
+            "mentions": ["학습 플래너", "오답 재학습", *schools], "offers": [offer],
         },
         {
             "@type": "FAQPage", "@id": faq_id,
             "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faqs],
         },
         {
-            "@type": "ItemList", "@id": canonical + "#schools", "name": f"{local} 수업 가능 학교 참고",
-            "numberOfItems": len(school_items), "itemListElement": school_items,
-        },
-        {
             "@type": "ItemList", "@id": canonical + "#related", "name": f"{local} 관련 학원 페이지",
             "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": name, "url": absolute(url)} for i, (name, url, _) in enumerate(related)],
         },
     ]
+    if school_items:
+        graph.insert(-1, {
+            "@type": "ItemList", "@id": canonical + "#schools", "name": f"{local} 수업 가능 학교 참고",
+            "numberOfItems": len(school_items), "itemListElement": school_items,
+        })
 
     school_html = "".join(f"<li>{esc(school)}</li>" for school in schools) or "<li>상담 시 재학 학교와 진도를 확인합니다.</li>"
     fee_html = f'<a class="btn btn-ghost" href="{esc(fee)}" target="_blank" rel="noopener">센터 교습비 확인</a>' if fee else ""
     faq_html = "".join(f'<details class="faq-item"><summary>{esc(q)}</summary><p>{esc(a)}</p></details>' for q, a in faqs)
-    review_html = "".join(f'<article class="review-card"><span class="review-label">상담 참고 사례 {i}</span><p>{esc(review)}</p></article>' for i, review in enumerate(reviews, 1))
+    review_html = "".join(f'<article class="review-card"><span class="review-label">상담 상황 {i}</span><p>{esc(review)}</p></article>' for i, review in enumerate(reviews, 1))
     link_html = "".join(f'<a class="subject-related-link" href="{url}"><strong>{esc(name)}</strong><small>{esc(note)}</small></a>' for name, url, note in related)
     registration = " · ".join(x for x in (reg_office, reg_number) if x)
+    visible_description = description.removeprefix(f"{title}: ").strip()
+    service_area_notice = ""
+    if not direct_center_area(local, center, address):
+        service_area_notice = (
+            f'<p class="subject-service-area-notice">{esc(local)} 학생의 상담 가능 여부는 인근 센터 기준으로 안내합니다. '
+            f'실제 센터 위치는 아래 주소에서 확인해 주세요.</p>'
+        )
 
     body = f'''{nav("과목별학원")}
   <main>
     <section class="page-hero subject-local-hero">
-      <p class="breadcrumb"><a href="/">홈</a><span>/</span><a href="/과목별학원/">과목별학원</a><span>/</span><a href="/과목별학원/{category}/">{esc(config['label'])}</a><span>/</span><span>{esc(title)}</span></p>
+      <nav class="breadcrumb" aria-label="현재 위치"><a href="/">홈</a><span aria-hidden="true">/</span><a href="/과목별학원/">과목별학원</a><span aria-hidden="true">/</span><a href="/과목별학원/{category}/">{esc(config['label'])}</a><span aria-hidden="true">/</span><span aria-current="page">{esc(title)}</span></nav>
       <p class="eyebrow">LOCAL SUBJECT ACADEMY</p>
       <h1>{esc(title)}</h1>
       <p class="lead">{esc(description)}</p>
@@ -477,7 +1031,7 @@ def local_page(
     </section>
 
     <section class="section subject-answer-summary">
-      <div class="section-head"><p class="eyebrow">핵심 답변</p><h2>{esc(title)}을 찾을 때 무엇부터 확인해야 할까요?</h2><p class="lead">{esc(description)}</p></div>
+      <div class="section-head"><p class="eyebrow">핵심 답변</p><h2>{esc(local)}에서 {esc(config['grade'])} {esc(config['subject'])} 학원을 찾을 때 무엇부터 확인해야 할까요?</h2><p class="lead">{esc(visible_description)}</p></div>
       <div class="subject-fact-grid">
         <article><span>대상</span><strong>{esc(config['grade'])}</strong><p>{esc(grade_range or '학생별 진도 확인 후 안내')}</p></article>
         <article><span>과목</span><strong>{esc(config['subject'])}</strong><p>개념·내신·오답 흐름 점검</p></article>
@@ -486,12 +1040,13 @@ def local_page(
     </section>
 
     <section class="section subject-manuscript">
-      <div class="section-head"><p class="eyebrow">학습 안내</p><h2>{esc(title)} 학습 설계</h2></div>
+      <div class="section-head"><p class="eyebrow">학습 안내</p><h2>{esc(local)} {esc(config['grade'])} {esc(config['subject'])} 학습 설계</h2></div>
       {body_html(intro, body_sections)}
     </section>
 
     <section class="section subject-center-card">
-      <div class="section-head"><p class="eyebrow">센터 정보</p><h2>{esc(center)}</h2><p class="lead">제공된 센터 자료를 기준으로 정리했습니다.</p></div>
+      <div class="section-head"><p class="eyebrow">센터 정보</p><h2>{esc(center)}</h2><p class="lead">센터의 주소·위치·수업 가능 학교를 상담 전에 확인할 수 있도록 정리했습니다.</p></div>
+      {service_area_notice}
       <dl class="subject-center-facts">
         <div><dt>주소</dt><dd>{esc(address or '상담 시 안내')}</dd></div>
         <div><dt>위치 안내</dt><dd>{esc(location or '상담 시 상세 안내')}</dd></div>
@@ -502,12 +1057,12 @@ def local_page(
     </section>
 
     <section class="section">
-      <div class="section-head"><p class="eyebrow">FAQ</p><h2>{esc(title)} 자주 묻는 질문</h2><p class="lead">상담 전에 자주 확인하는 내용을 학년과 과목 기준으로 정리했습니다.</p></div>
+      <div class="section-head"><p class="eyebrow">FAQ</p><h2>{esc(local)} {esc(config['grade'])} {esc(config['subject'])} 자주 묻는 질문</h2><p class="lead">상담 전에 자주 확인하는 내용을 학년과 과목 기준으로 정리했습니다.</p></div>
       <div class="faq-list">{faq_html}</div>
     </section>
 
     <section class="section">
-      <div class="section-head"><p class="eyebrow">상담 참고 사례</p><h2>{esc(local)} 학부모가 궁금해한 학습 상황</h2><p class="lead">아래 내용은 상담 상황을 이해하기 위한 참고 예시이며, 학생별 학습 과정과 결과는 다를 수 있습니다.</p></div>
+      <div class="section-head"><p class="eyebrow">상담 상황</p><h2>{esc(local)} 학부모 상담에서 확인할 학습 장면</h2><p class="lead">상담에서 자주 확인하는 학습 상황과 점검 순서를 정리했습니다.</p></div>
       <div class="review-grid subject-review-grid">{review_html}</div>
     </section>
 
@@ -559,7 +1114,7 @@ def category_page(rows: list[dict[str, str]], category: str, config: dict[str, s
     body = f'''{nav("과목별학원")}
   <main>
     <section class="page-hero">
-      <p class="breadcrumb"><a href="/">홈</a><span>/</span><a href="/과목별학원/">과목별학원</a><span>/</span><span>{esc(title)}</span></p>
+      <nav class="breadcrumb" aria-label="현재 위치"><a href="/">홈</a><span aria-hidden="true">/</span><a href="/과목별학원/">과목별학원</a><span aria-hidden="true">/</span><span aria-current="page">{esc(title)}</span></nav>
       <p class="eyebrow">SUBJECT ACADEMY DIRECTORY</p><h1>{esc(title)}</h1><p class="lead">{esc(description)}</p>
       <div class="subject-count"><strong>{len(rows)}</strong><span>지역별 학습 안내</span></div>
     </section>
@@ -568,7 +1123,20 @@ def category_page(rows: list[dict[str, str]], category: str, config: dict[str, s
 {footer()}'''
     out = SITE / "과목별학원" / category / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(shell(head_html(title, description, canonical, "/assets/generated/coaching-center-hero-v2.png", graph), body), encoding="utf-8")
+    out.write_text(
+        shell(
+            head_html(
+                title,
+                description,
+                canonical,
+                "/assets/generated/coaching-center-hero-v2.png",
+                graph,
+                og_type="website",
+            ),
+            body,
+        ),
+        encoding="utf-8",
+    )
 
 
 def subject_root() -> None:
@@ -593,14 +1161,27 @@ def subject_root() -> None:
     ]
     body = f'''{nav("과목별학원")}
   <main>
-    <section class="page-hero"><p class="breadcrumb"><a href="/">홈</a><span>/</span><span>과목별학원</span></p><p class="eyebrow">SUBJECT ACADEMY HUB</p><h1>과목별학원</h1><p class="lead">{esc(description)}</p></section>
+    <section class="page-hero"><nav class="breadcrumb" aria-label="현재 위치"><a href="/">홈</a><span aria-hidden="true">/</span><span aria-current="page">과목별학원</span></nav><p class="eyebrow">SUBJECT ACADEMY HUB</p><h1>과목별학원</h1><p class="lead">{esc(description)}</p></section>
     <section class="section"><div class="section-head"><p class="eyebrow">학년·과목 선택</p><h2>필요한 학습 안내부터 확인하세요</h2><p class="lead">학년과 과목을 선택한 뒤, 광역 지역과 시·군·구 순서로 가까운 동네의 학습 안내를 찾을 수 있습니다.</p></div><div class="subject-category-grid">{cards}</div></section>
     <section class="section"><div class="section-head"><p class="eyebrow">채움학습 관리 기준</p><h2>과목 이름보다 학생이 막힌 지점을 먼저 봅니다</h2></div><div class="card-grid"><article class="info-card"><span class="tag">01</span><h3>현재 상태 진단</h3><p>최근 시험과 오답에서 개념, 계산, 적용 중 어디에서 흐름이 끊기는지 확인합니다.</p></article><article class="info-card"><span class="tag">02</span><h3>학년별 우선순위</h3><p>학교 진도와 시험 일정을 함께 보고 복습과 내신 준비의 순서를 정합니다.</p></article><article class="info-card"><span class="tag">03</span><h3>기록 기반 재학습</h3><p>틀린 이유와 다시 풀 시점을 기록해 같은 실수가 반복되지 않도록 관리합니다.</p></article></div></section>
   </main>
 {footer()}'''
     out = SITE / "과목별학원" / "index.html"
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(shell(head_html("과목별학원", description, canonical, "/assets/generated/coaching-center-hero-v2.png", graph), body), encoding="utf-8")
+    out.write_text(
+        shell(
+            head_html(
+                "과목별학원",
+                description,
+                canonical,
+                "/assets/generated/coaching-center-hero-v2.png",
+                graph,
+                og_type="website",
+            ),
+            body,
+        ),
+        encoding="utf-8",
+    )
 
 
 def main() -> None:

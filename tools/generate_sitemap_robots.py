@@ -7,7 +7,7 @@ from xml.sax.saxutils import escape
 
 SITE = Path(__file__).resolve().parents[1]
 DOMAIN = "https://xn--ru4bz7e9zf0zk.com"
-TODAY = "2026-07-26"
+TODAY = "2026-07-27"
 
 
 def page_url(index_file: Path) -> str:
