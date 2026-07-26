@@ -151,6 +151,44 @@ img {
   border-bottom-color: var(--teal);
 }
 
+@media (max-width: 700px) {
+  .nav {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding: 12px 14px;
+  }
+
+  .brand {
+    justify-content: center;
+  }
+
+  .nav-links {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 2px;
+    width: 100%;
+    font-size: 0.66rem;
+    letter-spacing: -0.03em;
+  }
+
+  .nav-links a {
+    min-height: 42px;
+    padding: 6px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+  }
+
+  .nav-links a.active {
+    border-color: var(--line);
+    background: var(--card);
+  }
+}
+
 /* ---------- buttons ---------- */
 
 .btn {
@@ -924,6 +962,288 @@ img {
 @media (min-width: 760px) {
   .review-grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ---------- subject academy pages ---------- */
+
+.subject-count {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.subject-count strong {
+  color: var(--teal-deep);
+  font-family: var(--serif);
+  font-size: clamp(2rem, 6vw, 3.5rem);
+}
+
+.subject-count span {
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.subject-category-grid,
+.subject-related-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.subject-category-card,
+.subject-related-link {
+  min-width: 0;
+  padding: 22px 18px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.subject-category-card:hover,
+.subject-related-link:hover {
+  border-color: var(--teal);
+  transform: translateY(-2px);
+}
+
+.subject-category-card span {
+  color: var(--teal);
+  font-family: var(--serif);
+  font-size: 0.78rem;
+}
+
+.subject-category-card strong,
+.subject-related-link strong {
+  color: var(--ink);
+  font-size: 0.96rem;
+  overflow-wrap: anywhere;
+}
+
+.subject-category-card small,
+.subject-related-link small {
+  color: var(--ink-faint);
+  font-size: 0.72rem;
+  line-height: 1.5;
+}
+
+.subject-directory .region-block {
+  background: rgba(255, 255, 255, 0.28);
+}
+
+.subject-district + .subject-district {
+  margin-top: 24px;
+}
+
+.subject-district h3 {
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--line-soft);
+  color: var(--ink-soft);
+  font-size: 0.84rem;
+}
+
+.subject-district h3 small {
+  margin-left: 4px;
+  color: var(--ink-faint);
+  font-size: 0.68rem;
+}
+
+.subject-local-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.subject-local-grid a {
+  min-width: 0;
+  min-height: 64px;
+  padding: 13px 12px;
+  border: 1px solid var(--line-soft);
+  background: var(--card);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+
+.subject-local-grid strong {
+  color: var(--ink);
+  font-size: 0.84rem;
+  overflow-wrap: anywhere;
+}
+
+.subject-local-grid small {
+  color: var(--ink-faint);
+  font-size: 0.64rem;
+}
+
+.subject-media-section {
+  padding-top: clamp(12px, 3vw, 24px);
+}
+
+.subject-media-section .frame figcaption {
+  padding: 10px 2px 2px;
+  color: var(--ink-faint);
+  font-size: 0.72rem;
+}
+
+.subject-fact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  border: 1px solid var(--line);
+  background: var(--line);
+}
+
+.subject-fact-grid article {
+  min-width: 0;
+  padding: 20px 16px;
+  background: var(--card);
+}
+
+.subject-fact-grid span {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--teal-deep);
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+.subject-fact-grid strong {
+  display: block;
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1rem;
+}
+
+.subject-fact-grid p {
+  margin-top: 7px;
+  color: var(--ink-faint);
+  font-size: 0.7rem;
+}
+
+.subject-intro {
+  margin-bottom: 18px;
+  padding: clamp(22px, 5vw, 34px);
+  border-left: 3px solid var(--teal);
+  background: var(--teal-pale);
+}
+
+.subject-intro p {
+  color: var(--ink-soft);
+  line-height: 1.85;
+}
+
+.subject-intro p + p {
+  margin-top: 12px;
+}
+
+.subject-copy-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.subject-copy-card {
+  min-width: 0;
+  padding: clamp(22px, 4vw, 32px);
+  border: 1px solid var(--line);
+  background: var(--card);
+}
+
+.subject-copy-index {
+  display: block;
+  margin-bottom: 22px;
+  color: var(--teal);
+  font-family: var(--serif);
+  font-size: 0.78rem;
+}
+
+.subject-copy-card h2 {
+  margin-bottom: 14px;
+  color: var(--ink);
+  font-size: clamp(1.08rem, 2.5vw, 1.35rem);
+  line-height: 1.45;
+}
+
+.subject-copy-card p {
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+  line-height: 1.85;
+}
+
+.subject-copy-card p + p {
+  margin-top: 12px;
+}
+
+.subject-center-card {
+  border-top: 3px solid var(--teal);
+}
+
+.subject-center-facts {
+  margin: 0 0 22px;
+  border-top: 1px solid var(--ink);
+}
+
+.subject-center-facts > div {
+  display: grid;
+  grid-template-columns: minmax(100px, 0.28fr) 1fr;
+  gap: 16px;
+  padding: 17px 2px;
+  border-bottom: 1px solid var(--line);
+}
+
+.subject-center-facts dt {
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.subject-center-facts dd,
+.subject-center-facts li {
+  color: var(--ink-soft);
+  font-size: 0.84rem;
+}
+
+.subject-center-facts ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 12px;
+}
+
+.review-label {
+  display: block;
+  margin-bottom: 12px;
+  color: var(--teal-deep);
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+@media (max-width: 700px) {
+  .subject-category-grid,
+  .subject-related-grid,
+  .subject-copy-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .subject-fact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .subject-fact-grid article {
+    padding: 17px 16px;
+  }
+
+  .subject-center-facts > div {
+    grid-template-columns: 1fr;
+    gap: 6px;
   }
 }
 
