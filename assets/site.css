@@ -1006,6 +1006,10 @@ img {
 
 /* ---------- subject academy pages ---------- */
 
+[hidden] {
+  display: none !important;
+}
+
 .subject-count {
   display: inline-flex;
   align-items: baseline;
@@ -1076,6 +1080,65 @@ img {
   background: rgba(255, 255, 255, 0.28);
 }
 
+.subject-search {
+  margin: 0 0 24px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  background: var(--card);
+}
+
+.subject-search > label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--ink);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.subject-search-controls {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+}
+
+.subject-search-controls input,
+.subject-search-controls button {
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  font: inherit;
+}
+
+.subject-search-controls input {
+  min-width: 0;
+  padding: 0 12px;
+  background: #fff;
+  color: var(--ink);
+}
+
+.subject-search-controls input:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
+
+.subject-search-controls button {
+  padding: 0 16px;
+  background: var(--teal-deep);
+  color: #fff;
+  cursor: pointer;
+}
+
+.subject-search-controls button:disabled {
+  cursor: default;
+  opacity: 0.45;
+}
+
+.subject-search-status {
+  margin: 10px 0 0;
+  color: var(--ink-soft);
+  font-size: 0.76rem;
+}
+
 .subject-district + .subject-district {
   margin-top: 24px;
 }
@@ -1121,6 +1184,16 @@ img {
 .subject-local-grid small {
   color: var(--ink-faint);
   font-size: 0.64rem;
+}
+
+@media (max-width: 420px) {
+  .subject-search-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .subject-search-controls button {
+    width: 100%;
+  }
 }
 
 .subject-media-section {
