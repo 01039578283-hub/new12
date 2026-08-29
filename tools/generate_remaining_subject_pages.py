@@ -14,6 +14,11 @@ from openpyxl import load_workbook
 import generate_subject_academy_pages as legacy
 from subject_catalog import BY_SLUG, NEW_CATEGORIES, PROTECTED_CATEGORIES, SUBJECT_CATALOG, SubjectCategory
 
+try:
+    from add_subject_anchor_tocs import enhance_detail_html
+except ModuleNotFoundError:  # Supports module-style execution from the site root.
+    from tools.add_subject_anchor_tocs import enhance_detail_html
+
 
 SITE = Path(__file__).resolve().parents[1]
 SOURCE_DIR = Path.home() / "Desktop" / "새 폴더"
@@ -968,7 +973,18 @@ def local_page(
     <section class="section"><div class="section-head"><p class="eyebrow">내부 안내</p><h2>{legacy.esc(local)}에서 함께 확인할 페이지</h2></div><div class="subject-related-grid">{related_html}</div></section>
   </main>
 {legacy.footer()}'''
-    return legacy.shell(legacy.head_html(copy.title, copy.description, canonical, representative, graph), body)
+    return enhance_detail_html(
+        legacy.shell(
+            legacy.head_html(
+                copy.title,
+                copy.description,
+                canonical,
+                representative,
+                graph,
+            ),
+            body,
+        )
+    )
 
 
 def region_directory(rows: list[dict[str, str]], category: SubjectCategory) -> str:

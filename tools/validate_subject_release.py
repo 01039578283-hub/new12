@@ -47,6 +47,11 @@ BAD_GRAMMAR = (
     "이 안내에서 기준으로 삼은 학생 유형",
 )
 JSON_RE = re.compile(r'<script type="application/ld\+json">(.*?)</script>', re.S)
+TOC_RE = re.compile(
+    r'<!-- subject-page-anchor-toc:start -->.*?'
+    r'<!-- subject-page-anchor-toc:end -->',
+    re.S,
+)
 
 
 class VisibleText(HTMLParser):
@@ -132,7 +137,8 @@ def main() -> int:
             descriptions.add(description)
             canonicals.add(canonical)
 
-            text = visible_main(source)
+            # Page navigation repeats heading labels by design and is not body copy.
+            text = visible_main(TOC_RE.sub("", source))
             for token in BANNED_VISIBLE:
                 if token in text:
                     errors.append(f"{rel}: internal wording remains: {token}")
