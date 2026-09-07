@@ -5,5 +5,9 @@ __pycache__/
 .env*
 node_modules/
 
+tools/reports/*
+!tools/reports/title-suffix-audit.json
+!tools/reports/title-suffix-local-verification.json
+
 .vercel
 .env*
