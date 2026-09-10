@@ -1,0 +1,3683 @@
+[
+  {
+    "locality": "명일동",
+    "targetPath": "/전국학원/중학생학원/명일동/",
+    "targetPaths": {
+      "초4수학학원": "/과목별학원/초4수학학원/명일동/",
+      "초5영어학원": "/과목별학원/초5영어학원/명일동/",
+      "초5수학학원": "/과목별학원/초5수학학원/명일동/",
+      "초6영어학원": "/과목별학원/초6영어학원/명일동/",
+      "초6수학학원": "/과목별학원/초6수학학원/명일동/",
+      "중1영어학원": "/과목별학원/중1영어학원/명일동/",
+      "중1수학학원": "/과목별학원/중1수학학원/명일동/",
+      "중2영어학원": "/과목별학원/중2영어학원/명일동/",
+      "중2수학학원": "/과목별학원/중2수학학원/명일동/",
+      "중3영어학원": "/과목별학원/중3영어학원/명일동/",
+      "중3수학학원": "/과목별학원/중3수학학원/명일동/",
+      "고1영어학원": "/과목별학원/고1영어학원/명일동/",
+      "고1수학학원": "/과목별학원/고1수학학원/명일동/",
+      "고2영어학원": "/과목별학원/고2영어학원/명일동/",
+      "고2수학학원": "/과목별학원/고2수학학원/명일동/",
+      "초등학생학원": "/전국학원/초등학생학원/명일동/",
+      "중학생학원": "/전국학원/중학생학원/명일동/",
+      "고등학생학원": "/전국학원/고등학생학원/명일동/"
+    },
+    "region": "서울",
+    "district": "강동구",
+    "centerName": "와와학습코칭센터 명일점",
+    "address": "서울 강동구 양재대로 1606 3층",
+    "registeredAcademyName": "명일점와와학습코칭학원",
+    "registrationNumber": "서울강동교육지원청 등록 제 7641호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초5~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초4~초6 · 중1~중3 · 고1~고2"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초4~초6 · 중1~중3 · 고1~고3"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/명일동/#organization",
+    "categoryOrganizationIds": {
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae70c22ea86389d2",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae70c22ea86389d2",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae70c22ea86389d2",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae70c22ea86389d2",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae70c22ea86389d2",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae70c22ea86389d2",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae70c22ea86389d2",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae70c22ea86389d2",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae70c22ea86389d2",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae70c22ea86389d2",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae70c22ea86389d2",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae70c22ea86389d2",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae70c22ea86389d2",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae70c22ea86389d2",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae70c22ea86389d2",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/명일동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/명일동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/명일동/#organization"
+    }
+  },
+  {
+    "locality": "미아동",
+    "targetPath": "/전국학원/중학생학원/미아동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/미아동/",
+      "초3수학학원": "/과목별학원/초3수학학원/미아동/",
+      "초4영어학원": "/과목별학원/초4영어학원/미아동/",
+      "초4수학학원": "/과목별학원/초4수학학원/미아동/",
+      "초5영어학원": "/과목별학원/초5영어학원/미아동/",
+      "초5수학학원": "/과목별학원/초5수학학원/미아동/",
+      "초6영어학원": "/과목별학원/초6영어학원/미아동/",
+      "초6수학학원": "/과목별학원/초6수학학원/미아동/",
+      "중1영어학원": "/과목별학원/중1영어학원/미아동/",
+      "중1수학학원": "/과목별학원/중1수학학원/미아동/",
+      "중2영어학원": "/과목별학원/중2영어학원/미아동/",
+      "중2수학학원": "/과목별학원/중2수학학원/미아동/",
+      "중3영어학원": "/과목별학원/중3영어학원/미아동/",
+      "중3수학학원": "/과목별학원/중3수학학원/미아동/",
+      "고1영어학원": "/과목별학원/고1영어학원/미아동/",
+      "고1수학학원": "/과목별학원/고1수학학원/미아동/",
+      "고2영어학원": "/과목별학원/고2영어학원/미아동/",
+      "고2수학학원": "/과목별학원/고2수학학원/미아동/",
+      "초등학생학원": "/전국학원/초등학생학원/미아동/",
+      "중학생학원": "/전국학원/중학생학원/미아동/",
+      "고등학생학원": "/전국학원/고등학생학원/미아동/"
+    },
+    "region": "서울",
+    "district": "강북구",
+    "centerName": "와와학습코칭센터 삼각산점",
+    "address": "서울 강북구 미아동 811-9 두산위브테라스파크 상가 402/403호",
+    "registeredAcademyName": "삼각산점와와학습코칭학원",
+    "registrationNumber": "성북강북교육지원청 등록 제2017-58호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "과학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3 · Ⅰ과목만가능, Ⅱ불가"
+      },
+      {
+        "name": "사회",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3 · 역사&한국사 불가"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/미아동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-0bc289e7746fd314",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-0bc289e7746fd314",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-0bc289e7746fd314",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-0bc289e7746fd314",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-0bc289e7746fd314",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-0bc289e7746fd314",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-0bc289e7746fd314",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-0bc289e7746fd314",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-0bc289e7746fd314",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-0bc289e7746fd314",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-0bc289e7746fd314",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-0bc289e7746fd314",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-0bc289e7746fd314",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-0bc289e7746fd314",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-0bc289e7746fd314",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-0bc289e7746fd314",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-0bc289e7746fd314",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-0bc289e7746fd314",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/미아동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/미아동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/미아동/#organization"
+    }
+  },
+  {
+    "locality": "마곡동",
+    "targetPath": "/전국학원/중학생학원/마곡동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/마곡동/",
+      "초3수학학원": "/과목별학원/초3수학학원/마곡동/",
+      "초4영어학원": "/과목별학원/초4영어학원/마곡동/",
+      "초4수학학원": "/과목별학원/초4수학학원/마곡동/",
+      "초5영어학원": "/과목별학원/초5영어학원/마곡동/",
+      "초5수학학원": "/과목별학원/초5수학학원/마곡동/",
+      "초6영어학원": "/과목별학원/초6영어학원/마곡동/",
+      "초6수학학원": "/과목별학원/초6수학학원/마곡동/",
+      "중1영어학원": "/과목별학원/중1영어학원/마곡동/",
+      "중1수학학원": "/과목별학원/중1수학학원/마곡동/",
+      "중2영어학원": "/과목별학원/중2영어학원/마곡동/",
+      "중2수학학원": "/과목별학원/중2수학학원/마곡동/",
+      "중3영어학원": "/과목별학원/중3영어학원/마곡동/",
+      "중3수학학원": "/과목별학원/중3수학학원/마곡동/",
+      "고1영어학원": "/과목별학원/고1영어학원/마곡동/",
+      "고1수학학원": "/과목별학원/고1수학학원/마곡동/",
+      "고2영어학원": "/과목별학원/고2영어학원/마곡동/",
+      "고2수학학원": "/과목별학원/고2수학학원/마곡동/",
+      "초등학생학원": "/전국학원/초등학생학원/마곡동/",
+      "중학생학원": "/전국학원/중학생학원/마곡동/",
+      "고등학생학원": "/전국학원/고등학생학원/마곡동/"
+    },
+    "region": "서울",
+    "district": "강서구",
+    "centerName": "와와학습코칭센터 신방화점",
+    "address": "서울 강서구 방화대로 294 마곡더블유타워 505",
+    "registeredAcademyName": "신방화점와와학습코칭학원",
+    "registrationNumber": "강서양천교육지원청 등록 제 5879호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "사회",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/마곡동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ac44312d9d79fc8f",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ac44312d9d79fc8f",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ac44312d9d79fc8f",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ac44312d9d79fc8f",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ac44312d9d79fc8f",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ac44312d9d79fc8f",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ac44312d9d79fc8f",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ac44312d9d79fc8f",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ac44312d9d79fc8f",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ac44312d9d79fc8f",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ac44312d9d79fc8f",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ac44312d9d79fc8f",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ac44312d9d79fc8f",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ac44312d9d79fc8f",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ac44312d9d79fc8f",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ac44312d9d79fc8f",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ac44312d9d79fc8f",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ac44312d9d79fc8f",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/마곡동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/마곡동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/마곡동/#organization"
+    }
+  },
+  {
+    "locality": "덕이동",
+    "targetPath": "/전국학원/중학생학원/덕이동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/덕이동/",
+      "초3수학학원": "/과목별학원/초3수학학원/덕이동/",
+      "초4영어학원": "/과목별학원/초4영어학원/덕이동/",
+      "초4수학학원": "/과목별학원/초4수학학원/덕이동/",
+      "초5영어학원": "/과목별학원/초5영어학원/덕이동/",
+      "초5수학학원": "/과목별학원/초5수학학원/덕이동/",
+      "초6영어학원": "/과목별학원/초6영어학원/덕이동/",
+      "초6수학학원": "/과목별학원/초6수학학원/덕이동/",
+      "중1영어학원": "/과목별학원/중1영어학원/덕이동/",
+      "중1수학학원": "/과목별학원/중1수학학원/덕이동/",
+      "중2영어학원": "/과목별학원/중2영어학원/덕이동/",
+      "중2수학학원": "/과목별학원/중2수학학원/덕이동/",
+      "중3영어학원": "/과목별학원/중3영어학원/덕이동/",
+      "중3수학학원": "/과목별학원/중3수학학원/덕이동/",
+      "고1영어학원": "/과목별학원/고1영어학원/덕이동/",
+      "고1수학학원": "/과목별학원/고1수학학원/덕이동/",
+      "고2영어학원": "/과목별학원/고2영어학원/덕이동/",
+      "고2수학학원": "/과목별학원/고2수학학원/덕이동/",
+      "초등학생학원": "/전국학원/초등학생학원/덕이동/",
+      "중학생학원": "/전국학원/중학생학원/덕이동/",
+      "고등학생학원": "/전국학원/고등학생학원/덕이동/"
+    },
+    "region": "경기",
+    "district": "고양시",
+    "centerName": "와와학습코칭센터 덕이점",
+    "address": "경기 고양시 일산서구 하이파크2로 40 금문프라자 804호",
+    "registeredAcademyName": "덕이점와와학습코칭학원",
+    "registrationNumber": "고양교육지원청 등록 제6169호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "과학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3"
+        ],
+        "summary": "초1~초6 · 중1~중3"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/덕이동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e4153c2ba3e5d2b",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e4153c2ba3e5d2b",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e4153c2ba3e5d2b",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e4153c2ba3e5d2b",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e4153c2ba3e5d2b",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e4153c2ba3e5d2b",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e4153c2ba3e5d2b",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e4153c2ba3e5d2b",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e4153c2ba3e5d2b",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e4153c2ba3e5d2b",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e4153c2ba3e5d2b",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e4153c2ba3e5d2b",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e4153c2ba3e5d2b",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e4153c2ba3e5d2b",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e4153c2ba3e5d2b",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e4153c2ba3e5d2b",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e4153c2ba3e5d2b",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e4153c2ba3e5d2b",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/덕이동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/덕이동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/덕이동/#organization"
+    }
+  },
+  {
+    "locality": "소하동",
+    "targetPath": "/전국학원/중학생학원/소하동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/소하동/",
+      "초3수학학원": "/과목별학원/초3수학학원/소하동/",
+      "초4영어학원": "/과목별학원/초4영어학원/소하동/",
+      "초4수학학원": "/과목별학원/초4수학학원/소하동/",
+      "초5영어학원": "/과목별학원/초5영어학원/소하동/",
+      "초5수학학원": "/과목별학원/초5수학학원/소하동/",
+      "초6영어학원": "/과목별학원/초6영어학원/소하동/",
+      "초6수학학원": "/과목별학원/초6수학학원/소하동/",
+      "중1영어학원": "/과목별학원/중1영어학원/소하동/",
+      "중1수학학원": "/과목별학원/중1수학학원/소하동/",
+      "중2영어학원": "/과목별학원/중2영어학원/소하동/",
+      "중2수학학원": "/과목별학원/중2수학학원/소하동/",
+      "중3영어학원": "/과목별학원/중3영어학원/소하동/",
+      "중3수학학원": "/과목별학원/중3수학학원/소하동/",
+      "고1영어학원": "/과목별학원/고1영어학원/소하동/",
+      "고1수학학원": "/과목별학원/고1수학학원/소하동/",
+      "고2영어학원": "/과목별학원/고2영어학원/소하동/",
+      "고2수학학원": "/과목별학원/고2수학학원/소하동/",
+      "초등학생학원": "/전국학원/초등학생학원/소하동/",
+      "중학생학원": "/전국학원/중학생학원/소하동/",
+      "고등학생학원": "/전국학원/고등학생학원/소하동/"
+    },
+    "region": "경기",
+    "district": "광명시",
+    "centerName": "와와학습코칭센터 소하점",
+    "address": "경기 광명시 오리로 346 행운드림프라자 4층 405호",
+    "registeredAcademyName": "소하점와와학습코칭학원",
+    "registrationNumber": "광명교육지원청 등록 제1965호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초3~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초3~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "과학",
+        "grades": [
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3"
+        ],
+        "summary": "초3~초6 · 중1~중3"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/소하동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-93fda61c7caff12d",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-93fda61c7caff12d",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-93fda61c7caff12d",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-93fda61c7caff12d",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-93fda61c7caff12d",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-93fda61c7caff12d",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-93fda61c7caff12d",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-93fda61c7caff12d",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-93fda61c7caff12d",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-93fda61c7caff12d",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-93fda61c7caff12d",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-93fda61c7caff12d",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-93fda61c7caff12d",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-93fda61c7caff12d",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-93fda61c7caff12d",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-93fda61c7caff12d",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-93fda61c7caff12d",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-93fda61c7caff12d",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/소하동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/소하동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/소하동/#organization"
+    }
+  },
+  {
+    "locality": "탄벌동",
+    "targetPath": "/전국학원/중학생학원/탄벌동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/탄벌동/",
+      "초3수학학원": "/과목별학원/초3수학학원/탄벌동/",
+      "초4영어학원": "/과목별학원/초4영어학원/탄벌동/",
+      "초4수학학원": "/과목별학원/초4수학학원/탄벌동/",
+      "초5영어학원": "/과목별학원/초5영어학원/탄벌동/",
+      "초5수학학원": "/과목별학원/초5수학학원/탄벌동/",
+      "초6영어학원": "/과목별학원/초6영어학원/탄벌동/",
+      "초6수학학원": "/과목별학원/초6수학학원/탄벌동/",
+      "중1영어학원": "/과목별학원/중1영어학원/탄벌동/",
+      "중1수학학원": "/과목별학원/중1수학학원/탄벌동/",
+      "중2영어학원": "/과목별학원/중2영어학원/탄벌동/",
+      "중2수학학원": "/과목별학원/중2수학학원/탄벌동/",
+      "중3영어학원": "/과목별학원/중3영어학원/탄벌동/",
+      "중3수학학원": "/과목별학원/중3수학학원/탄벌동/",
+      "고1영어학원": "/과목별학원/고1영어학원/탄벌동/",
+      "고1수학학원": "/과목별학원/고1수학학원/탄벌동/",
+      "고2영어학원": "/과목별학원/고2영어학원/탄벌동/",
+      "고2수학학원": "/과목별학원/고2수학학원/탄벌동/",
+      "초등학생학원": "/전국학원/초등학생학원/탄벌동/",
+      "중학생학원": "/전국학원/중학생학원/탄벌동/",
+      "고등학생학원": "/전국학원/고등학생학원/탄벌동/"
+    },
+    "region": "경기",
+    "district": "광주시",
+    "centerName": "와와학습코칭센터 탄벌점",
+    "address": "경기 광주시 벌원길 61 2층",
+    "registeredAcademyName": "탄벌점와와학습코칭학원",
+    "registrationNumber": "광주하남교육지원청 등록 제2007호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3"
+        ],
+        "summary": "초1~초6 · 중1~중3"
+      },
+      {
+        "name": "과학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3"
+        ],
+        "summary": "초1~초6 · 중1~중3"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/탄벌동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1644e942c0c31e39",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1644e942c0c31e39",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1644e942c0c31e39",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1644e942c0c31e39",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1644e942c0c31e39",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1644e942c0c31e39",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1644e942c0c31e39",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1644e942c0c31e39",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1644e942c0c31e39",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1644e942c0c31e39",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1644e942c0c31e39",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1644e942c0c31e39",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1644e942c0c31e39",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1644e942c0c31e39",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1644e942c0c31e39",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1644e942c0c31e39",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1644e942c0c31e39",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1644e942c0c31e39",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/탄벌동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/탄벌동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/탄벌동/#organization"
+    }
+  },
+  {
+    "locality": "구월동",
+    "targetPath": "/전국학원/중학생학원/구월동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/구월동/",
+      "초3수학학원": "/과목별학원/초3수학학원/구월동/",
+      "초4영어학원": "/과목별학원/초4영어학원/구월동/",
+      "초4수학학원": "/과목별학원/초4수학학원/구월동/",
+      "초5영어학원": "/과목별학원/초5영어학원/구월동/",
+      "초5수학학원": "/과목별학원/초5수학학원/구월동/",
+      "초6영어학원": "/과목별학원/초6영어학원/구월동/",
+      "초6수학학원": "/과목별학원/초6수학학원/구월동/",
+      "중1영어학원": "/과목별학원/중1영어학원/구월동/",
+      "중1수학학원": "/과목별학원/중1수학학원/구월동/",
+      "중2영어학원": "/과목별학원/중2영어학원/구월동/",
+      "중2수학학원": "/과목별학원/중2수학학원/구월동/",
+      "중3영어학원": "/과목별학원/중3영어학원/구월동/",
+      "중3수학학원": "/과목별학원/중3수학학원/구월동/",
+      "고1영어학원": "/과목별학원/고1영어학원/구월동/",
+      "고1수학학원": "/과목별학원/고1수학학원/구월동/",
+      "고2영어학원": "/과목별학원/고2영어학원/구월동/",
+      "초등학생학원": "/전국학원/초등학생학원/구월동/",
+      "중학생학원": "/전국학원/중학생학원/구월동/",
+      "고등학생학원": "/전국학원/고등학생학원/구월동/"
+    },
+    "region": "인천",
+    "district": "남동구",
+    "centerName": "와와학습코칭센터 구월점",
+    "address": "인천 남동구 선수촌공원로23번길 6-29 다복타워 401호 와와학습코칭학원",
+    "registeredAcademyName": "구월점와와학습코칭학원",
+    "registrationNumber": "인천광역시동부교육지원청 제4031호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고2"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3"
+        ],
+        "summary": "초1~초6 · 중1~중3"
+      },
+      {
+        "name": "과학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3"
+        ],
+        "summary": "초1~초6 · 중1~중3"
+      },
+      {
+        "name": "사회",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3"
+        ],
+        "summary": "초1~초6 · 중1~중3"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/구월동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-59d9522e01389faa",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-59d9522e01389faa",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-59d9522e01389faa",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-59d9522e01389faa",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-59d9522e01389faa",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-59d9522e01389faa",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-59d9522e01389faa",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-59d9522e01389faa",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-59d9522e01389faa",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-59d9522e01389faa",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-59d9522e01389faa",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-59d9522e01389faa",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-59d9522e01389faa",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-59d9522e01389faa",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-59d9522e01389faa",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-59d9522e01389faa",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-59d9522e01389faa",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/구월동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/구월동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/구월동/#organization"
+    }
+  },
+  {
+    "locality": "부평동",
+    "targetPath": "/전국학원/중학생학원/부평동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/부평동/",
+      "초3수학학원": "/과목별학원/초3수학학원/부평동/",
+      "초4영어학원": "/과목별학원/초4영어학원/부평동/",
+      "초4수학학원": "/과목별학원/초4수학학원/부평동/",
+      "초5영어학원": "/과목별학원/초5영어학원/부평동/",
+      "초5수학학원": "/과목별학원/초5수학학원/부평동/",
+      "초6영어학원": "/과목별학원/초6영어학원/부평동/",
+      "초6수학학원": "/과목별학원/초6수학학원/부평동/",
+      "중1영어학원": "/과목별학원/중1영어학원/부평동/",
+      "중1수학학원": "/과목별학원/중1수학학원/부평동/",
+      "중2영어학원": "/과목별학원/중2영어학원/부평동/",
+      "중2수학학원": "/과목별학원/중2수학학원/부평동/",
+      "중3영어학원": "/과목별학원/중3영어학원/부평동/",
+      "중3수학학원": "/과목별학원/중3수학학원/부평동/",
+      "고1영어학원": "/과목별학원/고1영어학원/부평동/",
+      "고1수학학원": "/과목별학원/고1수학학원/부평동/",
+      "고2영어학원": "/과목별학원/고2영어학원/부평동/",
+      "고2수학학원": "/과목별학원/고2수학학원/부평동/",
+      "초등학생학원": "/전국학원/초등학생학원/부평동/",
+      "중학생학원": "/전국학원/중학생학원/부평동/",
+      "고등학생학원": "/전국학원/고등학생학원/부평동/"
+    },
+    "region": "인천",
+    "district": "부평구",
+    "centerName": "와와학습코칭센터 부평점",
+    "address": "인천광역시 부평구 부평동 부흥로 264 5층 와와학습코칭센터",
+    "registeredAcademyName": "와와학습코칭센터부평학원",
+    "registrationNumber": "인천북부교육지원청 등록 제4371호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3 · 고3 내신 및 모의고사, 파닉스가능"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3 · 고3 내신 및 모의고사"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3 · 고3내신 및 모의고사"
+      },
+      {
+        "name": "과학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3 · 통합과학까지가능"
+      },
+      {
+        "name": "사회",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3 · 고3 사탐과목, 한국사 모두 가능"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/부평동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-48ea4fdf7bcaf9d6",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-48ea4fdf7bcaf9d6",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-48ea4fdf7bcaf9d6",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-48ea4fdf7bcaf9d6",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-48ea4fdf7bcaf9d6",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-48ea4fdf7bcaf9d6",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-48ea4fdf7bcaf9d6",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-48ea4fdf7bcaf9d6",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-48ea4fdf7bcaf9d6",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-48ea4fdf7bcaf9d6",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-48ea4fdf7bcaf9d6",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-48ea4fdf7bcaf9d6",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-48ea4fdf7bcaf9d6",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-48ea4fdf7bcaf9d6",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-48ea4fdf7bcaf9d6",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-48ea4fdf7bcaf9d6",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-48ea4fdf7bcaf9d6",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-48ea4fdf7bcaf9d6",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/부평동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/부평동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/부평동/#organization"
+    }
+  },
+  {
+    "locality": "신현동",
+    "targetPath": "/전국학원/중학생학원/신현동/",
+    "targetPaths": {
+      "초6영어학원": "/과목별학원/초6영어학원/신현동/",
+      "초6수학학원": "/과목별학원/초6수학학원/신현동/",
+      "중1영어학원": "/과목별학원/중1영어학원/신현동/",
+      "중1수학학원": "/과목별학원/중1수학학원/신현동/",
+      "중2영어학원": "/과목별학원/중2영어학원/신현동/",
+      "중2수학학원": "/과목별학원/중2수학학원/신현동/",
+      "중3영어학원": "/과목별학원/중3영어학원/신현동/",
+      "중3수학학원": "/과목별학원/중3수학학원/신현동/",
+      "고1영어학원": "/과목별학원/고1영어학원/신현동/",
+      "고1수학학원": "/과목별학원/고1수학학원/신현동/",
+      "고2영어학원": "/과목별학원/고2영어학원/신현동/",
+      "고2수학학원": "/과목별학원/고2수학학원/신현동/",
+      "초등학생학원": "/전국학원/초등학생학원/신현동/",
+      "중학생학원": "/전국학원/중학생학원/신현동/",
+      "고등학생학원": "/전국학원/고등학생학원/신현동/"
+    },
+    "region": "인천",
+    "district": "서구",
+    "centerName": "와와학습코칭센터 루원시티점",
+    "address": "인천 서구 새오개로111번안길 23 대릉빌딩 302호",
+    "registeredAcademyName": "루원시티점와와학습코칭학원",
+    "registrationNumber": "인천서부교육지원청 등록 서부 제2212호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초6 · 중1~중3 · 고1~고2"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초6 · 중1~중3 · 고1~고2"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "고1",
+          "고2"
+        ],
+        "summary": "고1~고2"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/신현동/#organization",
+    "categoryOrganizationIds": {
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e54fbb099fe942a7",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e54fbb099fe942a7",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e54fbb099fe942a7",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e54fbb099fe942a7",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e54fbb099fe942a7",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e54fbb099fe942a7",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e54fbb099fe942a7",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e54fbb099fe942a7",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e54fbb099fe942a7",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e54fbb099fe942a7",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e54fbb099fe942a7",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e54fbb099fe942a7",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/신현동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/신현동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/신현동/#organization"
+    }
+  },
+  {
+    "locality": "송촌동",
+    "targetPath": "/전국학원/중학생학원/송촌동/",
+    "targetPaths": {
+      "초4영어학원": "/과목별학원/초4영어학원/송촌동/",
+      "초4수학학원": "/과목별학원/초4수학학원/송촌동/",
+      "초5영어학원": "/과목별학원/초5영어학원/송촌동/",
+      "초5수학학원": "/과목별학원/초5수학학원/송촌동/",
+      "초6영어학원": "/과목별학원/초6영어학원/송촌동/",
+      "초6수학학원": "/과목별학원/초6수학학원/송촌동/",
+      "중1영어학원": "/과목별학원/중1영어학원/송촌동/",
+      "중1수학학원": "/과목별학원/중1수학학원/송촌동/",
+      "중2영어학원": "/과목별학원/중2영어학원/송촌동/",
+      "중2수학학원": "/과목별학원/중2수학학원/송촌동/",
+      "중3영어학원": "/과목별학원/중3영어학원/송촌동/",
+      "중3수학학원": "/과목별학원/중3수학학원/송촌동/",
+      "고1영어학원": "/과목별학원/고1영어학원/송촌동/",
+      "고1수학학원": "/과목별학원/고1수학학원/송촌동/",
+      "고2영어학원": "/과목별학원/고2영어학원/송촌동/",
+      "고2수학학원": "/과목별학원/고2수학학원/송촌동/",
+      "초등학생학원": "/전국학원/초등학생학원/송촌동/",
+      "중학생학원": "/전국학원/중학생학원/송촌동/",
+      "고등학생학원": "/전국학원/고등학생학원/송촌동/"
+    },
+    "region": "대전",
+    "district": "대덕구",
+    "centerName": "와와학습코칭센터 송촌점",
+    "address": "대전 대덕구 동춘당로94번길 11-7 4층 402",
+    "registeredAcademyName": "송촌와와학습코칭학원",
+    "registrationNumber": "대전동부교육지원청등록 제 2동3248호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초4~초6 · 중1~중3 · 고1~고2"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초4~초6 · 중1~중3 · 고1~고2"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초4~초6 · 중1~중3 · 고1~고2"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/송촌동/#organization",
+    "categoryOrganizationIds": {
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-45f6ee8bac546e69",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-45f6ee8bac546e69",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-45f6ee8bac546e69",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-45f6ee8bac546e69",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-45f6ee8bac546e69",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-45f6ee8bac546e69",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-45f6ee8bac546e69",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-45f6ee8bac546e69",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-45f6ee8bac546e69",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-45f6ee8bac546e69",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-45f6ee8bac546e69",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-45f6ee8bac546e69",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-45f6ee8bac546e69",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-45f6ee8bac546e69",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-45f6ee8bac546e69",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-45f6ee8bac546e69",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/송촌동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/송촌동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/송촌동/#organization"
+    }
+  },
+  {
+    "locality": "관저동",
+    "targetPath": "/전국학원/중학생학원/관저동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/관저동/",
+      "초3수학학원": "/과목별학원/초3수학학원/관저동/",
+      "초4영어학원": "/과목별학원/초4영어학원/관저동/",
+      "초4수학학원": "/과목별학원/초4수학학원/관저동/",
+      "초5영어학원": "/과목별학원/초5영어학원/관저동/",
+      "초5수학학원": "/과목별학원/초5수학학원/관저동/",
+      "초6영어학원": "/과목별학원/초6영어학원/관저동/",
+      "초6수학학원": "/과목별학원/초6수학학원/관저동/",
+      "중1영어학원": "/과목별학원/중1영어학원/관저동/",
+      "중1수학학원": "/과목별학원/중1수학학원/관저동/",
+      "중2영어학원": "/과목별학원/중2영어학원/관저동/",
+      "중2수학학원": "/과목별학원/중2수학학원/관저동/",
+      "중3영어학원": "/과목별학원/중3영어학원/관저동/",
+      "중3수학학원": "/과목별학원/중3수학학원/관저동/",
+      "고1영어학원": "/과목별학원/고1영어학원/관저동/",
+      "고1수학학원": "/과목별학원/고1수학학원/관저동/",
+      "고2영어학원": "/과목별학원/고2영어학원/관저동/",
+      "고2수학학원": "/과목별학원/고2수학학원/관저동/",
+      "초등학생학원": "/전국학원/초등학생학원/관저동/",
+      "중학생학원": "/전국학원/중학생학원/관저동/",
+      "고등학생학원": "/전국학원/고등학생학원/관저동/"
+    },
+    "region": "대전",
+    "district": "서구",
+    "centerName": "와와학습코칭센터 관저점",
+    "address": "대전 서구 구봉로 133 1542번지 205호",
+    "registeredAcademyName": "관저점와와학습코칭학원",
+    "registrationNumber": "대전서부교육지원청 등록 제 서4277호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1"
+      },
+      {
+        "name": "과학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3"
+        ],
+        "summary": "초1~초6 · 중1~중3"
+      },
+      {
+        "name": "사회",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3"
+        ],
+        "summary": "초1~초6 · 중1~중3"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/관저동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-732164ac13a3a123",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-732164ac13a3a123",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-732164ac13a3a123",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-732164ac13a3a123",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-732164ac13a3a123",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-732164ac13a3a123",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-732164ac13a3a123",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-732164ac13a3a123",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-732164ac13a3a123",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-732164ac13a3a123",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-732164ac13a3a123",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-732164ac13a3a123",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-732164ac13a3a123",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-732164ac13a3a123",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-732164ac13a3a123",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-732164ac13a3a123",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-732164ac13a3a123",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-732164ac13a3a123",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/관저동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/관저동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/관저동/#organization"
+    }
+  },
+  {
+    "locality": "관평동",
+    "targetPath": "/전국학원/중학생학원/관평동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/관평동/",
+      "초3수학학원": "/과목별학원/초3수학학원/관평동/",
+      "초4영어학원": "/과목별학원/초4영어학원/관평동/",
+      "초4수학학원": "/과목별학원/초4수학학원/관평동/",
+      "초5영어학원": "/과목별학원/초5영어학원/관평동/",
+      "초5수학학원": "/과목별학원/초5수학학원/관평동/",
+      "초6영어학원": "/과목별학원/초6영어학원/관평동/",
+      "초6수학학원": "/과목별학원/초6수학학원/관평동/",
+      "중1영어학원": "/과목별학원/중1영어학원/관평동/",
+      "중1수학학원": "/과목별학원/중1수학학원/관평동/",
+      "중2영어학원": "/과목별학원/중2영어학원/관평동/",
+      "중2수학학원": "/과목별학원/중2수학학원/관평동/",
+      "중3영어학원": "/과목별학원/중3영어학원/관평동/",
+      "중3수학학원": "/과목별학원/중3수학학원/관평동/",
+      "고1영어학원": "/과목별학원/고1영어학원/관평동/",
+      "고1수학학원": "/과목별학원/고1수학학원/관평동/",
+      "고2영어학원": "/과목별학원/고2영어학원/관평동/",
+      "고2수학학원": "/과목별학원/고2수학학원/관평동/",
+      "초등학생학원": "/전국학원/초등학생학원/관평동/",
+      "중학생학원": "/전국학원/중학생학원/관평동/",
+      "고등학생학원": "/전국학원/고등학생학원/관평동/"
+    },
+    "region": "대전",
+    "district": "유성구",
+    "centerName": "와와학습코칭센터 관평점",
+    "address": "대전 유성구 관평2로 46 밸리타운 501",
+    "registeredAcademyName": "관평점와와학습코칭학원",
+    "registrationNumber": "대전서부교육지원청 등록 제 서4761호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초2~초6 · 중1~중3 · 고1~고3 · 고3은 6개월이상 수업시에만 가능"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초2~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "중2",
+          "중3"
+        ],
+        "summary": "초1~초5 · 중2~중3"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/관평동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1e6023849eb94831",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1e6023849eb94831",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1e6023849eb94831",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1e6023849eb94831",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1e6023849eb94831",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1e6023849eb94831",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1e6023849eb94831",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1e6023849eb94831",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1e6023849eb94831",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1e6023849eb94831",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1e6023849eb94831",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1e6023849eb94831",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1e6023849eb94831",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1e6023849eb94831",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1e6023849eb94831",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1e6023849eb94831",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1e6023849eb94831",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1e6023849eb94831",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/관평동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/관평동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/관평동/#organization"
+    }
+  },
+  {
+    "locality": "당진 읍내동",
+    "targetPath": "/전국학원/중학생학원/당진읍내동/",
+    "targetPaths": {
+      "초5영어학원": "/과목별학원/초5영어학원/당진읍내동/",
+      "초5수학학원": "/과목별학원/초5수학학원/당진읍내동/",
+      "초6영어학원": "/과목별학원/초6영어학원/당진읍내동/",
+      "초6수학학원": "/과목별학원/초6수학학원/당진읍내동/",
+      "중1영어학원": "/과목별학원/중1영어학원/당진읍내동/",
+      "중1수학학원": "/과목별학원/중1수학학원/당진읍내동/",
+      "중2영어학원": "/과목별학원/중2영어학원/당진읍내동/",
+      "중2수학학원": "/과목별학원/중2수학학원/당진읍내동/",
+      "중3영어학원": "/과목별학원/중3영어학원/당진읍내동/",
+      "중3수학학원": "/과목별학원/중3수학학원/당진읍내동/",
+      "고1영어학원": "/과목별학원/고1영어학원/당진읍내동/",
+      "고1수학학원": "/과목별학원/고1수학학원/당진읍내동/",
+      "고2수학학원": "/과목별학원/고2수학학원/당진읍내동/",
+      "초등학생학원": "/전국학원/초등학생학원/당진읍내동/",
+      "중학생학원": "/전국학원/중학생학원/당진읍내동/",
+      "고등학생학원": "/전국학원/고등학생학원/당진읍내동/"
+    },
+    "region": "충청",
+    "district": "당진시",
+    "centerName": "와와학습코칭센터 당진중앙점",
+    "address": "충남 당진시 당진중앙2로 211-5 효명프라자 404호",
+    "registeredAcademyName": "당진중앙와와학습코칭학원",
+    "registrationNumber": "당진교육지원청 등록 제617호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1"
+        ],
+        "summary": "초5~초6 · 중1~중3 · 고1"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초5~초6 · 중1~중3 · 고1~고2"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1"
+        ],
+        "summary": "초5~초6 · 중1~중3 · 고1"
+      },
+      {
+        "name": "과학",
+        "grades": [
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1"
+        ],
+        "summary": "초5~초6 · 중1~중3 · 고1"
+      },
+      {
+        "name": "사회",
+        "grades": [
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1"
+        ],
+        "summary": "초5~초6 · 중1~중3 · 고1"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/당진읍내동/#organization",
+    "categoryOrganizationIds": {
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b9c5859dfb904233",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b9c5859dfb904233",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b9c5859dfb904233",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b9c5859dfb904233",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b9c5859dfb904233",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b9c5859dfb904233",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b9c5859dfb904233",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b9c5859dfb904233",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b9c5859dfb904233",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b9c5859dfb904233",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b9c5859dfb904233",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b9c5859dfb904233",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b9c5859dfb904233",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/당진읍내동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/당진읍내동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/당진읍내동/#organization"
+    }
+  },
+  {
+    "locality": "탕정",
+    "targetPath": "/전국학원/중학생학원/탕정/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/탕정/",
+      "초3수학학원": "/과목별학원/초3수학학원/탕정/",
+      "초4영어학원": "/과목별학원/초4영어학원/탕정/",
+      "초4수학학원": "/과목별학원/초4수학학원/탕정/",
+      "초5영어학원": "/과목별학원/초5영어학원/탕정/",
+      "초5수학학원": "/과목별학원/초5수학학원/탕정/",
+      "초6영어학원": "/과목별학원/초6영어학원/탕정/",
+      "초6수학학원": "/과목별학원/초6수학학원/탕정/",
+      "중1영어학원": "/과목별학원/중1영어학원/탕정/",
+      "중1수학학원": "/과목별학원/중1수학학원/탕정/",
+      "중2영어학원": "/과목별학원/중2영어학원/탕정/",
+      "중2수학학원": "/과목별학원/중2수학학원/탕정/",
+      "중3영어학원": "/과목별학원/중3영어학원/탕정/",
+      "중3수학학원": "/과목별학원/중3수학학원/탕정/",
+      "고1영어학원": "/과목별학원/고1영어학원/탕정/",
+      "고1수학학원": "/과목별학원/고1수학학원/탕정/",
+      "고2영어학원": "/과목별학원/고2영어학원/탕정/",
+      "고2수학학원": "/과목별학원/고2수학학원/탕정/",
+      "초등학생학원": "/전국학원/초등학생학원/탕정/",
+      "중학생학원": "/전국학원/중학생학원/탕정/",
+      "고등학생학원": "/전국학원/고등학생학원/탕정/"
+    },
+    "region": "충청",
+    "district": "아산시",
+    "centerName": "와와학습코칭센터 탕정점(모두)",
+    "address": "충남 아산시 탕정면 한들물빛5로 5 605호 모두오름학습코칭학원",
+    "registeredAcademyName": "탕정점모두오름학습코칭학원",
+    "registrationNumber": "충청남도아산교육지원청 제 1560호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고2 · 파닉스가능 , 초1~고1 내신대비 가능 , 수능대비 가능, 수행대비가능"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3 · 기하불가 , 미적가능 , 확통가능"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1 · 한글수업가능 , 초 중내신대비가능, 독서지도가능, 문학가능, 비문학가능"
+      },
+      {
+        "name": "과학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1 · 통합과학가능 ,물리가능, 화학 12불가"
+      },
+      {
+        "name": "사회",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1 · 통합사회가능, 현대사회와 윤리가능"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/탕정/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-143b9072fd43d191",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-143b9072fd43d191",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-143b9072fd43d191",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-143b9072fd43d191",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-143b9072fd43d191",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-143b9072fd43d191",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-143b9072fd43d191",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-143b9072fd43d191",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-143b9072fd43d191",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-143b9072fd43d191",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-143b9072fd43d191",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-143b9072fd43d191",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-143b9072fd43d191",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-143b9072fd43d191",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-143b9072fd43d191",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-143b9072fd43d191",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-143b9072fd43d191",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-143b9072fd43d191",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/탕정/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/탕정/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/탕정/#organization"
+    }
+  },
+  {
+    "locality": "두정동",
+    "targetPath": "/전국학원/중학생학원/두정동/",
+    "targetPaths": {
+      "초5영어학원": "/과목별학원/초5영어학원/두정동/",
+      "초5수학학원": "/과목별학원/초5수학학원/두정동/",
+      "초6영어학원": "/과목별학원/초6영어학원/두정동/",
+      "초6수학학원": "/과목별학원/초6수학학원/두정동/",
+      "중1영어학원": "/과목별학원/중1영어학원/두정동/",
+      "중1수학학원": "/과목별학원/중1수학학원/두정동/",
+      "중2영어학원": "/과목별학원/중2영어학원/두정동/",
+      "중2수학학원": "/과목별학원/중2수학학원/두정동/",
+      "중3영어학원": "/과목별학원/중3영어학원/두정동/",
+      "중3수학학원": "/과목별학원/중3수학학원/두정동/",
+      "고1영어학원": "/과목별학원/고1영어학원/두정동/",
+      "고1수학학원": "/과목별학원/고1수학학원/두정동/",
+      "고2영어학원": "/과목별학원/고2영어학원/두정동/",
+      "고2수학학원": "/과목별학원/고2수학학원/두정동/",
+      "초등학생학원": "/전국학원/초등학생학원/두정동/",
+      "중학생학원": "/전국학원/중학생학원/두정동/",
+      "고등학생학원": "/전국학원/고등학생학원/두정동/"
+    },
+    "region": "충청",
+    "district": "천안시",
+    "centerName": "와와학습코칭센터 두정점",
+    "address": "충청남도 천안시 서북구 두정동 봉정로 382 성광빌딩 3층",
+    "registeredAcademyName": "와와학습코칭두정점학원",
+    "registrationNumber": "천안교육지원청 등록 제3444호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초5~초6 · 중1~중3 · 고1~고2"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초5~초6 · 중1~중3 · 고1~고2"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/두정동/#organization",
+    "categoryOrganizationIds": {
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e56a1c3336a0230a",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e56a1c3336a0230a",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e56a1c3336a0230a",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e56a1c3336a0230a",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e56a1c3336a0230a",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e56a1c3336a0230a",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e56a1c3336a0230a",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e56a1c3336a0230a",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e56a1c3336a0230a",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e56a1c3336a0230a",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e56a1c3336a0230a",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e56a1c3336a0230a",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e56a1c3336a0230a",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e56a1c3336a0230a",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/두정동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/두정동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/두정동/#organization"
+    }
+  },
+  {
+    "locality": "대구 장기동",
+    "targetPath": "/전국학원/중학생학원/대구장기동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/대구장기동/",
+      "초3수학학원": "/과목별학원/초3수학학원/대구장기동/",
+      "초4영어학원": "/과목별학원/초4영어학원/대구장기동/",
+      "초4수학학원": "/과목별학원/초4수학학원/대구장기동/",
+      "초5영어학원": "/과목별학원/초5영어학원/대구장기동/",
+      "초5수학학원": "/과목별학원/초5수학학원/대구장기동/",
+      "초6영어학원": "/과목별학원/초6영어학원/대구장기동/",
+      "초6수학학원": "/과목별학원/초6수학학원/대구장기동/",
+      "중1영어학원": "/과목별학원/중1영어학원/대구장기동/",
+      "중1수학학원": "/과목별학원/중1수학학원/대구장기동/",
+      "중2영어학원": "/과목별학원/중2영어학원/대구장기동/",
+      "중2수학학원": "/과목별학원/중2수학학원/대구장기동/",
+      "중3영어학원": "/과목별학원/중3영어학원/대구장기동/",
+      "중3수학학원": "/과목별학원/중3수학학원/대구장기동/",
+      "고1영어학원": "/과목별학원/고1영어학원/대구장기동/",
+      "고1수학학원": "/과목별학원/고1수학학원/대구장기동/",
+      "고2영어학원": "/과목별학원/고2영어학원/대구장기동/",
+      "고2수학학원": "/과목별학원/고2수학학원/대구장기동/",
+      "초등학생학원": "/전국학원/초등학생학원/대구장기동/",
+      "중학생학원": "/전국학원/중학생학원/대구장기동/",
+      "고등학생학원": "/전국학원/고등학생학원/대구장기동/"
+    },
+    "region": "대구",
+    "district": "달서구",
+    "centerName": "와와학습코칭센터 대구장기점",
+    "address": "대구 달서구 장기로 252 장기협성휴포레 2층 209,210",
+    "registeredAcademyName": "대구장기점와와학습코칭학원",
+    "registrationNumber": "대구남부교육지원청 등록 제2020-80호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초2~초6 · 중1~중3 · 고1~고2"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초2~초6 · 중1~중3 · 고1~고2"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1"
+        ],
+        "summary": "초2~초6 · 중1~중3 · 고1"
+      },
+      {
+        "name": "과학",
+        "grades": [
+          "중1",
+          "중2",
+          "중3"
+        ],
+        "summary": "중1~중3"
+      },
+      {
+        "name": "사회",
+        "grades": [
+          "중1",
+          "중2",
+          "중3"
+        ],
+        "summary": "중1~중3"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/대구장기동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-933c67b09aee4a5a",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-933c67b09aee4a5a",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-933c67b09aee4a5a",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-933c67b09aee4a5a",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-933c67b09aee4a5a",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-933c67b09aee4a5a",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-933c67b09aee4a5a",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-933c67b09aee4a5a",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-933c67b09aee4a5a",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-933c67b09aee4a5a",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-933c67b09aee4a5a",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-933c67b09aee4a5a",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-933c67b09aee4a5a",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-933c67b09aee4a5a",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-933c67b09aee4a5a",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-933c67b09aee4a5a",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-933c67b09aee4a5a",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-933c67b09aee4a5a",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/대구장기동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/대구장기동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/대구장기동/#organization"
+    }
+  },
+  {
+    "locality": "율하동",
+    "targetPath": "/전국학원/중학생학원/율하동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/율하동/",
+      "초3수학학원": "/과목별학원/초3수학학원/율하동/",
+      "초4영어학원": "/과목별학원/초4영어학원/율하동/",
+      "초4수학학원": "/과목별학원/초4수학학원/율하동/",
+      "초5영어학원": "/과목별학원/초5영어학원/율하동/",
+      "초5수학학원": "/과목별학원/초5수학학원/율하동/",
+      "초6영어학원": "/과목별학원/초6영어학원/율하동/",
+      "초6수학학원": "/과목별학원/초6수학학원/율하동/",
+      "중1영어학원": "/과목별학원/중1영어학원/율하동/",
+      "중1수학학원": "/과목별학원/중1수학학원/율하동/",
+      "중2영어학원": "/과목별학원/중2영어학원/율하동/",
+      "중2수학학원": "/과목별학원/중2수학학원/율하동/",
+      "중3영어학원": "/과목별학원/중3영어학원/율하동/",
+      "중3수학학원": "/과목별학원/중3수학학원/율하동/",
+      "고1영어학원": "/과목별학원/고1영어학원/율하동/",
+      "고1수학학원": "/과목별학원/고1수학학원/율하동/",
+      "고2영어학원": "/과목별학원/고2영어학원/율하동/",
+      "고2수학학원": "/과목별학원/고2수학학원/율하동/",
+      "초등학생학원": "/전국학원/초등학생학원/율하동/",
+      "중학생학원": "/전국학원/중학생학원/율하동/",
+      "고등학생학원": "/전국학원/고등학생학원/율하동/"
+    },
+    "region": "대구",
+    "district": "동구",
+    "centerName": "와와학습코칭센터 율하점",
+    "address": "대구 동구 율하동로 32 4층 와와학습코칭센터",
+    "registeredAcademyName": "율하점와와학습코칭학원",
+    "registrationNumber": "대구동부교육지원청 등록 제6183호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "과학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/율하동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-8af97366b64f7e28",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-8af97366b64f7e28",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-8af97366b64f7e28",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-8af97366b64f7e28",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-8af97366b64f7e28",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-8af97366b64f7e28",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-8af97366b64f7e28",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-8af97366b64f7e28",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-8af97366b64f7e28",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-8af97366b64f7e28",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-8af97366b64f7e28",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-8af97366b64f7e28",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-8af97366b64f7e28",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-8af97366b64f7e28",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-8af97366b64f7e28",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-8af97366b64f7e28",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-8af97366b64f7e28",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-8af97366b64f7e28",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/율하동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/율하동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/율하동/#organization"
+    }
+  },
+  {
+    "locality": "도남동",
+    "targetPath": "/전국학원/중학생학원/도남동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/도남동/",
+      "초3수학학원": "/과목별학원/초3수학학원/도남동/",
+      "초4영어학원": "/과목별학원/초4영어학원/도남동/",
+      "초4수학학원": "/과목별학원/초4수학학원/도남동/",
+      "초5영어학원": "/과목별학원/초5영어학원/도남동/",
+      "초5수학학원": "/과목별학원/초5수학학원/도남동/",
+      "초6영어학원": "/과목별학원/초6영어학원/도남동/",
+      "초6수학학원": "/과목별학원/초6수학학원/도남동/",
+      "중1영어학원": "/과목별학원/중1영어학원/도남동/",
+      "중1수학학원": "/과목별학원/중1수학학원/도남동/",
+      "중2영어학원": "/과목별학원/중2영어학원/도남동/",
+      "중2수학학원": "/과목별학원/중2수학학원/도남동/",
+      "중3영어학원": "/과목별학원/중3영어학원/도남동/",
+      "중3수학학원": "/과목별학원/중3수학학원/도남동/",
+      "고1영어학원": "/과목별학원/고1영어학원/도남동/",
+      "고1수학학원": "/과목별학원/고1수학학원/도남동/",
+      "고2영어학원": "/과목별학원/고2영어학원/도남동/",
+      "고2수학학원": "/과목별학원/고2수학학원/도남동/",
+      "초등학생학원": "/전국학원/초등학생학원/도남동/",
+      "중학생학원": "/전국학원/중학생학원/도남동/",
+      "고등학생학원": "/전국학원/고등학생학원/도남동/"
+    },
+    "region": "대구",
+    "district": "북구",
+    "centerName": "와와학습코칭센터 대구도남점",
+    "address": "대구 북구 도남중앙로7길 20-3 위너프라자 402호 와와학습코칭학원",
+    "registeredAcademyName": "대구도남점와와학습코칭학원",
+    "registrationNumber": "대구광역시서부교육지원청 제2023-4500호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3 · 파닉스 가능"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3 · 모든 수학 과목 가능"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3 · 초중고 국어 , 논술 가능"
+      },
+      {
+        "name": "과학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3 · 통합과학 가능"
+      },
+      {
+        "name": "사회",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3 · , 한국사 모든 과목 가능"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/도남동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b1dbb36271e2e666",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b1dbb36271e2e666",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b1dbb36271e2e666",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b1dbb36271e2e666",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b1dbb36271e2e666",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b1dbb36271e2e666",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b1dbb36271e2e666",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b1dbb36271e2e666",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b1dbb36271e2e666",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b1dbb36271e2e666",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b1dbb36271e2e666",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b1dbb36271e2e666",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b1dbb36271e2e666",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b1dbb36271e2e666",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b1dbb36271e2e666",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b1dbb36271e2e666",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b1dbb36271e2e666",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b1dbb36271e2e666",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/도남동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/도남동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/도남동/#organization"
+    }
+  },
+  {
+    "locality": "울산 삼산동",
+    "targetPath": "/전국학원/중학생학원/울산삼산동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/울산삼산동/",
+      "초3수학학원": "/과목별학원/초3수학학원/울산삼산동/",
+      "초4영어학원": "/과목별학원/초4영어학원/울산삼산동/",
+      "초4수학학원": "/과목별학원/초4수학학원/울산삼산동/",
+      "초5영어학원": "/과목별학원/초5영어학원/울산삼산동/",
+      "초5수학학원": "/과목별학원/초5수학학원/울산삼산동/",
+      "초6영어학원": "/과목별학원/초6영어학원/울산삼산동/",
+      "초6수학학원": "/과목별학원/초6수학학원/울산삼산동/",
+      "중1영어학원": "/과목별학원/중1영어학원/울산삼산동/",
+      "중1수학학원": "/과목별학원/중1수학학원/울산삼산동/",
+      "중2영어학원": "/과목별학원/중2영어학원/울산삼산동/",
+      "중2수학학원": "/과목별학원/중2수학학원/울산삼산동/",
+      "중3영어학원": "/과목별학원/중3영어학원/울산삼산동/",
+      "중3수학학원": "/과목별학원/중3수학학원/울산삼산동/",
+      "고1영어학원": "/과목별학원/고1영어학원/울산삼산동/",
+      "고1수학학원": "/과목별학원/고1수학학원/울산삼산동/",
+      "고2영어학원": "/과목별학원/고2영어학원/울산삼산동/",
+      "고2수학학원": "/과목별학원/고2수학학원/울산삼산동/",
+      "초등학생학원": "/전국학원/초등학생학원/울산삼산동/",
+      "중학생학원": "/전국학원/중학생학원/울산삼산동/",
+      "고등학생학원": "/전국학원/고등학생학원/울산삼산동/"
+    },
+    "region": "울산",
+    "district": "남구",
+    "centerName": "와와학습코칭센터 삼산점",
+    "address": "울산광역시 남구 삼산동 돋질로 300 4층",
+    "registeredAcademyName": "삼산점와와학습코칭학원",
+    "registrationNumber": "울산강남교육지원청 등록 제6001호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "과학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "사회",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/울산삼산동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e22bcacda7bbb6eb",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e22bcacda7bbb6eb",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e22bcacda7bbb6eb",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e22bcacda7bbb6eb",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e22bcacda7bbb6eb",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e22bcacda7bbb6eb",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e22bcacda7bbb6eb",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e22bcacda7bbb6eb",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e22bcacda7bbb6eb",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e22bcacda7bbb6eb",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e22bcacda7bbb6eb",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e22bcacda7bbb6eb",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e22bcacda7bbb6eb",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e22bcacda7bbb6eb",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e22bcacda7bbb6eb",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e22bcacda7bbb6eb",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-e22bcacda7bbb6eb",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-e22bcacda7bbb6eb",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/울산삼산동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/울산삼산동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/울산삼산동/#organization"
+    }
+  },
+  {
+    "locality": "남외동",
+    "targetPath": "/전국학원/중학생학원/남외동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/남외동/",
+      "초3수학학원": "/과목별학원/초3수학학원/남외동/",
+      "초4영어학원": "/과목별학원/초4영어학원/남외동/",
+      "초4수학학원": "/과목별학원/초4수학학원/남외동/",
+      "초5영어학원": "/과목별학원/초5영어학원/남외동/",
+      "초5수학학원": "/과목별학원/초5수학학원/남외동/",
+      "초6영어학원": "/과목별학원/초6영어학원/남외동/",
+      "초6수학학원": "/과목별학원/초6수학학원/남외동/",
+      "중1영어학원": "/과목별학원/중1영어학원/남외동/",
+      "중1수학학원": "/과목별학원/중1수학학원/남외동/",
+      "중2영어학원": "/과목별학원/중2영어학원/남외동/",
+      "중2수학학원": "/과목별학원/중2수학학원/남외동/",
+      "중3영어학원": "/과목별학원/중3영어학원/남외동/",
+      "중3수학학원": "/과목별학원/중3수학학원/남외동/",
+      "고1영어학원": "/과목별학원/고1영어학원/남외동/",
+      "고1수학학원": "/과목별학원/고1수학학원/남외동/",
+      "고2영어학원": "/과목별학원/고2영어학원/남외동/",
+      "고2수학학원": "/과목별학원/고2수학학원/남외동/",
+      "초등학생학원": "/전국학원/초등학생학원/남외동/",
+      "중학생학원": "/전국학원/중학생학원/남외동/",
+      "고등학생학원": "/전국학원/고등학생학원/남외동/"
+    },
+    "region": "울산",
+    "district": "중구",
+    "centerName": "와와학습코칭센터 남외점",
+    "address": "울산 중구 남외3길 15 남외프라자 401호",
+    "registeredAcademyName": "남외점와와학습코칭학원",
+    "registrationNumber": "울산강북교육지원청 등록 제5626호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초2~초6 · 중1~중3 · 고1~고3 · 파닉스가능"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초2~초6 · 중1~중3 · 고1~고3 · 미적분,기하,확통가능"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1"
+        ],
+        "summary": "초3~초6 · 중1~중3 · 고1 · 한글수업 불가, 독서수업 불가능"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/남외동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-2fe03dd05764a3ce",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-2fe03dd05764a3ce",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-2fe03dd05764a3ce",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-2fe03dd05764a3ce",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-2fe03dd05764a3ce",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-2fe03dd05764a3ce",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-2fe03dd05764a3ce",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-2fe03dd05764a3ce",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-2fe03dd05764a3ce",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-2fe03dd05764a3ce",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-2fe03dd05764a3ce",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-2fe03dd05764a3ce",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-2fe03dd05764a3ce",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-2fe03dd05764a3ce",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-2fe03dd05764a3ce",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-2fe03dd05764a3ce",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-2fe03dd05764a3ce",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-2fe03dd05764a3ce",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/남외동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/남외동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/남외동/#organization"
+    }
+  },
+  {
+    "locality": "화명동",
+    "targetPath": "/전국학원/중학생학원/화명동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/화명동/",
+      "초3수학학원": "/과목별학원/초3수학학원/화명동/",
+      "초4영어학원": "/과목별학원/초4영어학원/화명동/",
+      "초4수학학원": "/과목별학원/초4수학학원/화명동/",
+      "초5영어학원": "/과목별학원/초5영어학원/화명동/",
+      "초5수학학원": "/과목별학원/초5수학학원/화명동/",
+      "초6영어학원": "/과목별학원/초6영어학원/화명동/",
+      "초6수학학원": "/과목별학원/초6수학학원/화명동/",
+      "중1영어학원": "/과목별학원/중1영어학원/화명동/",
+      "중1수학학원": "/과목별학원/중1수학학원/화명동/",
+      "중2영어학원": "/과목별학원/중2영어학원/화명동/",
+      "중2수학학원": "/과목별학원/중2수학학원/화명동/",
+      "중3영어학원": "/과목별학원/중3영어학원/화명동/",
+      "중3수학학원": "/과목별학원/중3수학학원/화명동/",
+      "고1영어학원": "/과목별학원/고1영어학원/화명동/",
+      "고1수학학원": "/과목별학원/고1수학학원/화명동/",
+      "고2영어학원": "/과목별학원/고2영어학원/화명동/",
+      "고2수학학원": "/과목별학원/고2수학학원/화명동/",
+      "초등학생학원": "/전국학원/초등학생학원/화명동/",
+      "중학생학원": "/전국학원/중학생학원/화명동/",
+      "고등학생학원": "/전국학원/고등학생학원/화명동/"
+    },
+    "region": "부산",
+    "district": "북구",
+    "centerName": "와와학습코칭센터 화명점",
+    "address": "부산 북구 금곡대로285번길 19 리버사이드빌딩 504",
+    "registeredAcademyName": "화명점와와학습코칭학원",
+    "registrationNumber": "부산북부교육지원청 등록 제2830호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초3~초6 · 중1~중3 · 고1~고2"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초3~초6 · 중1~중3 · 고1~고2 · 기하 불가능"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초3~초6 · 중1~중3 · 고1~고2 · 중등 내신 가능"
+      },
+      {
+        "name": "과학",
+        "grades": [
+          "중1",
+          "중2",
+          "중3"
+        ],
+        "summary": "중1~중3 · 중등 내신 가능"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/화명동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-a02aaa8b1d3069cb",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-a02aaa8b1d3069cb",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-a02aaa8b1d3069cb",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-a02aaa8b1d3069cb",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-a02aaa8b1d3069cb",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-a02aaa8b1d3069cb",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-a02aaa8b1d3069cb",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-a02aaa8b1d3069cb",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-a02aaa8b1d3069cb",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-a02aaa8b1d3069cb",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-a02aaa8b1d3069cb",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-a02aaa8b1d3069cb",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-a02aaa8b1d3069cb",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-a02aaa8b1d3069cb",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-a02aaa8b1d3069cb",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-a02aaa8b1d3069cb",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-a02aaa8b1d3069cb",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-a02aaa8b1d3069cb",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/화명동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/화명동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/화명동/#organization"
+    }
+  },
+  {
+    "locality": "반여동",
+    "targetPath": "/전국학원/중학생학원/반여동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/반여동/",
+      "초3수학학원": "/과목별학원/초3수학학원/반여동/",
+      "초4영어학원": "/과목별학원/초4영어학원/반여동/",
+      "초4수학학원": "/과목별학원/초4수학학원/반여동/",
+      "초5영어학원": "/과목별학원/초5영어학원/반여동/",
+      "초5수학학원": "/과목별학원/초5수학학원/반여동/",
+      "초6영어학원": "/과목별학원/초6영어학원/반여동/",
+      "초6수학학원": "/과목별학원/초6수학학원/반여동/",
+      "중1영어학원": "/과목별학원/중1영어학원/반여동/",
+      "중1수학학원": "/과목별학원/중1수학학원/반여동/",
+      "중2영어학원": "/과목별학원/중2영어학원/반여동/",
+      "중2수학학원": "/과목별학원/중2수학학원/반여동/",
+      "중3영어학원": "/과목별학원/중3영어학원/반여동/",
+      "중3수학학원": "/과목별학원/중3수학학원/반여동/",
+      "고1영어학원": "/과목별학원/고1영어학원/반여동/",
+      "고1수학학원": "/과목별학원/고1수학학원/반여동/",
+      "고2영어학원": "/과목별학원/고2영어학원/반여동/",
+      "고2수학학원": "/과목별학원/고2수학학원/반여동/",
+      "초등학생학원": "/전국학원/초등학생학원/반여동/",
+      "중학생학원": "/전국학원/중학생학원/반여동/",
+      "고등학생학원": "/전국학원/고등학생학원/반여동/"
+    },
+    "region": "부산",
+    "district": "해운대구",
+    "centerName": "와와학습코칭센터 반여점",
+    "address": "부산 해운대구 반여로 102 경성빌딩 501호",
+    "registeredAcademyName": "반여점와와학습코칭학원",
+    "registrationNumber": "해운대교육지원청 등록 제3955호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초3~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초3~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초3~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "과학",
+        "grades": [
+          "중1",
+          "중2",
+          "중3"
+        ],
+        "summary": "중1~중3"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/반여동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ddf873e4278e1e30",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ddf873e4278e1e30",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ddf873e4278e1e30",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ddf873e4278e1e30",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ddf873e4278e1e30",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ddf873e4278e1e30",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ddf873e4278e1e30",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ddf873e4278e1e30",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ddf873e4278e1e30",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ddf873e4278e1e30",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ddf873e4278e1e30",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ddf873e4278e1e30",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ddf873e4278e1e30",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ddf873e4278e1e30",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ddf873e4278e1e30",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ddf873e4278e1e30",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ddf873e4278e1e30",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ddf873e4278e1e30",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/반여동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/반여동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/반여동/#organization"
+    }
+  },
+  {
+    "locality": "수월동",
+    "targetPath": "/전국학원/중학생학원/수월동/",
+    "targetPaths": {
+      "초5영어학원": "/과목별학원/초5영어학원/수월동/",
+      "초5수학학원": "/과목별학원/초5수학학원/수월동/",
+      "초6영어학원": "/과목별학원/초6영어학원/수월동/",
+      "초6수학학원": "/과목별학원/초6수학학원/수월동/",
+      "중1영어학원": "/과목별학원/중1영어학원/수월동/",
+      "중1수학학원": "/과목별학원/중1수학학원/수월동/",
+      "중2영어학원": "/과목별학원/중2영어학원/수월동/",
+      "중2수학학원": "/과목별학원/중2수학학원/수월동/",
+      "중3영어학원": "/과목별학원/중3영어학원/수월동/",
+      "중3수학학원": "/과목별학원/중3수학학원/수월동/",
+      "고1영어학원": "/과목별학원/고1영어학원/수월동/",
+      "고1수학학원": "/과목별학원/고1수학학원/수월동/",
+      "고2영어학원": "/과목별학원/고2영어학원/수월동/",
+      "고2수학학원": "/과목별학원/고2수학학원/수월동/",
+      "초등학생학원": "/전국학원/초등학생학원/수월동/",
+      "중학생학원": "/전국학원/중학생학원/수월동/",
+      "고등학생학원": "/전국학원/고등학생학원/수월동/"
+    },
+    "region": "경상",
+    "district": "거제시",
+    "centerName": "와와학습코칭센터 거제수월점",
+    "address": "경남 거제시 수양로 462 3층",
+    "registeredAcademyName": "거제수월점와와학습코칭학원",
+    "registrationNumber": "거제교육지원청 등록 제1558호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초5~초6 · 중1~중3 · 고1~고2"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초5~초6 · 중1~중3 · 고1~고2"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/수월동/#organization",
+    "categoryOrganizationIds": {
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e5a40a977529eac",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e5a40a977529eac",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e5a40a977529eac",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e5a40a977529eac",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e5a40a977529eac",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e5a40a977529eac",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e5a40a977529eac",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e5a40a977529eac",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e5a40a977529eac",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e5a40a977529eac",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e5a40a977529eac",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e5a40a977529eac",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e5a40a977529eac",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-3e5a40a977529eac",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/수월동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/수월동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/수월동/#organization"
+    }
+  },
+  {
+    "locality": "경산사동",
+    "targetPath": "/전국학원/중학생학원/경산사동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/경산사동/",
+      "초3수학학원": "/과목별학원/초3수학학원/경산사동/",
+      "초4영어학원": "/과목별학원/초4영어학원/경산사동/",
+      "초4수학학원": "/과목별학원/초4수학학원/경산사동/",
+      "초5영어학원": "/과목별학원/초5영어학원/경산사동/",
+      "초5수학학원": "/과목별학원/초5수학학원/경산사동/",
+      "초6영어학원": "/과목별학원/초6영어학원/경산사동/",
+      "초6수학학원": "/과목별학원/초6수학학원/경산사동/",
+      "중1영어학원": "/과목별학원/중1영어학원/경산사동/",
+      "중1수학학원": "/과목별학원/중1수학학원/경산사동/",
+      "중2영어학원": "/과목별학원/중2영어학원/경산사동/",
+      "중2수학학원": "/과목별학원/중2수학학원/경산사동/",
+      "중3영어학원": "/과목별학원/중3영어학원/경산사동/",
+      "중3수학학원": "/과목별학원/중3수학학원/경산사동/",
+      "고1영어학원": "/과목별학원/고1영어학원/경산사동/",
+      "고1수학학원": "/과목별학원/고1수학학원/경산사동/",
+      "고2영어학원": "/과목별학원/고2영어학원/경산사동/",
+      "고2수학학원": "/과목별학원/고2수학학원/경산사동/",
+      "초등학생학원": "/전국학원/초등학생학원/경산사동/",
+      "중학생학원": "/전국학원/중학생학원/경산사동/",
+      "고등학생학원": "/전국학원/고등학생학원/경산사동/"
+    },
+    "region": "경상",
+    "district": "경산시",
+    "centerName": "와와학습코칭센터 사동점",
+    "address": "경북 경산시 백자로10길 1 402호 와와학습코칭학원",
+    "registeredAcademyName": "사동점와와학습코칭학원",
+    "registrationNumber": "경상북도경산교육지원청 제1276호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "과학",
+        "grades": [
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초4~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "사회",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고2"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/경산사동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-14106a02c9abc42d",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-14106a02c9abc42d",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-14106a02c9abc42d",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-14106a02c9abc42d",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-14106a02c9abc42d",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-14106a02c9abc42d",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-14106a02c9abc42d",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-14106a02c9abc42d",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-14106a02c9abc42d",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-14106a02c9abc42d",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-14106a02c9abc42d",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-14106a02c9abc42d",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-14106a02c9abc42d",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-14106a02c9abc42d",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-14106a02c9abc42d",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-14106a02c9abc42d",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-14106a02c9abc42d",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-14106a02c9abc42d",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/경산사동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/경산사동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/경산사동/#organization"
+    }
+  },
+  {
+    "locality": "선암동",
+    "targetPath": "/전국학원/중학생학원/선암동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/선암동/",
+      "초3수학학원": "/과목별학원/초3수학학원/선암동/",
+      "초4영어학원": "/과목별학원/초4영어학원/선암동/",
+      "초4수학학원": "/과목별학원/초4수학학원/선암동/",
+      "초5영어학원": "/과목별학원/초5영어학원/선암동/",
+      "초5수학학원": "/과목별학원/초5수학학원/선암동/",
+      "초6영어학원": "/과목별학원/초6영어학원/선암동/",
+      "초6수학학원": "/과목별학원/초6수학학원/선암동/",
+      "중1영어학원": "/과목별학원/중1영어학원/선암동/",
+      "중1수학학원": "/과목별학원/중1수학학원/선암동/",
+      "중2영어학원": "/과목별학원/중2영어학원/선암동/",
+      "중2수학학원": "/과목별학원/중2수학학원/선암동/",
+      "중3영어학원": "/과목별학원/중3영어학원/선암동/",
+      "중3수학학원": "/과목별학원/중3수학학원/선암동/",
+      "고1영어학원": "/과목별학원/고1영어학원/선암동/",
+      "고1수학학원": "/과목별학원/고1수학학원/선암동/",
+      "고2영어학원": "/과목별학원/고2영어학원/선암동/",
+      "고2수학학원": "/과목별학원/고2수학학원/선암동/",
+      "초등학생학원": "/전국학원/초등학생학원/선암동/",
+      "중학생학원": "/전국학원/중학생학원/선암동/",
+      "고등학생학원": "/전국학원/고등학생학원/선암동/"
+    },
+    "region": "광주",
+    "district": "광산구",
+    "centerName": "와와학습코칭센터 선운점",
+    "address": "광주 광산구 선운로20번길 55-1 402호 와와학습코칭학원",
+    "registeredAcademyName": "선운점와와학습코칭학원",
+    "registrationNumber": "광주광역시서부교육지원청 제7446호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "사회",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/선암동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae15e677ecf46eb5",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae15e677ecf46eb5",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae15e677ecf46eb5",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae15e677ecf46eb5",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae15e677ecf46eb5",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae15e677ecf46eb5",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae15e677ecf46eb5",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae15e677ecf46eb5",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae15e677ecf46eb5",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae15e677ecf46eb5",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae15e677ecf46eb5",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae15e677ecf46eb5",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae15e677ecf46eb5",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae15e677ecf46eb5",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae15e677ecf46eb5",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae15e677ecf46eb5",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae15e677ecf46eb5",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-ae15e677ecf46eb5",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/선암동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/선암동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/선암동/#organization"
+    }
+  },
+  {
+    "locality": "치평동",
+    "targetPath": "/전국학원/중학생학원/치평동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/치평동/",
+      "초3수학학원": "/과목별학원/초3수학학원/치평동/",
+      "초4영어학원": "/과목별학원/초4영어학원/치평동/",
+      "초4수학학원": "/과목별학원/초4수학학원/치평동/",
+      "초5영어학원": "/과목별학원/초5영어학원/치평동/",
+      "초5수학학원": "/과목별학원/초5수학학원/치평동/",
+      "초6영어학원": "/과목별학원/초6영어학원/치평동/",
+      "초6수학학원": "/과목별학원/초6수학학원/치평동/",
+      "중1영어학원": "/과목별학원/중1영어학원/치평동/",
+      "중1수학학원": "/과목별학원/중1수학학원/치평동/",
+      "중2영어학원": "/과목별학원/중2영어학원/치평동/",
+      "중2수학학원": "/과목별학원/중2수학학원/치평동/",
+      "중3영어학원": "/과목별학원/중3영어학원/치평동/",
+      "중3수학학원": "/과목별학원/중3수학학원/치평동/",
+      "고1영어학원": "/과목별학원/고1영어학원/치평동/",
+      "고1수학학원": "/과목별학원/고1수학학원/치평동/",
+      "고2영어학원": "/과목별학원/고2영어학원/치평동/",
+      "고2수학학원": "/과목별학원/고2수학학원/치평동/",
+      "초등학생학원": "/전국학원/초등학생학원/치평동/",
+      "중학생학원": "/전국학원/중학생학원/치평동/",
+      "고등학생학원": "/전국학원/고등학생학원/치평동/"
+    },
+    "region": "광주",
+    "district": "서구",
+    "centerName": "와와학습코칭센터 치평점",
+    "address": "광주 서구 치평로 76 대한빌딩 403호",
+    "registeredAcademyName": "와와학습코칭학원",
+    "registrationNumber": "광주서부교육지원청 등록 제6027호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/치평동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-35074ccb245d1920",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-35074ccb245d1920",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-35074ccb245d1920",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-35074ccb245d1920",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-35074ccb245d1920",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-35074ccb245d1920",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-35074ccb245d1920",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-35074ccb245d1920",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-35074ccb245d1920",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-35074ccb245d1920",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-35074ccb245d1920",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-35074ccb245d1920",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-35074ccb245d1920",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-35074ccb245d1920",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-35074ccb245d1920",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-35074ccb245d1920",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-35074ccb245d1920",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-35074ccb245d1920",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/치평동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/치평동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/치평동/#organization"
+    }
+  },
+  {
+    "locality": "수완동",
+    "targetPath": "/전국학원/중학생학원/수완동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/수완동/",
+      "초3수학학원": "/과목별학원/초3수학학원/수완동/",
+      "초4영어학원": "/과목별학원/초4영어학원/수완동/",
+      "초4수학학원": "/과목별학원/초4수학학원/수완동/",
+      "초5영어학원": "/과목별학원/초5영어학원/수완동/",
+      "초5수학학원": "/과목별학원/초5수학학원/수완동/",
+      "초6영어학원": "/과목별학원/초6영어학원/수완동/",
+      "초6수학학원": "/과목별학원/초6수학학원/수완동/",
+      "중1영어학원": "/과목별학원/중1영어학원/수완동/",
+      "중1수학학원": "/과목별학원/중1수학학원/수완동/",
+      "중2영어학원": "/과목별학원/중2영어학원/수완동/",
+      "중2수학학원": "/과목별학원/중2수학학원/수완동/",
+      "중3영어학원": "/과목별학원/중3영어학원/수완동/",
+      "중3수학학원": "/과목별학원/중3수학학원/수완동/",
+      "고1영어학원": "/과목별학원/고1영어학원/수완동/",
+      "고1수학학원": "/과목별학원/고1수학학원/수완동/",
+      "고2영어학원": "/과목별학원/고2영어학원/수완동/",
+      "고2수학학원": "/과목별학원/고2수학학원/수완동/",
+      "초등학생학원": "/전국학원/초등학생학원/수완동/",
+      "중학생학원": "/전국학원/중학생학원/수완동/",
+      "고등학생학원": "/전국학원/고등학생학원/수완동/"
+    },
+    "region": "광주",
+    "district": "광산구",
+    "centerName": "와와학습코칭센터 수완점",
+    "address": "광주 광산구 임방울대로 310 아이비타워 406",
+    "registeredAcademyName": "와와학습코칭수완학원",
+    "registrationNumber": "광주서부교육지원청 등록 제6778호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초3~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초3~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초3~초6 · 중1~중3 · 고1~고3"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/수완동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-445a29ac3b8f3205",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-445a29ac3b8f3205",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-445a29ac3b8f3205",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-445a29ac3b8f3205",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-445a29ac3b8f3205",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-445a29ac3b8f3205",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-445a29ac3b8f3205",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-445a29ac3b8f3205",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-445a29ac3b8f3205",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-445a29ac3b8f3205",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-445a29ac3b8f3205",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-445a29ac3b8f3205",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-445a29ac3b8f3205",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-445a29ac3b8f3205",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-445a29ac3b8f3205",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-445a29ac3b8f3205",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-445a29ac3b8f3205",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-445a29ac3b8f3205",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/수완동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/수완동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/수완동/#organization"
+    }
+  },
+  {
+    "locality": "전주 장동",
+    "targetPath": "/전국학원/중학생학원/전주장동/",
+    "targetPaths": {
+      "초4영어학원": "/과목별학원/초4영어학원/전주장동/",
+      "초4수학학원": "/과목별학원/초4수학학원/전주장동/",
+      "초5영어학원": "/과목별학원/초5영어학원/전주장동/",
+      "초5수학학원": "/과목별학원/초5수학학원/전주장동/",
+      "초6영어학원": "/과목별학원/초6영어학원/전주장동/",
+      "초6수학학원": "/과목별학원/초6수학학원/전주장동/",
+      "중1영어학원": "/과목별학원/중1영어학원/전주장동/",
+      "중1수학학원": "/과목별학원/중1수학학원/전주장동/",
+      "중2영어학원": "/과목별학원/중2영어학원/전주장동/",
+      "중2수학학원": "/과목별학원/중2수학학원/전주장동/",
+      "중3영어학원": "/과목별학원/중3영어학원/전주장동/",
+      "중3수학학원": "/과목별학원/중3수학학원/전주장동/",
+      "고1영어학원": "/과목별학원/고1영어학원/전주장동/",
+      "고1수학학원": "/과목별학원/고1수학학원/전주장동/",
+      "고2영어학원": "/과목별학원/고2영어학원/전주장동/",
+      "고2수학학원": "/과목별학원/고2수학학원/전주장동/",
+      "초등학생학원": "/전국학원/초등학생학원/전주장동/",
+      "중학생학원": "/전국학원/중학생학원/전주장동/",
+      "고등학생학원": "/전국학원/고등학생학원/전주장동/"
+    },
+    "region": "전라",
+    "district": "완주군",
+    "centerName": "와와학습코칭센터 전주혁신점",
+    "address": "전북특별자치도 완주군 이서면 출판로 42 제 4층 제 402호 와와학습코칭학원",
+    "registeredAcademyName": "전주혁신점와와학습코칭학원",
+    "registrationNumber": "완주교육지원청 제 454호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초4~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초4~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "과학",
+        "grades": [
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1"
+        ],
+        "summary": "초4~초6 · 중1~중3 · 고1"
+      },
+      {
+        "name": "사회",
+        "grades": [
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3"
+        ],
+        "summary": "초4~초6 · 중1~중3 · 역사&한국사 불가"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/전주장동/#organization",
+    "categoryOrganizationIds": {
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1ba9190bfcc978fe",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1ba9190bfcc978fe",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1ba9190bfcc978fe",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1ba9190bfcc978fe",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1ba9190bfcc978fe",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1ba9190bfcc978fe",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1ba9190bfcc978fe",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1ba9190bfcc978fe",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1ba9190bfcc978fe",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1ba9190bfcc978fe",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1ba9190bfcc978fe",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1ba9190bfcc978fe",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1ba9190bfcc978fe",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1ba9190bfcc978fe",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-1ba9190bfcc978fe",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-1ba9190bfcc978fe",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/전주장동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/전주장동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/전주장동/#organization"
+    }
+  },
+  {
+    "locality": "서신동",
+    "targetPath": "/전국학원/중학생학원/서신동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/서신동/",
+      "초3수학학원": "/과목별학원/초3수학학원/서신동/",
+      "초4영어학원": "/과목별학원/초4영어학원/서신동/",
+      "초4수학학원": "/과목별학원/초4수학학원/서신동/",
+      "초5영어학원": "/과목별학원/초5영어학원/서신동/",
+      "초5수학학원": "/과목별학원/초5수학학원/서신동/",
+      "초6영어학원": "/과목별학원/초6영어학원/서신동/",
+      "초6수학학원": "/과목별학원/초6수학학원/서신동/",
+      "중1영어학원": "/과목별학원/중1영어학원/서신동/",
+      "중1수학학원": "/과목별학원/중1수학학원/서신동/",
+      "중2영어학원": "/과목별학원/중2영어학원/서신동/",
+      "중2수학학원": "/과목별학원/중2수학학원/서신동/",
+      "중3영어학원": "/과목별학원/중3영어학원/서신동/",
+      "중3수학학원": "/과목별학원/중3수학학원/서신동/",
+      "고1영어학원": "/과목별학원/고1영어학원/서신동/",
+      "고1수학학원": "/과목별학원/고1수학학원/서신동/",
+      "고2영어학원": "/과목별학원/고2영어학원/서신동/",
+      "고2수학학원": "/과목별학원/고2수학학원/서신동/",
+      "초등학생학원": "/전국학원/초등학생학원/서신동/",
+      "중학생학원": "/전국학원/중학생학원/서신동/",
+      "고등학생학원": "/전국학원/고등학생학원/서신동/"
+    },
+    "region": "전라",
+    "district": "전주시",
+    "centerName": "와와학습코칭센터 서신점",
+    "address": "전북특별자치도 전주시 완산구 서신로 5 4층 와와학습코칭학원",
+    "registeredAcademyName": "와와학습코칭학원",
+    "registrationNumber": "전주교육지원청 등록 제6457호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/서신동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b0cccc3ea2b6394b",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b0cccc3ea2b6394b",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b0cccc3ea2b6394b",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b0cccc3ea2b6394b",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b0cccc3ea2b6394b",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b0cccc3ea2b6394b",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b0cccc3ea2b6394b",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b0cccc3ea2b6394b",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b0cccc3ea2b6394b",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b0cccc3ea2b6394b",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b0cccc3ea2b6394b",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b0cccc3ea2b6394b",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b0cccc3ea2b6394b",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b0cccc3ea2b6394b",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b0cccc3ea2b6394b",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b0cccc3ea2b6394b",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-b0cccc3ea2b6394b",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-b0cccc3ea2b6394b",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/서신동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/서신동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/서신동/#organization"
+    }
+  },
+  {
+    "locality": "강릉교동",
+    "targetPath": "/전국학원/중학생학원/강릉교동/",
+    "targetPaths": {
+      "초3영어학원": "/과목별학원/초3영어학원/강릉교동/",
+      "초3수학학원": "/과목별학원/초3수학학원/강릉교동/",
+      "초4영어학원": "/과목별학원/초4영어학원/강릉교동/",
+      "초4수학학원": "/과목별학원/초4수학학원/강릉교동/",
+      "초5영어학원": "/과목별학원/초5영어학원/강릉교동/",
+      "초5수학학원": "/과목별학원/초5수학학원/강릉교동/",
+      "초6영어학원": "/과목별학원/초6영어학원/강릉교동/",
+      "초6수학학원": "/과목별학원/초6수학학원/강릉교동/",
+      "중1영어학원": "/과목별학원/중1영어학원/강릉교동/",
+      "중1수학학원": "/과목별학원/중1수학학원/강릉교동/",
+      "중2영어학원": "/과목별학원/중2영어학원/강릉교동/",
+      "중2수학학원": "/과목별학원/중2수학학원/강릉교동/",
+      "중3영어학원": "/과목별학원/중3영어학원/강릉교동/",
+      "중3수학학원": "/과목별학원/중3수학학원/강릉교동/",
+      "고1영어학원": "/과목별학원/고1영어학원/강릉교동/",
+      "고1수학학원": "/과목별학원/고1수학학원/강릉교동/",
+      "고2영어학원": "/과목별학원/고2영어학원/강릉교동/",
+      "고2수학학원": "/과목별학원/고2수학학원/강릉교동/",
+      "초등학생학원": "/전국학원/초등학생학원/강릉교동/",
+      "중학생학원": "/전국학원/중학생학원/강릉교동/",
+      "고등학생학원": "/전국학원/고등학생학원/강릉교동/"
+    },
+    "region": "강원",
+    "district": "강릉시",
+    "centerName": "와와학습코칭센터 강릉교동점",
+    "address": "강원특별자치도 강릉시 정원로 44 202호 와와학습코칭학원",
+    "registeredAcademyName": "와와학습코칭학원",
+    "registrationNumber": "강릉교육지원청 등록 제1386호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초1",
+          "초2",
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초1~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초3",
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초3~초6 · 중1~중3 · 고1~고2"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/강릉교동/#organization",
+    "categoryOrganizationIds": {
+      "초3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-699e8ada9f9e4903",
+      "초3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-699e8ada9f9e4903",
+      "초4영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-699e8ada9f9e4903",
+      "초4수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-699e8ada9f9e4903",
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-699e8ada9f9e4903",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-699e8ada9f9e4903",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-699e8ada9f9e4903",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-699e8ada9f9e4903",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-699e8ada9f9e4903",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-699e8ada9f9e4903",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-699e8ada9f9e4903",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-699e8ada9f9e4903",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-699e8ada9f9e4903",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-699e8ada9f9e4903",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-699e8ada9f9e4903",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-699e8ada9f9e4903",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-699e8ada9f9e4903",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-699e8ada9f9e4903",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/강릉교동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/강릉교동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/강릉교동/#organization"
+    }
+  },
+  {
+    "locality": "단구동",
+    "targetPath": "/전국학원/중학생학원/단구동/",
+    "targetPaths": {
+      "초5영어학원": "/과목별학원/초5영어학원/단구동/",
+      "초5수학학원": "/과목별학원/초5수학학원/단구동/",
+      "초6영어학원": "/과목별학원/초6영어학원/단구동/",
+      "초6수학학원": "/과목별학원/초6수학학원/단구동/",
+      "중1영어학원": "/과목별학원/중1영어학원/단구동/",
+      "중1수학학원": "/과목별학원/중1수학학원/단구동/",
+      "중2영어학원": "/과목별학원/중2영어학원/단구동/",
+      "중2수학학원": "/과목별학원/중2수학학원/단구동/",
+      "중3영어학원": "/과목별학원/중3영어학원/단구동/",
+      "중3수학학원": "/과목별학원/중3수학학원/단구동/",
+      "고1영어학원": "/과목별학원/고1영어학원/단구동/",
+      "고1수학학원": "/과목별학원/고1수학학원/단구동/",
+      "고2영어학원": "/과목별학원/고2영어학원/단구동/",
+      "고2수학학원": "/과목별학원/고2수학학원/단구동/",
+      "초등학생학원": "/전국학원/초등학생학원/단구동/",
+      "중학생학원": "/전국학원/중학생학원/단구동/",
+      "고등학생학원": "/전국학원/고등학생학원/단구동/"
+    },
+    "region": "강원",
+    "district": "원주시",
+    "centerName": "와와학습코칭센터 단구점",
+    "address": "강원특별자치도 원주시 서원대로 406 리더스빌딩 402",
+    "registeredAcademyName": "와와학습코칭학원",
+    "registrationNumber": "원주교육지원청 등록 제2412호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초5~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초5~초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "국어",
+        "grades": [
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초5~초6 · 중1~중3 · 고1~고2 · 한글수업불가, 고등논술불가"
+      },
+      {
+        "name": "과학",
+        "grades": [
+          "초4",
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1"
+        ],
+        "summary": "초4~초6 · 중1~중3 · 고1 · 통합과학가능,화학1,생물1,지구과학1 가능, 물리 불가"
+      },
+      {
+        "name": "사회",
+        "grades": [
+          "초5",
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2"
+        ],
+        "summary": "초5~초6 · 중1~중3 · 고1~고2"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/단구동/#organization",
+    "categoryOrganizationIds": {
+      "초5영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-d8ce5397da89fe20",
+      "초5수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-d8ce5397da89fe20",
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-d8ce5397da89fe20",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-d8ce5397da89fe20",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-d8ce5397da89fe20",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-d8ce5397da89fe20",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-d8ce5397da89fe20",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-d8ce5397da89fe20",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-d8ce5397da89fe20",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-d8ce5397da89fe20",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-d8ce5397da89fe20",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-d8ce5397da89fe20",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-d8ce5397da89fe20",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-d8ce5397da89fe20",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/단구동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/단구동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/단구동/#organization"
+    }
+  },
+  {
+    "locality": "후평동",
+    "targetPath": "/전국학원/중학생학원/후평동/",
+    "targetPaths": {
+      "초6영어학원": "/과목별학원/초6영어학원/후평동/",
+      "초6수학학원": "/과목별학원/초6수학학원/후평동/",
+      "중1영어학원": "/과목별학원/중1영어학원/후평동/",
+      "중1수학학원": "/과목별학원/중1수학학원/후평동/",
+      "중2영어학원": "/과목별학원/중2영어학원/후평동/",
+      "중2수학학원": "/과목별학원/중2수학학원/후평동/",
+      "중3영어학원": "/과목별학원/중3영어학원/후평동/",
+      "중3수학학원": "/과목별학원/중3수학학원/후평동/",
+      "고1영어학원": "/과목별학원/고1영어학원/후평동/",
+      "고1수학학원": "/과목별학원/고1수학학원/후평동/",
+      "고2영어학원": "/과목별학원/고2영어학원/후평동/",
+      "고2수학학원": "/과목별학원/고2수학학원/후평동/",
+      "초등학생학원": "/전국학원/초등학생학원/후평동/",
+      "중학생학원": "/전국학원/중학생학원/후평동/",
+      "고등학생학원": "/전국학원/고등학생학원/후평동/"
+    },
+    "region": "강원",
+    "district": "춘천시",
+    "centerName": "와와학습코칭센터 후평점",
+    "address": "강원특별자치도 춘천시 춘천로 316 춘천더샵아파트상가2동 304.305",
+    "registeredAcademyName": "후평점와와학습코칭학원",
+    "registrationNumber": "춘천교육지원청 등록 제1741호",
+    "subjects": [
+      {
+        "name": "영어",
+        "grades": [
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초6 · 중1~중3 · 고1~고3"
+      },
+      {
+        "name": "수학",
+        "grades": [
+          "초6",
+          "중1",
+          "중2",
+          "중3",
+          "고1",
+          "고2",
+          "고3"
+        ],
+        "summary": "초6 · 중1~중3 · 고1~고3"
+      }
+    ],
+    "organizationId": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/후평동/#organization",
+    "categoryOrganizationIds": {
+      "초6영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-7828f6856313c50b",
+      "초6수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-7828f6856313c50b",
+      "중1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-7828f6856313c50b",
+      "중1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-7828f6856313c50b",
+      "중2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-7828f6856313c50b",
+      "중2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-7828f6856313c50b",
+      "중3영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-7828f6856313c50b",
+      "중3수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-7828f6856313c50b",
+      "고1영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-7828f6856313c50b",
+      "고1수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-7828f6856313c50b",
+      "고2영어학원": "https://xn--ru4bz7e9zf0zk.com/#center-7828f6856313c50b",
+      "고2수학학원": "https://xn--ru4bz7e9zf0zk.com/#center-7828f6856313c50b",
+      "초등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/후평동/#organization",
+      "중학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/후평동/#organization",
+      "고등학생학원": "https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/후평동/#organization"
+    }
+  }
+]
