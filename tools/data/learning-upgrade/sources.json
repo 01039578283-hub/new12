@@ -1,0 +1,238 @@
+{
+  "checked": "2026-09-14",
+  "site": "채움학습.com",
+  "pages": [
+    "https://www.wawacenter.com/brand/wawacenter",
+    "https://www.wawacenter.com/intro/coachingSystem",
+    "https://www.wawacenter.com/intro/AISystem"
+  ],
+  "assets": [
+    {
+      "file": "brand-learning.png",
+      "source": "https://www.wawacenter.com/assets/img/Main_CD_wawa.png",
+      "width": 582,
+      "height": 480,
+      "bytes": 125896,
+      "sha256": "7a3a8813a8d10cb80c59131d2e56f8fffed6ee7664ad846ac36af3c523c8043a",
+      "status": 200,
+      "finalAssetUrl": "https://www.wawacenter.com/assets/img/Main_CD_wawa.png",
+      "contentType": "image/png",
+      "linkedFromOfficialPages": [
+        "brand"
+      ],
+      "originalLocalSha256": "7a3a8813a8d10cb80c59131d2e56f8fffed6ee7664ad846ac36af3c523c8043a",
+      "originalBytesMatch": true,
+      "manifestHashMatches": true,
+      "passed": true
+    },
+    {
+      "file": "learning-space.png",
+      "source": "https://www.wawacenter.com/assets/img/system_03.png",
+      "width": 620,
+      "height": 420,
+      "bytes": 391484,
+      "sha256": "1a1a07040f2dd073f1e4bbf1ce4686809b822a3b586d814ebe6b0515220dc348",
+      "status": 200,
+      "finalAssetUrl": "https://www.wawacenter.com/assets/img/system_03.png",
+      "contentType": "image/png",
+      "linkedFromOfficialPages": [
+        "coaching"
+      ],
+      "originalLocalSha256": "1a1a07040f2dd073f1e4bbf1ce4686809b822a3b586d814ebe6b0515220dc348",
+      "originalBytesMatch": true,
+      "manifestHashMatches": true,
+      "passed": true
+    },
+    {
+      "file": "teacher-coaching.png",
+      "source": "https://www.wawacenter.com/assets/img/system_04.png",
+      "width": 620,
+      "height": 420,
+      "bytes": 401216,
+      "sha256": "6c3e9f344f641df301afc7758ef22d26a01b8577173b7b563cd8b29af1f0b24c",
+      "status": 200,
+      "finalAssetUrl": "https://www.wawacenter.com/assets/img/system_04.png",
+      "contentType": "image/png",
+      "linkedFromOfficialPages": [
+        "coaching"
+      ],
+      "originalLocalSha256": "6c3e9f344f641df301afc7758ef22d26a01b8577173b7b563cd8b29af1f0b24c",
+      "originalBytesMatch": true,
+      "manifestHashMatches": true,
+      "passed": true
+    },
+    {
+      "file": "four-c.png",
+      "source": "https://www.wawacenter.com/assets/img/system_05.png",
+      "width": 620,
+      "height": 423,
+      "bytes": 40017,
+      "sha256": "2fc46d9c9ab87684d6671f0622885628a0801f981da89aedbdf1663f06324897",
+      "status": 200,
+      "finalAssetUrl": "https://www.wawacenter.com/assets/img/system_05.png",
+      "contentType": "image/png",
+      "linkedFromOfficialPages": [
+        "coaching"
+      ],
+      "originalLocalSha256": "2fc46d9c9ab87684d6671f0622885628a0801f981da89aedbdf1663f06324897",
+      "originalBytesMatch": true,
+      "manifestHashMatches": true,
+      "passed": true
+    },
+    {
+      "file": "learning-planner.png",
+      "source": "https://www.wawacenter.com/assets/img/system_06_01.png",
+      "width": 620,
+      "height": 420,
+      "bytes": 385193,
+      "sha256": "6f34fd1f4acbd98215b2af5b967d2d0033a5dcaf9fa52ba90c2e4c474d39275f",
+      "status": 200,
+      "finalAssetUrl": "https://www.wawacenter.com/assets/img/system_06_01.png",
+      "contentType": "image/png",
+      "linkedFromOfficialPages": [
+        "coaching"
+      ],
+      "originalLocalSha256": "6f34fd1f4acbd98215b2af5b967d2d0033a5dcaf9fa52ba90c2e4c474d39275f",
+      "originalBytesMatch": true,
+      "manifestHashMatches": true,
+      "passed": true
+    },
+    {
+      "file": "ai-english.png",
+      "source": "https://www.wawacenter.com/assets/img/ais_step02.png",
+      "width": 375,
+      "height": 228,
+      "bytes": 43816,
+      "sha256": "9b42c432e8582ebbf3fba7384163d3190d32cccbe04c08bb4625be75f500e6ab",
+      "status": 200,
+      "finalAssetUrl": "https://www.wawacenter.com/assets/img/ais_step02.png",
+      "contentType": "image/png",
+      "linkedFromOfficialPages": [
+        "ai"
+      ],
+      "originalLocalSha256": "9b42c432e8582ebbf3fba7384163d3190d32cccbe04c08bb4625be75f500e6ab",
+      "originalBytesMatch": true,
+      "manifestHashMatches": true,
+      "passed": true
+    },
+    {
+      "file": "ai-math.png",
+      "source": "https://www.wawacenter.com/assets/img/ais_math_content02.png",
+      "width": 589,
+      "height": 418,
+      "bytes": 144862,
+      "sha256": "7cde3b0a9c26c977a03c158733c3b5c3ec8cda67c58820a653fd459bc8d0e743",
+      "status": 200,
+      "finalAssetUrl": "https://www.wawacenter.com/assets/img/ais_math_content02.png",
+      "contentType": "image/png",
+      "linkedFromOfficialPages": [
+        "ai"
+      ],
+      "originalLocalSha256": "7cde3b0a9c26c977a03c158733c3b5c3ec8cda67c58820a653fd459bc8d0e743",
+      "originalBytesMatch": true,
+      "manifestHashMatches": true,
+      "passed": true
+    },
+    {
+      "file": "ai-korean.png",
+      "source": "https://www.wawacenter.com/assets/img/ais_kor_content03.png",
+      "width": 499,
+      "height": 325,
+      "bytes": 117254,
+      "sha256": "79b07391ccfa14c70bb35ee3ff6eb3eb5e842b9f7bd58c06071b3ee0e0ea3c3e",
+      "status": 200,
+      "finalAssetUrl": "https://www.wawacenter.com/assets/img/ais_kor_content03.png",
+      "contentType": "image/png",
+      "linkedFromOfficialPages": [
+        "ai"
+      ],
+      "originalLocalSha256": "79b07391ccfa14c70bb35ee3ff6eb3eb5e842b9f7bd58c06071b3ee0e0ea3c3e",
+      "originalBytesMatch": true,
+      "manifestHashMatches": true,
+      "passed": true
+    },
+    {
+      "file": "ai-reading.png",
+      "source": "https://www.wawacenter.com/assets/img/ais_read_portfolio.png",
+      "width": 600,
+      "height": 421,
+      "bytes": 144972,
+      "sha256": "ee4a77bef0d90b630992f61896f698d0f4775bab2feb804e761630415912d915",
+      "status": 200,
+      "finalAssetUrl": "https://www.wawacenter.com/assets/img/ais_read_portfolio.png",
+      "contentType": "image/png",
+      "linkedFromOfficialPages": [
+        "ai"
+      ],
+      "originalLocalSha256": "ee4a77bef0d90b630992f61896f698d0f4775bab2feb804e761630415912d915",
+      "originalBytesMatch": true,
+      "manifestHashMatches": true,
+      "passed": true
+    },
+    {
+      "file": "video-student.jpg",
+      "source": "https://www.youtube.com/watch?v=avpJfW7eIV0",
+      "width": 480,
+      "height": 360,
+      "bytes": 11570,
+      "sha256": "a0f992fecc3f999195c7b3a6f51786557ce808921de1ea3b7f8be02a65daf521",
+      "videoId": "avpJfW7eIV0",
+      "thumbnailSource": "https://i.ytimg.com/vi/avpJfW7eIV0/hqdefault.jpg",
+      "status": 200,
+      "finalAssetUrl": "https://i.ytimg.com/vi/avpJfW7eIV0/hqdefault.jpg",
+      "contentType": "image/jpeg",
+      "linkedFromOfficialPages": [
+        "brand"
+      ],
+      "originalLocalSha256": "a0f992fecc3f999195c7b3a6f51786557ce808921de1ea3b7f8be02a65daf521",
+      "originalBytesMatch": true,
+      "manifestHashMatches": true,
+      "passed": true
+    },
+    {
+      "file": "video-coaching.jpg",
+      "source": "https://www.youtube.com/watch?v=f_skFu40U04",
+      "width": 480,
+      "height": 360,
+      "bytes": 11070,
+      "sha256": "6c5621d2f3c8440227af38fa6dc9f912e8b33960530cfdd55506229da04cc132",
+      "videoId": "f_skFu40U04",
+      "thumbnailSource": "https://i.ytimg.com/vi/f_skFu40U04/hqdefault.jpg",
+      "status": 200,
+      "finalAssetUrl": "https://i.ytimg.com/vi/f_skFu40U04/hqdefault.jpg",
+      "contentType": "image/jpeg",
+      "linkedFromOfficialPages": [
+        "brand"
+      ],
+      "originalLocalSha256": "6c5621d2f3c8440227af38fa6dc9f912e8b33960530cfdd55506229da04cc132",
+      "originalBytesMatch": true,
+      "manifestHashMatches": true,
+      "passed": true
+    },
+    {
+      "file": "video-exam.jpg",
+      "source": "https://www.youtube.com/watch?v=UIXUaBZdNXU",
+      "width": 480,
+      "height": 360,
+      "bytes": 8743,
+      "sha256": "0dacde2f61773acbb6da7b62126c2cbd74dee31a6f6a733b78ccd942d6dae5f0",
+      "videoId": "UIXUaBZdNXU",
+      "thumbnailSource": "https://i.ytimg.com/vi/UIXUaBZdNXU/hqdefault.jpg",
+      "status": 200,
+      "finalAssetUrl": "https://i.ytimg.com/vi/UIXUaBZdNXU/hqdefault.jpg",
+      "contentType": "image/jpeg",
+      "linkedFromOfficialPages": [
+        "brand"
+      ],
+      "originalLocalSha256": "0dacde2f61773acbb6da7b62126c2cbd74dee31a6f6a733b78ccd942d6dae5f0",
+      "originalBytesMatch": true,
+      "manifestHashMatches": true,
+      "passed": true
+    }
+  ],
+  "images": "Original bytes; no cropping, regeneration or hidden body images.",
+  "videoPlayback": "Thumbnail links to official YouTube videos; no autoplay or heavy embedded player.",
+  "videoSchema": "VideoObject omitted because upload dates are not verified.",
+  "reuse": "Current official page references, remote bytes, dimensions and SHA-256 verified before copying original assets from 새 홈페이지5.",
+  "audit": "tools/reports/learning-upgrade/official-source-check.json"
+}
