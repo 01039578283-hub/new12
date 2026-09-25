@@ -1,0 +1,19 @@
+/* Neighborhood guides extend the existing Chaeum visual system. */
+.cg-case{padding:22px 24px;background:#e2ebe9;border-left:4px solid #35645e;margin:22px 0;border-radius:0 5px 5px 0}
+.cg-case p:first-child{font-weight:750;color:#1c3d3b;margin-top:0}
+.cg-case p:last-child{margin-bottom:0}
+.cg-steps{counter-reset:guide-step;list-style:none;padding:0;display:grid;gap:14px}
+.cg-steps li{counter-increment:guide-step;display:grid;grid-template-columns:34px minmax(0,1fr);gap:14px;padding:20px;background:#fffefb;border:1px solid #cbd7cd;border-radius:5px;line-height:1.85;word-break:keep-all;overflow-wrap:anywhere}
+.cg-steps li::before{content:counter(guide-step,decimal-leading-zero);color:#2f5d5a;font-weight:800;font-size:14px;padding-top:2px}
+.cg-records{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.cg-record{background:#fffefb;border:1px solid #cbd7cd;padding:20px;border-radius:5px}
+.cg-record h3{font-size:18px}
+.cg-neighborhoods{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.cg-neighborhood{padding:22px;background:#fffefb;border:1px solid #cbd7cd;border-radius:5px}
+.cg-neighborhood h3{font-size:20px;margin-bottom:8px}
+.cg-neighborhood .cd-related-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:16px 0 0}
+.cg-neighborhood .cd-related-links a{font-size:15px;padding:12px 9px;min-height:48px}
+.cg-context{border:1px solid #cbd7cd;background:#f4f3ec;padding:18px 22px;font-size:15px;line-height:1.85;word-break:keep-all;overflow-wrap:anywhere}
+.cg-context p{margin:8px 0}
+.cg-context a{color:#1c514b;text-underline-offset:4px}
+@media(max-width:640px){.cg-case{padding:18px}.cg-steps li{padding:17px;grid-template-columns:26px minmax(0,1fr);gap:9px}.cg-records,.cg-neighborhoods{grid-template-columns:1fr}.cg-neighborhood,.cg-record{padding:19px}.cg-context{padding:16px 18px}.cg-neighborhood .cd-related-links a{font-size:14px}.cg-case p{font-size:16px}}

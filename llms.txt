@@ -1,44 +1,55 @@
-# 채움학습.com
+# 채움학습
 
-채움학습.com은 학습 공백 진단과 보완 코칭 분야를 안내하는 학습관리 사이트입니다. 학생마다 비어 있는 부분을 찾아, 플래너와 오답 재학습으로 하나씩 채워가는 학습 코칭입니다. 상담, 진단, 플래너 관리, 오답 재학습, 학부모 피드백 흐름과 지역별 학원 안내 페이지를 제공합니다.
+> 학습코칭의 원리를 공부 준비에 연결하고 실제 지점의 주소·과목별 학년·교육비를 안내합니다.
 
-## 핵심 페이지
+## 이용 안내
 
-- 학습코칭: https://xn--ru4bz7e9zf0zk.com/학습코칭/
+- [홈](https://xn--ru4bz7e9zf0zk.com/)
+- [학습코칭](https://xn--ru4bz7e9zf0zk.com/%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD/)
+- [학습가이드](https://xn--ru4bz7e9zf0zk.com/%ED%95%99%EC%8A%B5%EA%B0%80%EC%9D%B4%EB%93%9C/)
+- [지점안내](https://xn--ru4bz7e9zf0zk.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/)
+- [과목별학원](https://xn--ru4bz7e9zf0zk.com/%EA%B3%BC%EB%AA%A9%EB%B3%84%ED%95%99%EC%9B%90/)
+- [전국학원](https://xn--ru4bz7e9zf0zk.com/%EC%A0%84%EA%B5%AD%ED%95%99%EC%9B%90/)
+- [상담문의](https://xn--ru4bz7e9zf0zk.com/%EC%83%81%EB%8B%B4%EB%AC%B8%EC%9D%98/)
 
-- 홈: https://xn--ru4bz7e9zf0zk.com/
-- 학습가이드: https://xn--ru4bz7e9zf0zk.com/학습가이드/
-- 상담문의: https://xn--ru4bz7e9zf0zk.com/상담문의/
-- 전국학원: https://xn--ru4bz7e9zf0zk.com/전국학원/
-- 고등학생학원: https://xn--ru4bz7e9zf0zk.com/전국학원/고등학생학원/
-- 중학생학원: https://xn--ru4bz7e9zf0zk.com/전국학원/중학생학원/
-- 초등학생학원: https://xn--ru4bz7e9zf0zk.com/전국학원/초등학생학원/
-- 과목별학원: https://xn--ru4bz7e9zf0zk.com/과목별학원/
-- 초3 수학학원: https://xn--ru4bz7e9zf0zk.com/과목별학원/초3수학학원/
-- 초3 영어학원: https://xn--ru4bz7e9zf0zk.com/과목별학원/초3영어학원/
-- 초4 수학학원: https://xn--ru4bz7e9zf0zk.com/과목별학원/초4수학학원/
-- 초4 영어학원: https://xn--ru4bz7e9zf0zk.com/과목별학원/초4영어학원/
-- 초5 수학학원: https://xn--ru4bz7e9zf0zk.com/과목별학원/초5수학학원/
-- 초5 영어학원: https://xn--ru4bz7e9zf0zk.com/과목별학원/초5영어학원/
-- 초6 수학학원: https://xn--ru4bz7e9zf0zk.com/과목별학원/초6수학학원/
-- 초6 영어학원: https://xn--ru4bz7e9zf0zk.com/과목별학원/초6영어학원/
-- 중1 수학학원: https://xn--ru4bz7e9zf0zk.com/과목별학원/중1수학학원/
-- 중1 영어학원: https://xn--ru4bz7e9zf0zk.com/과목별학원/중1영어학원/
-- 중2 수학학원: https://xn--ru4bz7e9zf0zk.com/과목별학원/중2수학학원/
-- 중2 영어학원: https://xn--ru4bz7e9zf0zk.com/과목별학원/중2영어학원/
-- 중3 수학학원: https://xn--ru4bz7e9zf0zk.com/과목별학원/중3수학학원/
-- 중3 영어학원: https://xn--ru4bz7e9zf0zk.com/과목별학원/중3영어학원/
-- 고1 수학학원: https://xn--ru4bz7e9zf0zk.com/과목별학원/고1수학학원/
-- 고1 영어학원: https://xn--ru4bz7e9zf0zk.com/과목별학원/고1영어학원/
-- 고2 수학학원: https://xn--ru4bz7e9zf0zk.com/과목별학원/고2수학학원/
-- 고2 영어학원: https://xn--ru4bz7e9zf0zk.com/과목별학원/고2영어학원/
+## 지점 안내의 범위
 
-## 검색·AI 이해 포인트
+실제 193개 지점을 안내합니다. 371개 동네 안내와 실제 지점 수는 다릅니다. 지점별 수강 학년과 별도 조건을 확인해야 하며, 본사 AI 프로그램 대상 학년이 모든 지점에 개설되어 있음을 뜻하지 않습니다. 교육비의 지역 공통 참고 금액과 지점별 금액을 구분하며 추가 프로그램 비용은 과목 수업료 전체가 아닙니다. 학교 목록은 상담 참고용입니다.
 
-- 상담 전 학생의 현재 수준, 학교 진도, 오답 패턴을 함께 확인합니다.
-- 지역별 페이지는 과목·학년·추천학생·FAQ·학부모 후기·내부링크를 함께 제공합니다.
-- 검색엔진과 생성형 AI가 페이지 목적을 이해할 수 있도록 Article, Service, FAQPage, BreadcrumbList, ItemList 구조화 데이터를 사용합니다.
+## 지역별 지점
 
-## 학습 프로그램 안내
+- [서울 지점](https://xn--ru4bz7e9zf0zk.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%9C%EC%9A%B8/)
+- [경기 지점](https://xn--ru4bz7e9zf0zk.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EA%B8%B0/)
+- [인천 지점](https://xn--ru4bz7e9zf0zk.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%9D%B8%EC%B2%9C/)
+- [강원 지점](https://xn--ru4bz7e9zf0zk.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B0%95%EC%9B%90/)
+- [대전 지점](https://xn--ru4bz7e9zf0zk.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EB%8C%80%EC%A0%84/)
+- [세종 지점](https://xn--ru4bz7e9zf0zk.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%84%B8%EC%A2%85/)
+- [충북 지점](https://xn--ru4bz7e9zf0zk.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%B6%A9%EB%B6%81/)
+- [충남 지점](https://xn--ru4bz7e9zf0zk.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%B6%A9%EB%82%A8/)
+- [대구 지점](https://xn--ru4bz7e9zf0zk.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EB%8C%80%EA%B5%AC/)
+- [경북 지점](https://xn--ru4bz7e9zf0zk.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EB%B6%81/)
+- [울산 지점](https://xn--ru4bz7e9zf0zk.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%9A%B8%EC%82%B0/)
+- [부산 지점](https://xn--ru4bz7e9zf0zk.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EB%B6%80%EC%82%B0/)
+- [경남 지점](https://xn--ru4bz7e9zf0zk.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B2%BD%EB%82%A8/)
+- [광주 지점](https://xn--ru4bz7e9zf0zk.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EA%B4%91%EC%A3%BC/)
+- [전북 지점](https://xn--ru4bz7e9zf0zk.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%A0%84%EB%B6%81/)
+- [제주 지점](https://xn--ru4bz7e9zf0zk.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/%EC%A0%9C%EC%A3%BC/)
 
-4C 진단·처방·지도·상담과 AI 영어·수학·국어·독서의 구성은 학습코칭 페이지에서 확인할 수 있습니다. 본사 프로그램 소개와 센터별 실제 개설 과목·학년·비용·시간표는 구분합니다.
+## 프로그램 참고
+
+- https://www.wawacenter.com/brand/wawacenter
+- https://www.wawacenter.com/intro/coachingSystem
+- https://www.wawacenter.com/intro/AISystem
+
+안내 자료 확인·수정: 2026-09-23
+
+## 동네별 학원 선택 안내
+
+371개 동네에 전문학원·소수정예학원·보습학원·영수학원의 선택 기준을 안내하는 1,484개 글을 추가했습니다. 실제 센터 193개를 새로 늘린 것이 아닙니다. 구조는 `/지점안내/지역/기존지점명/동네명학원유형/`입니다. 각 글의 학습 상황은 상담 준비를 위한 예시이며 실제 후기나 성과가 아닙니다. 실제 과목별 학년과 교육비는 연결된 센터 자료를 확인해야 합니다.
+
+- [학원 선택 기준](https://xn--ru4bz7e9zf0zk.com/%EC%A7%80%EC%A0%90%EC%95%88%EB%82%B4/#neighborhood-guides)
+- [전체 주소 사이트맵](https://xn--ru4bz7e9zf0zk.com/sitemap.xml)
+
+## 과목과 학교급별 전문학원 안내
+
+371개 동네의 전문학원 안내 아래에 영수·영어·수학·초등·중등·고등의 학습 점검 글 2,226개가 있습니다. `/지점안내/지역/기존지점명/동네명전문학원/주제/` 구조이며 상위 전문학원 페이지의 FAQ 아래에서 선택합니다. 글의 예시는 실제 수강생 후기나 성과가 아니며, 제목이 해당 과정의 실제 개설을 뜻하지 않습니다. 각 글의 확인된 학년·수강 제한·교육비 표를 기준으로 상담해야 합니다.
