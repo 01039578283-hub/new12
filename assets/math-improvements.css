@@ -1,0 +1,25 @@
+/* Only existing high-school math pages reviewed against center records. */
+.mi-page{overflow-wrap:anywhere}
+.mi-page .subject-local-hero{padding-bottom:20px}
+.mi-page .mi-center{width:calc(100% - 36px);max-width:1120px;margin:12px auto 24px;padding:24px;border:1px solid #c7d6c0;border-left:4px solid #53704b;border-radius:8px;background:#f1f5ed;color:#304736}
+.mi-page .mi-center h2{font-size:clamp(23px,3vw,30px);margin:4px 0 12px}
+.mi-page .mi-label{font-size:14px;font-weight:700;margin:0;color:#425f39}
+.mi-page .mi-guidance{font-size:17px;line-height:1.8;margin:10px 0}
+.mi-page .mi-condition{font-size:15px;line-height:1.8;margin:8px 0}
+.mi-center dl{margin:18px 0;display:grid;gap:12px}
+.mi-center dl>div{display:grid;grid-template-columns:120px minmax(0,1fr);gap:12px}
+.mi-center dt{font-weight:700}.mi-center dd{margin:0}
+.mi-page .mi-small{font-size:14px;line-height:1.7;margin:14px 0 0;color:#50604e}
+.mi-actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.mi-actions a{display:inline-flex;align-items:center;min-height:44px;padding:9px 14px;border:1px solid #9fb399;border-radius:5px;color:#27402c;background:#fff;text-decoration:none;font-weight:650;font-size:15px}
+.mi-page :is(.mi-toc,.mi-common-media){border:1px solid #c7d0c1;border-radius:6px;padding:0 18px;margin:18px 0}
+.mi-page .mi-toc{width:calc(100% - 36px);max-width:1120px;margin-left:auto;margin-right:auto}
+.mi-page :is(.mi-toc,.mi-common-media)>summary{padding:14px 0;min-height:48px;cursor:pointer;font-weight:700}
+.mi-page .mi-toc .subject-page-toc{margin:0 0 16px}
+.mi-page .mi-media img{display:block;width:100%;height:auto;object-fit:contain}
+.mi-page .mi-media .subject-hidden-representative{display:none}
+.mi-page .mi-common-media figure{margin:16px 0}
+.mi-page .mi-map{max-width:460px;margin:24px 0}
+.mi-page .mi-reviewed{font-size:14px;color:#58664f;margin:24px 0}
+.mi-page :is(a,summary):focus-visible{outline:3px solid #986632;outline-offset:4px}
+@media(max-width:640px){.mi-page .mi-center{padding:18px;margin-top:0}.mi-center dl>div{grid-template-columns:1fr;gap:4px}.mi-page .mi-guidance{font-size:16px}.mi-actions a{font-size:14px;padding:9px 11px}.mi-page .mi-toc{padding:0 14px}}

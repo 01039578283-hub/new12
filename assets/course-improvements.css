@@ -1,0 +1,28 @@
+/* Limited to reviewed course notices and branch pages. */
+.ci-course-notice{border:1px solid #c5d6c7;border-left:4px solid #446c51;background:#f2f6ef;border-radius:8px;padding:22px!important;margin:22px 0!important;overflow-wrap:anywhere}
+.ci-course-notice .cd-section-heading{margin:0 0 12px}
+.ci-course-notice h2{font-size:clamp(21px,3vw,28px);margin:4px 0 10px}
+.ci-label{font-size:14px;font-weight:750;color:#33553f;margin:0}
+.ci-guidance{font-size:17px;line-height:1.8;margin:10px 0 18px}
+.ci-facts{display:grid;gap:12px;margin:16px 0}
+.ci-facts>div{display:grid;grid-template-columns:116px minmax(0,1fr);gap:12px}
+.ci-facts dt{font-weight:700}.ci-facts dd{margin:0}
+.ci-small{font-size:14px;line-height:1.8;color:#4b6054}
+.ci-course-notice .cd-actions{display:flex;flex-wrap:wrap;gap:8px}
+.ci-course-notice .cd-actions a{white-space:normal}
+.ci-branch .cd-hero{padding-top:24px}
+.ci-branch-quick{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid #d0dccb;border-radius:8px;background:#f0f4ed;margin:18px 0}
+.ci-branch-quick>div{min-width:0;padding:14px 18px}.ci-branch-quick>div:nth-child(n+3){border-top:1px solid #d0dccb}
+.ci-branch-quick dt{font-size:13px;color:#49604e;margin-bottom:5px}.ci-branch-quick dd{margin:0;font-weight:700;color:#253f2f;line-height:1.7}
+.ci-branch-conditions{border-left:3px solid #79936c;padding:2px 0 2px 14px;margin:0 0 20px;overflow-wrap:anywhere}
+.ci-branch-conditions p{font-size:15px;line-height:1.8;margin:6px 0}
+.ci-branch .ci-common-media{border:1px solid #c8d4c4;border-radius:6px;padding:0 18px;margin-bottom:24px}
+.ci-branch .ci-common-media summary{min-height:48px;padding:14px 0;cursor:pointer;font-weight:700}
+.ci-branch .ci-common-media figure{margin:16px 0}
+.ci-branch .ci-map{width:100%;max-width:420px;margin:20px 0}
+.ci-branch .ci-map img{display:block;width:100%;height:auto}
+.ci-branch .cd-course-table{min-width:0;width:100%;table-layout:fixed}
+.ci-branch .cd-course-table th:first-child{width:16%}.ci-branch .cd-course-table th:nth-child(2){width:44%}
+.ci-branch .cd-course-table :is(th,td){white-space:normal;overflow-wrap:anywhere}
+.ci-branch :is(a,summary):focus-visible,.ci-course-notice a:focus-visible{outline:3px solid #96601f;outline-offset:4px}
+@media(max-width:640px){.ci-course-notice{padding:16px!important;margin:16px 0!important}.ci-guidance{font-size:16px}.ci-facts>div{grid-template-columns:1fr;gap:4px}.ci-course-notice .cd-actions a{padding:10px 12px;font-size:14px}.ci-branch-quick>div{padding:12px}.ci-branch-quick dd{font-size:15px}.ci-branch .cd-course-table :is(th,td){padding:10px 7px;font-size:14px}.ci-branch .cd-hero{padding-top:18px}}
