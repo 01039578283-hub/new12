@@ -13,6 +13,6 @@
       "permanent": true
     }
   ],
-  "buildCommand": "node release-public-build.mjs && node seo-content-improvements.mjs --root=.public-release && node seo-course-improvements.mjs --root=.public-release && node seo-math-improvements.mjs --root=.public-release && node wawa-analytics-build.mjs wawa-13 .public-release && node seo-descriptions.mjs --root=.public-release",
+  "buildCommand": "node release-build.mjs",
   "outputDirectory": ".public-release"
 }
