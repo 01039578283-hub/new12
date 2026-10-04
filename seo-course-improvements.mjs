@@ -2,6 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {preserveTeacherContent, laterDate} from './teacher-build-preservation.mjs';
 
 const project = path.dirname(fileURLToPath(import.meta.url));
 const config = JSON.parse(fs.readFileSync(path.join(project, 'seo-course-improvements.json'), 'utf8'));
@@ -132,7 +133,7 @@ export function branchContent(html, c) {
 
 export function applyToRoot(root,{check=false,backup,report}={}) {
   const changes=new Map();
-  function plan(rel,next){if(fs.readFileSync(path.join(root,rel),'utf8')!==next)changes.set(rel,next);}
+  function plan(rel,next){const before=fs.readFileSync(path.join(root,rel),'utf8');next=preserveTeacherContent(before,next);if(before!==next)changes.set(rel,next);}
   for(const [key,p] of Object.entries(config.pages)){
     const rel=key.slice(1)+'index.html';plan(rel,courseContent(fs.readFileSync(path.join(root,rel),'utf8'),p));
   }
@@ -143,7 +144,8 @@ export function applyToRoot(root,{check=false,backup,report}={}) {
     const keys=new Set([...changes.keys()].map(r=>'/'+r.replace(/index\.html$/,'')));
     const sitemap=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8').replace(/<url>\s*<loc>([^<]+)<\/loc>([\s\S]*?)<\/url>/g,(all,url,rest)=>{
       if(!keys.has(decodeURIComponent(new URL(url).pathname)))return all;
-      return `<url><loc>${url}</loc>${/<lastmod>/.test(rest)?rest.replace(/<lastmod>[^<]*<\/lastmod>/,`<lastmod>${config.reviewedAt}</lastmod>`):`<lastmod>${config.reviewedAt}</lastmod>`+rest}</url>`;
+      const modified=laterDate(rest.match(/<lastmod>([^<]*)<\/lastmod>/)?.[1],config.reviewedAt);
+      return `<url><loc>${url}</loc>${/<lastmod>/.test(rest)?rest.replace(/<lastmod>[^<]*<\/lastmod>/,`<lastmod>${modified}</lastmod>`):`<lastmod>${modified}</lastmod>`+rest}</url>`;
     });plan('sitemap.xml',sitemap);
   }
   if(!check)for(const [rel,value] of changes){

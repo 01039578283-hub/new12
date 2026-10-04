@@ -2,6 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {preserveTeacherContent, laterDate} from './teacher-build-preservation.mjs';
 const project=path.dirname(fileURLToPath(import.meta.url));
 const config=JSON.parse(fs.readFileSync(path.join(project,'seo-math-improvements.json'),'utf8'));
 const origin='https://xn--ru4bz7e9zf0zk.com';
@@ -80,13 +81,13 @@ export function applyToRoot(root,{check=false,backup,report,only}={}){
  const changes=new Map();
  for(const [key,p] of Object.entries(config.pages)){
   if(only&&!only.includes(key))continue;
-  const rel=key.slice(1)+'index.html',s=fs.readFileSync(path.join(root,rel),'utf8'),next=mathContent(s,p);
+  const rel=key.slice(1)+'index.html',s=fs.readFileSync(path.join(root,rel),'utf8'),next=preserveTeacherContent(s,mathContent(s,p));
   if(next!==s)changes.set(rel,next);
  }
  if(changes.size){
   const keys=new Set([...changes.keys()].map(r=>'/'+r.replace(/index\.html$/,'')));
   const old=fs.readFileSync(path.join(root,'sitemap.xml'),'utf8');
-  const next=old.replace(/<url>\s*<loc>([^<]+)<\/loc>([\s\S]*?)<\/url>/g,(all,url,rest)=>keys.has(decodeURIComponent(new URL(url).pathname))?`<url><loc>${url}</loc>${rest.replace(/<lastmod>[^<]*<\/lastmod>/,`<lastmod>${config.reviewedAt}</lastmod>`)}</url>`:all);
+  const next=old.replace(/<url>\s*<loc>([^<]+)<\/loc>([\s\S]*?)<\/url>/g,(all,url,rest)=>keys.has(decodeURIComponent(new URL(url).pathname))?`<url><loc>${url}</loc>${rest.replace(/<lastmod>([^<]*)<\/lastmod>/,(_,current)=>`<lastmod>${laterDate(current,config.reviewedAt)}</lastmod>`)}</url>`:all);
   if(next!==old)changes.set('sitemap.xml',next);
  }
  if(!check)for(const [rel,s] of changes){

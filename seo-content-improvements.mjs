@@ -2,6 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {preserveTeacherContent, laterDate} from './teacher-build-preservation.mjs';
 
 const project = path.dirname(fileURLToPath(import.meta.url));
 const config = JSON.parse(fs.readFileSync(path.join(project, 'seo-content-improvements.json'), 'utf8'));
@@ -165,7 +166,7 @@ export function pilotContent(town, category, html) {
 export function applyToRoot(root, {check=false, backup, report}={}) {
   const changes = new Map(), descriptions = {};
   const read = rel => fs.readFileSync(path.join(root,rel),'utf8');
-  function plan(rel,next) { if (read(rel)!==next) changes.set(rel,next); }
+  function plan(rel,next) { const before=read(rel); next=preserveTeacherContent(before,next); if (before!==next) changes.set(rel,next); }
   for (const [town,area] of Object.entries(config.areas)) {
     for (const category of nationalCategories) {
       const rel=`전국학원/${category}/${localSlug(town)}/index.html`;
@@ -184,7 +185,8 @@ export function applyToRoot(root, {check=false, backup, report}={}) {
     const keys=new Set([...changes.keys()].map(r=>'/'+r.replace(/index\.html$/,'')));
     const sitemap=read('sitemap.xml').replace(/<url>\s*<loc>([^<]+)<\/loc>([\s\S]*?)<\/url>/g,(all,url,rest)=>{
       if (!keys.has(decodeURIComponent(new URL(url).pathname))) return all;
-      return `<url><loc>${url}</loc>${/<lastmod>/.test(rest)?rest.replace(/<lastmod>[^<]*<\/lastmod>/,`<lastmod>${date}</lastmod>`):`<lastmod>${date}</lastmod>`+rest}</url>`;
+      const modified=laterDate(rest.match(/<lastmod>([^<]*)<\/lastmod>/)?.[1],date);
+      return `<url><loc>${url}</loc>${/<lastmod>/.test(rest)?rest.replace(/<lastmod>[^<]*<\/lastmod>/,`<lastmod>${modified}</lastmod>`):`<lastmod>${modified}</lastmod>`+rest}</url>`;
     });
     plan('sitemap.xml',sitemap);
   }
