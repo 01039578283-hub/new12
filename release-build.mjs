@@ -12,6 +12,7 @@ const steps = [
   ['wawa-analytics-build.mjs', 'wawa-13', '.public-release'],
   ['seo-descriptions.mjs', '--root=.public-release'],
   ['image-order-build.mjs'],
+  ['crawl-improvements-build.mjs'],
 ];
 
 for (const args of steps) {

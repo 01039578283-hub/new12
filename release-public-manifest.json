@@ -13880,7 +13880,20 @@
     "학습커리큘럼/초6/사회/index.html": "43b2859ac4b874fd7b090cb8bb26fef52d343a13a73ea4c33652894cafc0a47e",
     "학습커리큘럼/초6/수학/index.html": "2892c4b291f6d8cdd8a08a3a71fb15870903a1ade1075ca98ea5e0af6769b7ec",
     "학습커리큘럼/초6/영어/index.html": "a08fc15af8e097e4b32a18b9387a7482e32deb5c40493351ea4e336ab3784cb9",
-    "학습코칭/index.html": "68c0c17723bbc451b4850e1dec3ab80d829a1096d73dbc3f5c167a16353c785c"
+    "학습코칭/index.html": "68c0c17723bbc451b4850e1dec3ab80d829a1096d73dbc3f5c167a16353c785c",
+    "assets/crawl-improvements.css": "36b3f750cb71a98bf4a31db143e8e3fa0e44920ecf3b5913ab399b153d507243",
+    "assets/crawl-image-reader.js": "c1fb8b93a4e196aaf6a678bf1bc4ca5cddc9558031311da77f7a318c6c148ba9",
+    "assets/crawl-images/f0db15f009f73df128f24364.webp": "f0db15f009f73df128f243649aca9b5edcfa92d81d262760fc3308bc63fc11f1",
+    "assets/crawl-images/89b5676e25c477b5140c86c1.webp": "89b5676e25c477b5140c86c15dceda8a48a0b8506264672537a516863a0b718b",
+    "assets/crawl-images/a702f8ca545cc9f3cb9a37a5.webp": "a702f8ca545cc9f3cb9a37a5136c3403df209e4244c9f87cdad4abdae5e4f624",
+    "assets/crawl-images/e85850583689edcc82e0199b.webp": "e85850583689edcc82e0199bf27860c7bbd9e4f7559fd020de9948bb7ec699ff",
+    "assets/crawl-images/9a75d24b23bfea28d533831b.webp": "9a75d24b23bfea28d533831be62eb169e06b69332543acee45d7c51641e40ca7",
+    "assets/crawl-images/eecb9f524f9fbc53631d73be.webp": "eecb9f524f9fbc53631d73be016eac05ec132a359e96c7187c19e0e5d2ff1312",
+    "assets/crawl-images/4bebfef024052b384904c027.webp": "4bebfef024052b384904c027c9e5042d8a35433ab0499e8546b9eb6f58f69741",
+    "assets/crawl-images/4d56ee2a612ae2d391ad13fb.webp": "4d56ee2a612ae2d391ad13fb821f94857945c5504511664eb656788da105dd01",
+    "assets/crawl-images/50c9363688cd21f8406ba0bd.webp": "50c9363688cd21f8406ba0bd2a221b619d853cdfda1ba8f6d1c87741637c5685",
+    "assets/crawl-images/dd797285f122ea856d04e23e.webp": "dd797285f122ea856d04e23e8e088e80d83991dbf24340754f9e0635ccaa7b16",
+    "assets/crawl-images/ab17eb0fce5d0f18bd19213b.webp": "ab17eb0fce5d0f18bd19213b316ae13647a74b12915095824aeac17bf274451a"
   },
   "textSha256": {
     "assets/chaeum-directory.css": "7b3d5d1e9e5ee56942f245a865688e5602bf07eb249f0caac87483c5830f548e",
@@ -26090,6 +26103,10 @@
     "학습커리큘럼/초6/사회/index.html": "43b2859ac4b874fd7b090cb8bb26fef52d343a13a73ea4c33652894cafc0a47e",
     "학습커리큘럼/초6/수학/index.html": "2892c4b291f6d8cdd8a08a3a71fb15870903a1ade1075ca98ea5e0af6769b7ec",
     "학습커리큘럼/초6/영어/index.html": "a08fc15af8e097e4b32a18b9387a7482e32deb5c40493351ea4e336ab3784cb9",
-    "학습코칭/index.html": "68c0c17723bbc451b4850e1dec3ab80d829a1096d73dbc3f5c167a16353c785c"
-  }
+    "학습코칭/index.html": "68c0c17723bbc451b4850e1dec3ab80d829a1096d73dbc3f5c167a16353c785c",
+    "assets/crawl-improvements.css": "36b3f750cb71a98bf4a31db143e8e3fa0e44920ecf3b5913ab399b153d507243",
+    "assets/crawl-image-reader.js": "c1fb8b93a4e196aaf6a678bf1bc4ca5cddc9558031311da77f7a318c6c148ba9"
+  },
+  "reviewedAt": "2026-10-07",
+  "publicFiles": 13891
 }
