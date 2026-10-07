@@ -3,6 +3,8 @@
   "createdAt": "2026-10-06T21:49:39.123039+09:00",
   "sitemapPages": 12133,
   "files": {
+    "assets/site-favicon.png": "d358cd9b31933f5dfd8d82d1da7e9a6479cc7530068882bf2f50769bcdf57c02",
+    "assets/site-apple-touch-icon.png": "219cde49f0e1f051ddca5910d483243cbfd0ec7999599d5f95f6906b725e1f2a",
     "assets/centers/common/local6839.webp": "b8f10c493c1986db0ee23ca76ff3d3b97eacdd84e2e04e28a6433f386010d37d",
     "assets/centers/common/seoul6839.webp": "34d4703f529e6700fdda82774b009017198f27a6609e0a63a15be9b52c1ec0fe",
     "assets/chaeum-centers/body/34d4703f529e6700fdda.webp": "34d4703f529e6700fdda82774b009017198f27a6609e0a63a15be9b52c1ec0fe",

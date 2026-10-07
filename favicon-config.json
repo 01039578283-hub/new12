@@ -1,0 +1,9 @@
+{
+  "domain": "채움학습.com",
+  "outputDirectory": ".public-release",
+  "previousBuildCommand": "node release-build.mjs",
+  "assets": {
+    "assets/site-favicon.png": "d358cd9b31933f5dfd8d82d1da7e9a6479cc7530068882bf2f50769bcdf57c02",
+    "assets/site-apple-touch-icon.png": "219cde49f0e1f051ddca5910d483243cbfd0ec7999599d5f95f6906b725e1f2a"
+  }
+}

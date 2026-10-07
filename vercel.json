@@ -13,7 +13,7 @@
       "permanent": true
     }
   ],
-  "buildCommand": "node release-build.mjs",
+  "buildCommand": "node favicon-build.mjs",
   "outputDirectory": ".public-release",
   "headers": [
     {
