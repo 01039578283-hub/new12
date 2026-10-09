@@ -30,7 +30,7 @@ function schemaImages(obj,url,row){
   if(obj.primaryImageOfPage!==undefined&&!obj.primaryImageOfPage?.['@id'])obj.primaryImageOfPage={'@type':'ImageObject',url,contentUrl:url,width:row.width,height:row.height,caption:row.caption};
   if(obj.image!==undefined)obj.image=url;
  }
- if(types.some(t=>['LocalBusiness','EducationalOrganization'].includes(t))&&obj.image!==undefined){
+ if(row.photoType!=='common-reference'&&types.some(t=>['LocalBusiness','EducationalOrganization'].includes(t))&&obj.image!==undefined){
   const originals=[obj.image].flat().filter(v=>typeof v==='string'&&row.branchImageAssets.includes(imageAsset(v))&&imageAsset(v)!==imageAsset(url));
   obj.image=Array.isArray(obj.image)?[url,...originals]:url;
  }
@@ -52,6 +52,7 @@ for(const [name,row] of Object.entries(data.pages)){
  const nodes=parseHTML(before),head=nodes.find(n=>n.tag==='head'),main=nodes.find(n=>n.tag==='main');
  if(!head||!main)throw Error('Missing page document structure: '+name);
  const patch=[];const visibleURL=new URL(row.src,data.origin).href;
+ const common=row.photoType==='common-reference';
  // Only previously inventoried hidden representative elements are removed.
  const hidden=nodes.filter(n=>n.tag==='img'&&ancestors(n).includes(main)&&(Object.hasOwn(n.attrs,'hidden')||/display\s*:\s*none/i.test(n.attrs.style||''))&&(n.attrs['data-media-role']==='representative'||/\/representative\//.test(n.attrs.src||'')));
  if(hidden.length!==row.hiddenCount)throw Error('Hidden representative inventory changed: '+name);
@@ -61,7 +62,8 @@ for(const [name,row] of Object.entries(data.pages)){
  if(row.existing){
   if(existing.length!==1)throw Error('Existing branch photograph is absent or duplicated: '+name);
   const n=existing[0];let tag=before.slice(n.start,n.end);
-  for(const [k,v] of Object.entries({'src':row.src,'alt':row.caption,'width':row.width,'height':row.height,'loading':n.attrs.loading||'lazy','decoding':'async','data-branch-photo':row.center,'data-page-image':'primary'}))tag=attr(tag,k,v);
+  const markers=common?{'data-common-photo':'reference'}:{'data-branch-photo':row.center};
+  for(const [k,v] of Object.entries({'src':row.src,'alt':row.caption,'width':row.width,'height':row.height,'loading':n.attrs.loading||'lazy','decoding':'async',...markers,'data-page-image':'primary'}))tag=attr(tag,k,v);
   tag=attr(tag,'style',(n.attrs.style||'').replace(/(?:^|;)\s*(?:aspect-ratio|object-fit|height|max-height)\s*:[^;]*/gi,'')+';aspect-ratio:'+row.width+'/'+row.height+';height:auto;max-height:none;object-fit:contain;');
   patch.push({start:n.start,end:n.end,value:tag});report.existingPhotos++;
   const figure=ancestors(n).find(x=>x.tag==='figure'),caption=figure?.children.find(x=>x.tag==='figcaption');
@@ -76,14 +78,18 @@ for(const [name,row] of Object.entries(data.pages)){
   if(ancestors(n).some(x=>Object.hasOwn(x.attrs,'hidden')||/display\s*:\s*none/i.test(x.attrs.style||'')))throw Error('Unreviewed hidden gallery: '+name);
  }else{
   if(existing.length)throw Error('Refusing a duplicate branch photograph: '+name);
-  const body='<section class="branch-photo-bottom" id="branch-photo" aria-labelledby="branch-photo-title"><h2 id="branch-photo-title">'+esc(row.center)+' 제공 사진</h2><p>제공받은 지점 사진입니다. 촬영 이후 공간 모습은 달라질 수 있습니다.</p><figure><a href="'+esc(row.src)+'" aria-label="'+esc(row.caption+' 원본 열기')+'"><img src="'+esc(row.src)+'" alt="'+esc(row.caption)+'" width="'+row.width+'" height="'+row.height+'" loading="lazy" decoding="async" data-branch-photo="'+esc(row.center)+'" data-page-image="primary"></a><figcaption>'+esc(row.caption)+'</figcaption></figure></section>';
+  const heading=common?'공용 학습 공간 참고 사진':row.center+' 제공 사진';
+  const explanation=common?'공용사진을 활용한 학습 공간 참고 이미지입니다. 해당 지점의 실제 공간 사진은 아닙니다. 실제 시설과 좌석 구성은 지점 방문 상담에서 확인해 주세요.':'제공받은 지점 사진입니다. 촬영 이후 공간 모습은 달라질 수 있습니다.';
+  const marker=common?'data-common-photo="reference"':'data-branch-photo="'+esc(row.center)+'"';
+  const body='<section class="branch-photo-bottom" id="branch-photo" aria-labelledby="branch-photo-title"><h2 id="branch-photo-title">'+esc(heading)+'</h2><p>'+esc(explanation)+'</p><figure><a href="'+esc(row.src)+'" aria-label="'+esc(row.caption+' 원본 열기')+'"><img src="'+esc(row.src)+'" alt="'+esc(row.caption)+'" width="'+row.width+'" height="'+row.height+'" loading="lazy" decoding="async" '+marker+' data-page-image="primary"></a><figcaption>'+esc(row.caption)+'</figcaption></figure></section>';
   patch.push({start:main.closeStart,end:main.closeStart,value:body});report.addedBottomPhotos++;
  }
  // Remove all image metadata before inserting one consistent set in the initial head.
  const imageMeta=nodes.filter(n=>n.tag==='meta'&&ancestors(n).includes(head)&&(/^(og:image(?::.*)?|twitter:image(?::.*)?)$/i.test(n.attrs.property||'')||/^(og:image(?::.*)?|twitter:image(?::.*)?)$/i.test(n.attrs.name||'')));
  for(const n of imageMeta)patch.push({start:n.start,end:n.end,value:''});
  const meta='<meta property="og:image" content="'+esc(visibleURL)+'"><meta property="og:image:secure_url" content="'+esc(visibleURL)+'"><meta property="og:image:type" content="'+row.mime+'"><meta property="og:image:width" content="'+row.width+'"><meta property="og:image:height" content="'+row.height+'"><meta property="og:image:alt" content="'+esc(row.caption)+'"><meta name="twitter:image" content="'+esc(visibleURL)+'"><meta name="twitter:image:alt" content="'+esc(row.caption)+'">';
- patch.push({start:head.closeStart,end:head.closeStart,value:meta+(row.existing?'':style)});
+ const photoStyle=common?style.replace('data-branch-thumbnail','data-common-thumbnail').replace('[data-branch-photo]','[data-common-photo]'):style;
+ patch.push({start:head.closeStart,end:head.closeStart,value:meta+(row.existing?'':photoStyle)});
  for(const match of before.matchAll(/<script\b[^>]*\btype=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script\s*>/gi)){
   const raw=match[1],start=match.index+match[0].indexOf('>')+1,end=start+raw.length,o=JSON.parse(raw);schemaImages(o,visibleURL,row);
   const value=JSON.stringify(o).replaceAll('<','\\u003c');
