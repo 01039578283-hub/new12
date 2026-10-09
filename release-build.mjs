@@ -13,6 +13,7 @@ const steps = [
   ['seo-descriptions.mjs', '--root=.public-release'],
   ['image-order-build.mjs'],
   ['crawl-improvements-build.mjs'],
+  ['branch-thumbnail-build.mjs'],
 ];
 
 for (const args of steps) {
