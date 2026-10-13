@@ -32,3 +32,8 @@ await Promise.all(Array.from({length:12},async()=>{while(cursor<files.length){co
  pages++;if(!count)added++;if(before!==after){await fs.promises.writeFile(f,after);changed++}
 }}));
 console.log(JSON.stringify({faviconSite:config.domain,pages,changed,previouslyMissing:added,onlyFaviconTagsChanged:true,bodyAndSeoPreserved:true}));
+// Apply the reviewed content pass after favicon normalization so its input hashes
+// describe exactly the previously published pages on both Windows and Linux.
+const editorial=spawnSync(process.execPath,['google-content-build.mjs'],{cwd:root,stdio:'inherit'});
+if(editorial.error)throw editorial.error;
+if(editorial.status!==0)process.exit(editorial.status??1);
