@@ -93,7 +93,7 @@
       "permanent": true
     }
   ],
-  "buildCommand": "node favicon-build.mjs",
+  "buildCommand": "node kakao-build.mjs",
   "outputDirectory": ".public-release",
   "headers": [
     {
